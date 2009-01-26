@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/../../lib'
 
-require 'hadoop'                       ; include Hadoop
+require 'wukong'                       ; include Wukong
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/grok'         ; include TwitterFriends::Grok::TweetRegexes
 require 'twitter_friends/words'
@@ -11,7 +11,7 @@ require 'twitter_friends/words'
 #
 
 module WordFreq
-  class Mapper < Hadoop::StructStreamer
+  class Mapper < Wukong::StructStreamer
 
     #
     # This is pretty simpleminded.
@@ -23,7 +23,7 @@ module WordFreq
       t = t.downcase;
       # kill off all punctuation except 's
       # this includes hyphens (words are split)
-      t = t.gsub(/[^\w\']+/, ' ').gsub(/\'s\b/, '!').gsub(/\'/, ' ').gsub(/!/, "'s")
+      t = t.gsub(/[^\w\'@]+/, ' ').gsub(/\'([st])\b/, '!\1').gsub(/\'/, ' ').gsub(/!/, "'")
       # Busticate at whitespace
       words = t.strip.split(/\s+/)
       words.reject!{|w| w.blank? || (w.length < 3) }
@@ -40,8 +40,8 @@ module WordFreq
       # downcase
       t = t.downcase;
       # Remove semantic non-words, except hashtags: we like those.
-      t = t.gsub(RE_URL, ' ')           # urls
-      t = t.gsub(RE_RETWEET, ' ')       # atsigns with a re-tweet part
+      t = t.gsub(RE_URL,     ' ')       # urls
+      t = t.gsub(RE_RETWEET, '@\1')     # atsigns with a re-tweet part
       t = t.gsub(RE_RTWHORE, ' ')       # atsigns with a retweet whore
       t = t.gsub(RE_ATSIGNS, ' ')       # all atsigns
       # Tokenize the remainder
@@ -75,23 +75,24 @@ module WordFreq
     end
 
     #
-    #
+    # Generate all words (tokens) used in tweets
+    # and all tokens used in users' locations, descriptions or names
+    # each tagged according to their origin.
     #
     def process thing
       case thing
       when Tweet                then gen_tweet_tokens(thing)
-      when TwitterUserProfile   then gen_profile_tokens(thing)
+      # when TwitterUserProfile   then gen_profile_tokens(thing)
       end
     end
   end
 
-  class Reducer < Hadoop::CountingReducer
+  class Reducer < Wukong::CountingReducer
   end
 
-
   #
   #
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
   end
 end
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/../../lib'
 
-require 'hadoop'                       ; include Hadoop
+require 'wukong'                       ; include Wukong
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 
 #
@@ -9,7 +9,7 @@ require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 #
 
 module ExtractEntityPairs
-  class Mapper < Hadoop::StructStreamer
+  class Mapper < Wukong::StructStreamer
     LOC_RE_IPHONE = %r{iPhone: (-?\d+\.\d+)\,(-?\d+\.\d+)}
     LOC_RE_COORDS = %r{(-?\d+\.\d+)\,\s*(-?\d+\.\d+)}
     LOC_RE_ZIP5   = %r{\b(\d{5})\b}
@@ -61,7 +61,7 @@ module ExtractEntityPairs
   class Reducer < CountingReducer
   end
 
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
     # # want to pair on (user, entity) or (entity1, entity2)
     # def sort_fields
     #   2

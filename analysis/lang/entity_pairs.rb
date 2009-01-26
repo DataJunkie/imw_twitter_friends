@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/../../lib'
 
-require 'hadoop'                       ; include Hadoop
+require 'wukong'                       ; include Wukong
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 
 #
@@ -9,10 +9,10 @@ require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 #
 
 module ExtractEntityPairs
-  class Mapper < Hadoop::StructStreamer
+  class Mapper < Wukong::StructStreamer
     def decimalize_entities text
-      text = Hadoop.decode_str(text)
-      Hadoop.html_encoder.encode(text, :decimal)
+      text = Wukong.decode_str(text)
+      Wukong.html_encoder.encode(text, :decimal)
     end
 
     def extract_entities text
@@ -90,7 +90,7 @@ module ExtractEntityPairs
     end
   end
 
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
     def initialize
       process_argv!
       case options[:mode]
@@ -112,7 +112,7 @@ module ExtractEntityPairs
     end
   end
 
-  class Reducer < Hadoop::Streamer
+  class Reducer < Wukong::Streamer
     #
     #
     def sorting_by_freq_key freq
