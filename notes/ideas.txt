@@ -1,0 +1,83 @@
+
+Parse:
+ map -	in	username	filename
+     	out	usr-id		<usr fields>
+		twt-id		<twt fields>
+		rel-a-b		<rel fields>
+ reduce	uniq's the fields, dumps to files by key
+
+2-Neighborhood BFS
+ map	in	<rel-a-b>	<ida	idb>
+ 	out	<rel-b>		<ida	idb	x>
+		<rel-a>		<x	ida	idb>
+ reduce		<rel-1>		<id1	id2	id3>
+ uniqify
+
+ then make 	<rel-a>		<all 1st degree>	<all 2nd degree>
+ using list concat as reduce
+ 
+ 
+
+-rw-r--r-- 1 flip staff 13838311 2008-11-30 03:32 tweets-000000-20081130-032728.tsv
+-rw-r--r-- 1 flip staff 14553634 2008-11-30 14:14 tweets-000000-20081130-140901.tsv
+-rw-r--r-- 1 flip staff 16596188 2008-11-30 03:38 tweets-000001-20081130-033241.tsv
+
+-rw-r--r-- 1 flip staff 13838311 2008-11-30 03:32 tweets-000000-20081130-032728.tsv
+-rw-r--r-- 1 flip staff 14553634 2008-11-30 14:14 tweets-000000-20081130-140901.tsv
+-rw-r--r-- 1 flip staff 16596188 2008-11-30 03:38 tweets-000001-20081130-033241.tsv
+
+
+===========================================================================
+
+- indegree		friends_count
+- outdegree 		followers_count
+- coolness 		followers / friends
+- prestige 		pageRank %ile
+
+- num_updates		
+- cliquishness		taken as (number of friends who link to others of my friends) / (num_friends ^ 2)
+- duration 		now - first_tweet
+- id_%ile 		id / largest_id
+- expiry 		now - last_tweet
+- rate 			num_tweets / duration
+- @replies_fraction	num_@replies / num_tweets
+- @in_replies_fraction	num_@replies to friends / num_@replies
+- hashtag_fraction	num_hashtags / num_tweets
+- url_fraction		num_urls     / num_tweets
+- RT_fraction 		num_RTs 	/ num_tweets
+- url_domain_diversity 	?? (most common url domain) / (num_tweets) ??
+- hashtag_diversity 	?? (most common hashtag) / (num_tweets) ??
+- profile pic = face	
+- profile pic = logo
+- profile pic = default	
+- location
+- unicode_density
+- favorites
+- website info
+
+- rw celebrity flow	outward graph distance from Borat, FakeSarahPalin, etc.
+- stdev of id#s in reciprocals
+
+- influx		sum(tweets by all followed)/day
+
+  			indeg	outdeg	prstige	cliqnss	cool	durtn	expiry	rate	@_f	@in_f	hsh_f	url_f	url_d	logo
+Podium: 		hi	<20			hi				lo	lo			lo	
+Reciprocal Podium: 				low	1				lo				
+
+Celebrity:
+Conduit:
+
+
+
+SpamA:				hi			low	low		high					~1
+
+
+I'm with the band	lo	lo	vy.hi	hi	1	(protected)
+
+
+
+* recency
+* average tweets/day, average follows/day
+* urls per tweet, @replies per tweet
+* # bidirectional friends
+* local clique density (compare the set of people I follow (1st degree) and the set of people they follow (2nd degree).  If I'm completely cliquish, those numbers will be the same, if I'm just clicking on dudes at random the first set has no overlap). This is infeasible to compute but I'm trying to approximate

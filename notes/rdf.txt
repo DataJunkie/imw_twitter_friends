@@ -1,0 +1,43 @@
+
+
+<http://twitter.com/seinfeld>	
+
+
+# User
+    :id
+    :scraped_at
+    :screen_name
+    :protected
+    :followers_count
+    :friends_count
+    :statuses_count
+    :favourites_count
+    :created_at 
+    :name
+    :url
+    :location
+    :description
+    :time_zone
+    :utc_offset 
+    :profile_background_color
+    :profile_text_color
+    :profile_link_color
+    :profile_sidebar_border_color
+    :profile_sidebar_fill_color
+    :profile_background_tile
+    :profile_background_image_url
+    :profile_image_url 
+
+# Tweet
+
+
+
+
+# Relationship
+
+  a_follows_b
+  a_replied_b
+  
+
+  
+# Semantics

@@ -1,0 +1,10 @@
+
+
+
+
+
+
+  - the db write to record a ticket process is macroscopic
+
+* distributed request queuing
+  - send out a porition

@@ -1,0 +1,12 @@
+#
+# Save this file as 'config/private.yaml', *then* change the settings below.
+# Make sure your version control system is set to ignore the file.
+#
+
+#
+# If you're going to scrape, set your twitter username and password below.  You
+# will have to request whitelisting or your IP will be rate-limited (blocked).
+#
+twitter_api:   
+    username:   your_username
+    password:   your_password
