@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/../lib'
 
-require 'hadoop'
+require 'wukong'
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/json_model'   ; include TwitterFriends::JsonModel
 
@@ -20,7 +20,7 @@ module KeyFlatten
   # Note that this will make all of each resource stack up at one reducer:
   # if you have 60M frobnozz instances they will all land on the same machine.
   #
-  class Mapper < Hadoop::Streamer
+  class Mapper < Wukong::Streamer
     def stream
       $stdin.each do |line|
         line = line.chomp.gsub(/^(\w+)-[^\t]*\t/, "\\1\t")
@@ -30,7 +30,7 @@ module KeyFlatten
   end
 
   #
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
     #
     # Sort on <key id timestamp>
     #

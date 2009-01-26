@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/lib'
 
-require 'hadoop'                       ; include Hadoop
+require 'wukong'                       ; include Wukong
 
 #
 # This is so very kludgey but it's easier than fiddling with thrift right now.
@@ -29,7 +29,7 @@ module ExportPackager
 
   #
   #
-  class Reducer < Hadoop::UniqByLastReducer
+  class Reducer < Wukong::UniqByLastReducer
 
     def remove_target_filename output_filename
       puts "Removing target file #{output_filename}"
@@ -69,7 +69,7 @@ module ExportPackager
     end
   end
 
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
   end
 end
 

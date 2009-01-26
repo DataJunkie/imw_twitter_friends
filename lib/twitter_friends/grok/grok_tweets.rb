@@ -29,7 +29,7 @@ Tweet.class_eval do
   def atsigns
     matches = decoded_text.scan(RE_ATSIGNS)
     matches.map do |user_b_name|
-      user_b_name = user_b_name.first.hadoop_encode
+      user_b_name = user_b_name.first.wukong_encode
       AAtsignsB.new(twitter_user_id, user_b_name, self.id)
     end
   end
@@ -38,15 +38,15 @@ Tweet.class_eval do
   # Remember that a retweet could be an actual retweet, a retweet whore request,
   # or a retweet of a retweet whore request.
   #
-  # Or, it could have just fooled us. 
+  # Or, it could have just fooled us.
   #
   # Anyway you can take it from here.
-  # 
+  #
   def retweets
     please_flag   = RE_RTWHORE.match(decoded_text)
     retweet_match = RE_RETWEET.match(decoded_text)
     return unless please_flag || retweet_match
-    user_b_name   = retweet_match.captures.first.hadoop_encode if retweet_match
+    user_b_name   = retweet_match.captures.first.wukong_encode if retweet_match
     ARetweetsB.new(twitter_user_id, user_b_name, self.id, please_flag, self.text)
   end
 
@@ -56,7 +56,7 @@ Tweet.class_eval do
   def hashtags
     matches = decoded_text.scan(RE_HASHTAGS)
     matches.map do |hashtag_text|
-      hashtag_text = hashtag_text.first.hadoop_encode
+      hashtag_text = hashtag_text.first.wukong_encode
       Hashtag.new(hashtag_text, self.id, twitter_user_id)
     end
   end
@@ -71,11 +71,11 @@ Tweet.class_eval do
   def tweet_urls
     matches = decoded_text.scan(RE_URL)
     matches.map do |tweet_url_text|
-      tweet_url_text = tweet_url_text.first.hadoop_encode
+      tweet_url_text = tweet_url_text.first.wukong_encode
       TweetUrl.new(tweet_url_text, self.id, twitter_user_id)
     end
   end
-  
+
   def text_elements
     # replies # done in tweet??
     # atsigns

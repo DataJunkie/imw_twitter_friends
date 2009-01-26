@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/../lib'
 
-require 'hadoop'                       ; include Hadoop
+require 'wukong'                       ; include Wukong
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/scrape'       ; include TwitterFriends::Scrape
 
@@ -10,7 +10,7 @@ require 'twitter_friends/scrape'       ; include TwitterFriends::Scrape
 #
 
 module GenReqsExpandedUrls
-  class Mapper < Hadoop::StructStreamer
+  class Mapper < Wukong::StructStreamer
     #
     #
     def process thing
@@ -32,12 +32,12 @@ module GenReqsExpandedUrls
     # end
   end
 
-  class Reducer < Hadoop::AccumulatingReducer
+  class Reducer < Wukong::AccumulatingReducer
     attr_accessor :expanded_url
     def reset!
       self.expanded_url = ExpandedUrl.new
     end
-    
+
     #
     # KLUDGE
     # This seems like a kinda crappy way to do a merge-non-blank
@@ -47,15 +47,15 @@ module GenReqsExpandedUrls
       expanded_url.dest_url   = dest_url   if expanded_url.dest_url.blank?
       expanded_url.scraped_at = scraped_at if expanded_url.scraped_at.blank?
     end
-    
+
     #
-    def finalize 
+    def finalize
       puts expanded_url.output_form
     end
-    
+
   end
-  
-  class Script < Hadoop::Script
+
+  class Script < Wukong::Script
     # def reduce_command
     #   '/usr/bin/uniq -c'
     # end
@@ -70,7 +70,7 @@ GenReqsExpandedUrls::Script.new(GenReqsExpandedUrls::Mapper, GenReqsExpandedUrls
 
 # thing.dest_url.gsub!(/[<>\"\t\\]/, '')
 # if ! scrubbed.blank?
-#   puts [thing.src_url, scrubbed, thing.dest_url, thing.scraped_at].join("\t") 
+#   puts [thing.src_url, scrubbed, thing.dest_url, thing.scraped_at].join("\t")
 # end
 
 

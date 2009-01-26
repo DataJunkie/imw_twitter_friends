@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/lib'
 
-require 'hadoop'                       ; include Hadoop
+require 'wukong'                       ; include Wukong
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/rdf_output'
 
@@ -10,13 +10,13 @@ require 'twitter_friends/rdf_output'
 #
 
 module Rdfify
-  class Mapper < Hadoop::StructStreamer
+  class Mapper < Wukong::StructStreamer
     #
     # we need to reorder to
     #   subj pred timestamp pred
     # for correct sorting
     #
-    # (this would be unnecessary with Hadoop 1.9 I hear)
+    # (this would be unnecessary with Wukong 1.9 I hear)
     #
     def process thing
       thing.to_rdf3_tuples.each do |subj, obj, pred, timestamp|
@@ -37,10 +37,10 @@ module Rdfify
   # # Relationships are mutable, but for technical issues we can't count on seeing
   # # them disappear.
   # #
-  # class Reducer < Hadoop::UniqByLastReducer
+  # class Reducer < Wukong::UniqByLastReducer
   # end
 
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
     def reduce_command
       '/usr/bin/uniq'
     end

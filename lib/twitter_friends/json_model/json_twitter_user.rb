@@ -67,11 +67,11 @@ module TwitterFriends
         raw['created_at'] = ModelCommon.flatten_date(raw['created_at'])
         raw['id']         = ModelCommon.zeropad_id(raw['id'])
         raw['protected']  = ModelCommon.unbooleanize(raw['protected'])
-        Hadoop.encode_components raw, 'name', 'location', 'description', 'url'
+        Wukong.encode_components raw, 'name', 'location', 'description', 'url'
         # There are several users with bogus screen names
         # These we need to **URL encode** -- not XML-encode.
         if raw['screen_name'] !~ /\A\w+\z/
-          raw['screen_name'] = Hadoop.encode_str(raw['screen_name'], :url)
+          raw['screen_name'] = Wukong.encode_str(raw['screen_name'], :url)
         end
       end
 

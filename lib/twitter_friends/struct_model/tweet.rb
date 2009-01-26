@@ -37,7 +37,7 @@ module TwitterFriends::StructModel
     # flush
     #
     def decoded_text
-      @decoded_text ||= text.hadoop_decode
+      @decoded_text ||= text.wukong_decode
     end
 
     # Key on id

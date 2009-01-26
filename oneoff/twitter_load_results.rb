@@ -8,7 +8,7 @@ require 'pathname'
 # require 'imw/dataset/datamapper'
 as_dset __FILE__
 
-require 'hadoop_utils'
+require 'wukong_utils'
 require 'twitter_flat_model'
 
 raise "Please give a directory to load" unless ARGV[0]

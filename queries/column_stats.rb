@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/../lib'
 
-require 'hadoop'                       ; include Hadoop
+require 'wukong'                       ; include Wukong
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 
 #
@@ -9,7 +9,7 @@ require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 #
 
 module ColumnStats
-  class Mapper < Hadoop::StructStreamer
+  class Mapper < Wukong::StructStreamer
     #
     #
     def process thing
@@ -20,7 +20,7 @@ module ColumnStats
     end
   end
 
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
     def reduce_command
       '/usr/bin/uniq -c'
     end

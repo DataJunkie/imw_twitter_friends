@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/../lib'
 
-require 'hadoop'
+require 'wukong'
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/json_model'   ; include TwitterFriends::JsonModel
 
@@ -14,14 +14,14 @@ require 'twitter_friends/json_model'   ; include TwitterFriends::JsonModel
 #
 module Uniqify
 
-  class Reducer < Hadoop::UniqByLastReducer
+  class Reducer < Wukong::UniqByLastReducer
     def get_key item_key, *vals
       item_key
     end
   end
 
   #
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
 
     #
     # Sort on <key id timestamp>

@@ -6,7 +6,7 @@ module TwitterFriends
       # Dump fields, tab-separated, in order given by +#members+
       #
       # This doesn't do anything with included tabs, quotes, newlines, etc in
-      # member methods.  You should cleanse strings with Hadoop.encode_str
+      # member methods.  You should cleanse strings with Wukong.encode_str
       #
       # You can also use FasterCSV with :col_sep => "\t"
       # but be careful not to double-encode.
@@ -97,7 +97,7 @@ module TwitterFriends
 
       #
       # Express boolean as 1 (true) or 0 (false).  In contravention of typical ruby
-      # semantics (but in a way that is more robust for hadoop-like batch
+      # semantics (but in a way that is more robust for wukong-like batch
       # processing), the number 0, the string '0', nil and false are all considered
       # false. (This also makes the method idempotent: repeated calls give same result.)
       #

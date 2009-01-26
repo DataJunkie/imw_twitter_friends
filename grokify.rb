@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/lib'
 
-require 'hadoop'                       ; include Hadoop
+require 'wukong'                       ; include Wukong
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/grok/grok_tweets'
 
@@ -10,7 +10,7 @@ require 'twitter_friends/grok/grok_tweets'
 #
 
 module Grokify
-  class Mapper < Hadoop::StructStreamer
+  class Mapper < Wukong::StructStreamer
     #
     # Extract semantic info from each object: (well, right now just from tweets):
     #  embedded urls,
@@ -27,7 +27,7 @@ module Grokify
     end
   end
 
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
     #
     # Use uniq program, not this script for reduce
     #

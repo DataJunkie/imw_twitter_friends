@@ -43,7 +43,7 @@ module TwitterFriends
         raw['twitter_user_id']       = ModelCommon.zeropad_id(raw['twitter_user_id'] )
         raw['in_reply_to_user_id']   = ModelCommon.zeropad_id(raw['in_reply_to_user_id'])   unless raw['in_reply_to_user_id'].blank?
         raw['in_reply_to_status_id'] = ModelCommon.zeropad_id(raw['in_reply_to_status_id']) unless raw['in_reply_to_status_id'].blank?
-        Hadoop.encode_components raw, 'text'
+        Wukong.encode_components raw, 'text'
       end
 
       def generate_tweet

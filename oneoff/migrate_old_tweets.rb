@@ -10,7 +10,7 @@ require 'scrape'
 require 'twitter_graph_model'
 require 'dm-aggregates'
 require 'faster_csv'
-require 'hadoop_utils'
+require 'wukong_utils'
 
 #
 # Setup database

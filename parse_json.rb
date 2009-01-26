@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/lib'
 
-require 'hadoop'
+require 'wukong'
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/json_model'   ; include TwitterFriends::JsonModel
 
@@ -21,7 +21,7 @@ require 'twitter_friends/json_model'   ; include TwitterFriends::JsonModel
 # the grokify pass.
 #
 module ParseJson
-  class Mapper < Hadoop::Streamer
+  class Mapper < Wukong::Streamer
     # Map scrape context to parser class
     PARSER_FOR_CONTEXT = {
       'user'            => UserParser,
@@ -62,13 +62,13 @@ module ParseJson
     end
   end
 
-  class Reducer < Hadoop::UniqByLastReducer
+  class Reducer < Wukong::UniqByLastReducer
     def get_key item_key, *vals
       item_key
     end
   end
 
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
     #
     # Sort on <resource   id      scraped_at> (harmlessly using an extra field on immutable rows)
     #

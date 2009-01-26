@@ -3,7 +3,7 @@ require 'rubygems'
 require 'yaml'
 
 $: << File.dirname(__FILE__)+'/lib'
-require 'hadoop'
+require 'wukong'
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/scrape'       ; include TwitterFriends::Scrape
 require 'twitter_friends/json_model'   ; include TwitterFriends::JsonModel

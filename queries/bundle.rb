@@ -2,7 +2,7 @@
 require 'fileutils'; include FileUtils
 $: << File.dirname(__FILE__)+'/../lib'
 
-require 'hadoop'
+require 'wukong'
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/scrape'       ; include TwitterFriends::Scrape
 
@@ -16,7 +16,7 @@ require 'twitter_friends/scrape'       ; include TwitterFriends::Scrape
 # A bundled file is NOT a conventional tar-separated file: consider the last
 # field (containing the raw JSON) to be arbitrary text.
 #
-class BundleMapper < Hadoop::Streamer
+class BundleMapper < Wukong::Streamer
   #
   # emit the description and then the contents of each file
   #
@@ -37,7 +37,7 @@ class BundleMapper < Hadoop::Streamer
   end
 end
 
-class BundleStage1Script < Hadoop::Script
+class BundleStage1Script < Wukong::Script
 end
 
 #

@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/../lib'
 
-require 'hadoop'                       ; include Hadoop
+require 'wukong'                       ; include Wukong
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 
 #
@@ -9,7 +9,7 @@ require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 #
 
 module ExtractUserIds
-  class Mapper < Hadoop::StructStreamer
+  class Mapper < Wukong::StructStreamer
     #
     #
     def process thing
@@ -33,7 +33,7 @@ module ExtractUserIds
   #   (assumes screen_name is constant, which it isn't)
   # If we see a full record, celebrate that fact
   #
-  class Reducer < Hadoop::AccumulatingReducer
+  class Reducer < Wukong::AccumulatingReducer
     attr_accessor :id, :screen_name, :full
     def reset!
       super
@@ -51,7 +51,7 @@ module ExtractUserIds
     end
   end
 
-  class Script < Hadoop::Script
+  class Script < Wukong::Script
   end
 end
 

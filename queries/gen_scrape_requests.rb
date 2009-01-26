@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/lib'
 
-require 'hadoop'                       
+require 'wukong'
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/scrape/scrape_request' ; include TwitterFriends::Scrape
 
@@ -10,13 +10,13 @@ require 'twitter_friends/scrape/scrape_request' ; include TwitterFriends::Scrape
 #
 
 module GenScrapeRequests
-  class Mapper < Hadoop::StructStreamer
+  class Mapper < Wukong::StructStreamer
     attr_accessor :context
     def initialize *args
       super *args
       self.context = options[:context].to_sym
     end
-    
+
     EXCLUDE_USERS = ['Oozzl', 'yobird'].to_set
     def exclude? user
       return true if EXCLUDE_USERS.include?(user.screen_name)
@@ -25,7 +25,7 @@ module GenScrapeRequests
       end
       false
     end
-    
+
     #
     #
     def process user
@@ -46,15 +46,15 @@ module GenScrapeRequests
     end
   end
 
-  class Reducer < Hadoop::StructStreamer
+  class Reducer < Wukong::StructStreamer
     def process scrape_request
       scrape_request.priority = "%010d" % (1_000_000_000 - scrape_request.priority.to_i)
       puts scrape_request.output_form(false)
     end
   end
-  
-  class Script < Hadoop::Script
-    def sort_fields 
+
+  class Script < Wukong::Script
+    def sort_fields
       5
     end
 

@@ -2,11 +2,11 @@
 require 'fileutils'; include FileUtils
 $: << File.dirname(__FILE__)+'/../lib'
 
-require 'hadoop'
+require 'wukong'
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/scrape'       ; include TwitterFriends::Scrape
 
-class InsertIdsMapper <  Hadoop::Streamer
+class InsertIdsMapper <  Wukong::Streamer
   def process context, *vals
     case
     when context == 'twitter_user_id'
@@ -20,7 +20,7 @@ class InsertIdsMapper <  Hadoop::Streamer
   end
 end
 
-class InsertIdsReducer < Hadoop::AccumulatingReducer
+class InsertIdsReducer < Wukong::AccumulatingReducer
   attr_accessor :screen_name, :twitter_user_id, :scraped_contents
   def reset!
     super
@@ -71,7 +71,7 @@ class InsertIdsReducer < Hadoop::AccumulatingReducer
 end
 
 
-class InsertIdsStage2Script < Hadoop::Script
+class InsertIdsStage2Script < Wukong::Script
 end
 InsertIdsStage2Script.new(InsertIdsMapper, InsertIdsReducer).run
 
