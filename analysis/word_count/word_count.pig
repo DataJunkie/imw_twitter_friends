@@ -50,15 +50,27 @@ NTokTokens           = LOAD 'meta/datanerds/token_count/n_tok_tokens' AS (n_tok_
 -- Statistics for each user
 --
 
+rmf meta/datanerds/token_count/user_toks_flat ;
 UserToksFlat_1	= GROUP TwTokenUsers BY user_id ;
 UserToksFlat_2    = FOREACH UserToksFlat_1 {
   tot_tokens 	= (int)COUNT(TwTokenUsers) ;
   tot_usages    = (int)SUM(TwTokenUsers.usages) ;
-  GENERATE group AS user_id, tot_tokens AS tot_tokens, tot_usages AS tot_usages, FLATTEN(TwTokenUsers.(token, usages) ) AS (token, usages);
+  GENERATE group AS user_id,
+  	   tot_tokens AS tot_tokens,
+  	   tot_usages AS tot_usages,
+	   FLATTEN(TwTokenUsers.(token, usages) ) AS (token, usages);
 }
-UserToksFlat   = FOREACH UserToksFlat_2 GENERATE user_id, token, usages, (float)(1.0*usages / tot_usages) AS usage_pct
+UserToksFlat   = FOREACH UserToksFlat_2 {
+  usage_pct	= (float)(1.0*usages / tot_usages) ;
+  usage_pct_sq	= (float)(1.0*usages / tot_usages) * (1.0*(float)usages / tot_usages) ;
+  GENERATE user_id, token, usages,
+  	 usage_pct 	AS usage_pct,
+  	 usage_pct_sq 	AS usage_pct_sq ;
+}
+	       
 STORE UserToksFlat INTO 'meta/datanerds/token_count/user_toks_flat' ;
-UserToksFlat     = LOAD 'meta/datanerds/token_count/user_toks_flat' AS (user_id: int,token: chararray,usages: int,usage_pct: float) ;
+UserToksFlat     = LOAD 'meta/datanerds/token_count/user_toks_flat' AS
+	(user_id: int,token: chararray,usages: int,usage_pct: float, usage_pct_sq: float) ;
 
 
 -- ***************************************************************************
@@ -67,19 +79,54 @@ UserToksFlat     = LOAD 'meta/datanerds/token_count/user_toks_flat' AS (user_id:
 --
 -- Note that the line   tot_users = (int)COUNT(UserToksFlat) ;
 -- is correct: we're counting the *alias*, one per each user.
+--
+-- Range is how many people used the token
+--
+-- Dispersion is Julliand's D
+-- 
+--               V
+-- D = 1 - ---------------
+--           sqrt(n - 1)
+-- 
+-- V = s / x
+--        
+-- Where
+-- 
+-- * n is the number of users
+-- * s is the standard deviation of the subusagesuencies
+-- * x is the average of the subusagesuencies
+--
+--  /public/share/pig/contrib/piggybank/java/src/main/java/org/apache/pig/piggybank/evaluation/math/SQRT.java
+-- 
 
-
-TokenStats_1	= GROUP UserToksFlat BY token ;
-TokenStats_2    = FOREACH TokenStats_1 {
-  tot_users 	= (int)COUNT(UserToksFlat) ;
+TokenStats_1    = GROUP UserToksFlat BY token ;
+TokenStats      = FOREACH TokenStats_1 {
+  range         = (int)COUNT(UserToksFlat) ;
+  pct_range     = (int)COUNT(UserToksFlat)      / 436.0;
   tot_usages    = (int)SUM(UserToksFlat.usages) ;
-  GENERATE group AS user_id, tot_tokens AS tot_tokens, tot_usages AS tot_usages, FLATTEN(UserToksFlat.(token, usages) ) AS (token, usages);
+  ppm_usages	= (int)( 1e6 * SUM(UserToksFlat.usages) / 61630 );
+  avg_uspct     = (float)SUM(UserToksFlat.usage_pct)    /  436.0 ;
+  sum_uspct_sq  = (float)SUM(UserToksFlat.usage_pct_sq);
+  stdev_uspct   = org.apache.pig.piggybank.evaluation.math.SQRT(
+  			(sum_uspct_sq /436) -
+			( (SUM(UserToksFlat.usage_pct)/436.0) * (SUM(UserToksFlat.usage_pct)/436.0) )
+			);
+  dispersion    = 1 - ( ( stdev_uspct / avg_uspct ) / org.apache.pig.piggybank.evaluation.math.SQRT(436.0 - 1.0) );
+  GENERATE group        AS token,
+           range        AS range,
+	   pct_range 	AS pct_range, 
+           tot_usages   AS tot_usages,
+           ppm_usages   AS ppm_usages,
+           avg_uspct    AS avg_uspct,
+           stdev_uspct  AS stdev_uspct,
+	   dispersion   AS dispersion;
 }
-TokenStats   = FOREACH TokenStats_2 GENERATE user_id, token, usages, (float)(1.0*usages / tot_usages) AS usage_pct
 STORE TokenStats INTO 'meta/datanerds/token_count/token_stats' ;
-TokenStats     = LOAD 'meta/datanerds/token_count/token_stats' AS (user_id: int,token: chararray,usages: int,usage_pct: float) ;
+TokenStats     = LOAD 'meta/datanerds/token_count/token_stats' AS
+	       	      (token: chararray,range: int, pct_range: double, tot_usages: int,
+			 ppm_usages: int,avg_uspct: double,stdev_uspct: double,dispersion: double) ;
 
-
+			 
 TokenCounts_1    = FOREACH TwTokens GENERATE user_id, token, usages, (1.0*usages*usages) AS usages_sq;
 TokenCounts_2    = GROUP   TokenCounts_1 BY token PARALLEL 100;
 TokenCounts_3    = FOREACH TokenCounts_2 {
@@ -97,25 +144,8 @@ TokenCounts_3    = FOREACH TokenCounts_2 {
   
 TokenCounts        = ORDER TokenCounts BY context ASC, usages DESC PARALLEL 100; 
 STORE TokenCounts    INTO 'meta/token_count/token';
-TokenCounts        = LOAD 'meta/token_count/token' AS (context: chararray, user_id: int, token: chararray, usages: int);
-
--- Range is how many people used the token
-
--- Dispersion is Julliand's D
--- 
---               V
--- D = 1 - ---------------
---           sqrt(n - 1)
--- 
--- V = s / x
---        
--- Where
--- 
--- * n is the number of users
--- * s is the standard deviation of the subusagesuencies
--- * x is the average of the subusagesuencies
---
-
+TokenCounts        = LOAD 'meta/token_count/token' AS
+		   	
 -- TokenCounts_1: {
 --   group:  (context: chararray,token: chararray),
 --   Tokens: {rsrc:chararray,context: chararray,user_id: int,token: chararray,usages: int}}
