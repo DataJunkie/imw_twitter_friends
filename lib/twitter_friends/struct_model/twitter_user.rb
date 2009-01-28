@@ -8,40 +8,33 @@ module TwitterFriends::StructModel
     # Datatype info, for exporting strings
     #
     MEMBERS_TYPES = {
-      :created_at         => :date,
-      :scraped_at         => :date,
-      :screen_name        => :str,
-      :protected          => :bool,
-      :followers_count    => :int,
-      :friends_count      => :int,
-      :statuses_count     => :int,
-      :favourites_count   => :int,
-      :name               => :str,
-      :url                => :str,
-      :location           => :str,
-      :description        => :str,
-      :time_zone          => :str,
-      :utc_offset         => :int,
-      # :profile_background_color      => :str,
-      # :profile_text_color            => :str,
-      # :profile_link_color            => :str,
-      # :profile_sidebar_border_color  => :str,
-      # :profile_sidebar_fill_color    => :str,
-      # :profile_background_tile       => :bool,
-      # :profile_background_image_url  => :str,
-      # :profile_image_url             => :str,
+      :created_at,          :date,
+      :scraped_at,          :date,
+      :screen_name,         :str,
+      :protected,           :bool,
+      :followers_count,     :int,
+      :friends_count,       :int,
+      :statuses_count,      :int,
+      :favourites_count,    :int,
+      :name,                :str,
+      :url,                 :str,
+      :location,            :str,
+      :description,         :str,
+      :time_zone,           :str,
+      :utc_offset,          :int,
+      # :profile_background_color,       :str,
+      # :profile_text_color,             :str,
+      # :profile_link_color,             :str,
+      # :profile_sidebar_border_color,   :str,
+      # :profile_sidebar_fill_color,     :str,
+      # :profile_background_tile,        :bool,
+      # :profile_background_image_url,   :str,
+      # :profile_image_url,              :str,
     }
     def members_with_types
       @members_with_types ||= MEMBERS_TYPES.slice(*members.map(&:to_sym))
     end
-    MUTABLE_ATTRS = [
-      :followers_count, :friends_count, :statuses_count, :favourites_count,
-      :name, :url, :location, :description, :time_zone, :utc_offset,
-      :profile_background_color, :profile_text_color, :profile_link_color, :profile_sidebar_border_color, :profile_sidebar_fill_color, :profile_background_tile, :profile_background_image_url, :profile_image_url
-    ].to_set
-    def mutable?(attr)
-      MUTABLE_ATTRS.include?(attr)
-    end
+
     #
     # Key on id
     #
@@ -68,11 +61,16 @@ module TwitterFriends::StructModel
   #
   # Fundamental information on a user.
   #
-  class TwitterUser        < Struct.new(
-      :id, :scraped_at,
-      :screen_name, :protected,
-      :followers_count, :friends_count, :statuses_count, :favourites_count,
-      :created_at )
+  class TwitterUser        < TypedStruct.new([
+      [:id,                     Integer],
+      [:scraped_at,             Bignum],
+      [:screen_name,            String],
+      [:protected,              Integer],
+      [:followers_count,        Integer],
+      [:friends_count,          Integer],
+      [:statuses_count,         Integer],
+      [:favourites_count,       Integer],
+      [:created_at,             Bignum], ])
     include ModelCommon
     include TwitterUserCommon
     alias_method :tweets_count,    :statuses_count
@@ -136,3 +134,14 @@ module TwitterFriends::StructModel
     def num_key_fields()  1  end
   end
 end
+
+
+
+    # MUTABLE_ATTRS = [
+    #   :followers_count, :friends_count, :statuses_count, :favourites_count,
+    #   :name, :url, :location, :description, :time_zone, :utc_offset,
+    #   :profile_background_color, :profile_text_color, :profile_link_color, :profile_sidebar_border_color, :profile_sidebar_fill_color, :profile_background_tile, :profile_background_image_url, :profile_image_url
+    # ].to_set
+    # def mutable?(attr)
+    #   MUTABLE_ATTRS.include?(attr)
+    # end

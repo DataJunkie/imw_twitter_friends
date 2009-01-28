@@ -1,13 +1,10 @@
 #!/usr/bin/env ruby
 $: << File.dirname(__FILE__)+'/../../lib'
 
-require 'rubygems'
-require 'active_support'
 require 'wukong'                       ; include Wukong
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/grok'         ; include TwitterFriends::Grok::TweetRegexes
 require 'twitter_friends/words'
-require 'wukong/and_pig'
 
 #
 # See bundle.sh for running pattern
