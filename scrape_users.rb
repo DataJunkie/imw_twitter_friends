@@ -3,7 +3,7 @@ require 'rubygems'
 require 'yaml'
 
 $: << File.dirname(__FILE__)+'/lib'
-require 'wukong'
+require 'wukong' ; include Wukong
 require 'twitter_friends/struct_model' ; include TwitterFriends::StructModel
 require 'twitter_friends/scrape'       ; include TwitterFriends::Scrape
 require 'twitter_friends/json_model'   ; include TwitterFriends::JsonModel
@@ -11,7 +11,7 @@ require 'twitter_friends/json_model'   ; include TwitterFriends::JsonModel
 # Make sure this file doesn't go into source control.
 CONFIG = YAML.load(File.open(File.dirname(__FILE__)+'/config/private.yaml'))
 # How often to holla
-PROGRESS_INTERVAL = 10
+PROGRESS_INTERVAL = 1000
 # How long to sleep between fetch sessions
 SLEEP_INTERVAL    = 1
 # How often to checkpoint progress to disk
@@ -41,7 +41,8 @@ class TwitterUserRequests < ScrapeRequestGroup
     self.scraper = HTTPScraper.new('twitter.com')
   end
   def self.contexts
-    [:followers, :friends, :favorites, :user_timeline]
+    # [:followers, :friends, :favorites, :user_timeline]
+    [ :friends_ids, :followers_ids]
   end
 
   def pages context
@@ -64,7 +65,7 @@ class TwitterUserRequests < ScrapeRequestGroup
   #
   def gen_priority context
     case context
-    when :user
+    when :user, :followers_ids, :friends_ids
       TwitterApi.pages(:followers, thing)
     when :friends
       [ (100 * thing.friends_per_day).to_i, 1 ].max
@@ -108,19 +109,20 @@ end
 # Set up
 #
 RIPD_ROOT = '/workspace/flip/data/ripd'
-REQUEST_FILENAME = 'rawd/scrape_requests/scrape_requests-20080118-datanerds.tsv'
+REQUEST_FILENAME = 'rawd/scrape_requests-20090203.tsv'
 scrape_dumper = ScrapeDumper.new(RIPD_ROOT+'/_com/_tw/com.twitter/bundled', "bundle")
 #
 # Walk thru requests list
 #
-File.open(REQUEST_FILENAME).readlines.each do |line|
-  args = line.chomp.split("\t")[0..(TwitterUser.members.length-1)]
+File.open(REQUEST_FILENAME).each do |line|
+  id, followers_count, rsrc  = line.chomp.split("\t")[0..(TwitterUser.members.length-1)]
   #
   # Generate requests
   #
-  twitter_user    = TwitterUser.new(*args)
-  twitter_user.id = "%010d"%twitter_user.id.to_i
-  scrape_requests = TwitterUserRequests.new(twitter_user)
+  twitter_user                 = TwitterUser.new()
+  twitter_user.id              = "%010d"%id.to_i
+  twitter_user.followers_count = followers_count.to_i
+  scrape_requests              = TwitterUserRequests.new(twitter_user)
   #
   # Save output
   #
@@ -129,6 +131,6 @@ File.open(REQUEST_FILENAME).readlines.each do |line|
     scrape_dumper.checkpoint!
     scrape_dumper << scrape_request.dump_form
   end
-  sleep SLEEP_INTERVAL
+  # sleep SLEEP_INTERVAL
 end
 scrape_dumper.close!

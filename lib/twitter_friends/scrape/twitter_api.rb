@@ -6,6 +6,8 @@ module TwitterApi
     case context
     when :user, :followers, :friends, :favorites, :timeline
       "http://twitter.com/#{resource_path}/#{identifier}.json?page=#{page}"
+    when :followers_ids, :friends_ids
+      "http://twitter.com/#{resource_path}/#{identifier}.json"
     when :user_timeline
       "http://twitter.com/#{resource_path}/#{identifier}.json?page=#{page}&count=200"
     # when :public_timeline
@@ -13,23 +15,6 @@ module TwitterApi
     #  "http://search.twitter.com/search.json?q=#{query}"
     else
       raise "Don't know how to retrieve #{context} yet"
-    end
-  end
-
-  def self.pages_from_count per_page, count, max=nil
-    num = [ (count.to_f / per_page.to_f).ceil, 1 ].max
-    [num, max].compact.min
-  end
-  def self.pages context, thing
-    case context
-    when :favorites       then pages_from_count( 20, thing.favourites_count, 20)
-    when :friends         then pages_from_count(100, thing.friends_count,    10)
-    when :followers       then pages_from_count(100, thing.followers_count,  10)
-    when :user            then 1
-    when :public_timeline then 1
-    when :user_timeline   then pages_from_count(200, thing.statuses_count,   20)
-    when :search          then pages_from_count(100, 1500)
-    else raise "need to define pages for context #{context}"
     end
   end
 
@@ -41,6 +26,8 @@ module TwitterApi
   # aka. repairing the non-REST uri's
   RESOURCE_PATH_FROM_CONTEXT = {
     :user            => 'users/show',
+    :followers_ids   => 'followers/ids',
+    :friends_ids     => 'friends/ids',
     :followers       => 'statuses/followers',
     :friends         => 'statuses/friends',
     :favorites       => 'favorites',
@@ -51,6 +38,25 @@ module TwitterApi
   # Get url resource for context
   def resource_path
     RESOURCE_PATH_FROM_CONTEXT[context.to_sym]
+  end
+
+  def self.pages_from_count per_page, count, max=nil
+    num = [ (count.to_f / per_page.to_f).ceil, 1 ].max
+    [num, max].compact.min
+  end
+  def self.pages context, thing
+    case context
+    when :favorites       then pages_from_count( 20, thing.favourites_count, 20)
+    when :friends         then pages_from_count(100, thing.friends_count,    10)
+    when :followers       then pages_from_count(100, thing.followers_count,  10)
+    when :followers_ids   then 1
+    when :friends_ids     then 1
+    when :user            then 1
+    when :public_timeline then 1
+    when :user_timeline   then pages_from_count(200, thing.statuses_count,   20)
+    when :search          then pages_from_count(100, 1500)
+    else raise "need to define pages for context #{context}"
+    end
   end
 
   module ClassMethods
