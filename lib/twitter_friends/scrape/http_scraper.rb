@@ -1,14 +1,14 @@
 require 'net/http'
 module TwitterFriends
   module Scrape
-    
+
     #
     # Performs the http request
     #
-    # expects a global constant CONFIG containing 
+    # expects a global constant CONFIG containing
     # keys for CONFIG[:twitter_api][:username], CONFIG[:twitter_api][:password]
     #
-    # 
+    #
     #
     class HTTPScrape
       attr_accessor :http, :url, :req, :response
@@ -44,7 +44,7 @@ module TwitterFriends
       def initialize host
         self.host = host
       end
-      
+
       # Current session (starting a new one if necessary)
       def http
         return @http if (@http && @http.started?)
@@ -52,7 +52,7 @@ module TwitterFriends
         warn "Opening HTTP connection for #{host} at #{connection_opened_at}"
         @http = Net::HTTP.start(host)
       end
-      
+
       # Close the current session, if any
       def finish
         @http.finish if @http
@@ -61,8 +61,8 @@ module TwitterFriends
 
       # Make request, return satisfied scrape_request
       def get! scrape_request
-        scrape = HTTPScrape.new(scrape_request.url, self.http)
-        begin 
+        begin
+          scrape = HTTPScrape.new(scrape_request.url, self.http)
           scrape.get!
           scrape_request.response_code     = scrape.response.code
           scrape_request.response_message  = scrape.response.message.gsub(/[\t\r\n]+/, " ")[0..60]

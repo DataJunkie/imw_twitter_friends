@@ -13,7 +13,7 @@ CONFIG = YAML.load(File.open(File.dirname(__FILE__)+'/config/private.yaml'))
 # How often to holla
 PROGRESS_INTERVAL = 1000
 # How long to sleep between fetch sessions
-SLEEP_INTERVAL    = 1
+SLEEP_INTERVAL    = 0.5
 # How often to checkpoint progress to disk
 TwitterFriends::Scrape::ScrapeDumper::CHECKPOINT_INTERVAL = 15*60
 
@@ -85,7 +85,8 @@ class TwitterUserRequests < ScrapeRequestGroup
         user_request.page, user_request.moreinfo)
     if parsed && parsed.user
       new_user = parsed.generate_twitter_user
-      self.thing = new_user if new_user
+      new_user.id = thing.id if new_user
+      self.thing = new_user  if new_user
     end
     user_request
   end
@@ -109,7 +110,7 @@ end
 # Set up
 #
 RIPD_ROOT = '/workspace/flip/data/ripd'
-REQUEST_FILENAME = 'rawd/scrape_requests-20090203.tsv'
+REQUEST_FILENAME = 'rawd/scrape_requests-20090203-aa-restart.tsv'
 scrape_dumper = ScrapeDumper.new(RIPD_ROOT+'/_com/_tw/com.twitter/bundled', "bundle")
 #
 # Walk thru requests list
@@ -130,7 +131,7 @@ File.open(REQUEST_FILENAME).each do |line|
     track_progress(scrape_request.context, scrape_requests.thing.to_a)
     scrape_dumper.checkpoint!
     scrape_dumper << scrape_request.dump_form
+    if (scrape_request.response_code.to_i != 200) then warn "Bad fetch, sleeping #{SLEEP_INTERVAL}" ; sleep SLEEP_INTERVAL ; end
   end
-  # sleep SLEEP_INTERVAL
 end
 scrape_dumper.close!
