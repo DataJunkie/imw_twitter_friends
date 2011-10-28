@@ -1,7 +1,7 @@
 -- TokenUsers_1         = LOAD 'meta/token_count/tokens' AS (rsrc: chararray,
 --                context: chararray, user_id: int, token: chararray, usages: int);
 -- TokenUsers           = FOREACH TokenUsers_1 GENERATE  user_id, token, usages;
--- 
+--
 -- TwTokenUsers_1       = FILTER TokenUsers BY context == 'tweet' ;
 -- TwTokenUsers         = FOREACH TwTokenUsers_1 GENERATE  user_id, token, usages;
 -- STORE TwTokenUsers    INTO 'meta/token_count/tw_tokens' ;
@@ -17,7 +17,7 @@ STORE TwTokenUsers    INTO 'meta/datanerds/token_count/tw_tokens' ;
 TwTokenUsers      = LOAD 'meta/datanerds/token_count/tw_tokens' AS (user_id: int, token: chararray, usages: int);
 
 -- ***************************************************************************
---   
+--
 -- Global totals
 --
 -- Each row in Tokens lists a (user, token, usages)
@@ -29,7 +29,7 @@ TwTokenUsers      = LOAD 'meta/datanerds/token_count/tw_tokens' AS (user_id: int
 --
 
 TokUsers_1      = FOREACH TwTokenUsers GENERATE user_id   ;
-TokUsers_2      = DISTINCT TokUsers_1 PARALLEL 10 ; 
+TokUsers_2      = DISTINCT TokUsers_1 PARALLEL 10 ;
 TokUsers_3      = GROUP TokUsers_2 ALL ;
 NTokUsers       = FOREACH TokUsers_3 GENERATE COUNT(TokUsers_2.user_id) ;
 STORE NTokUsers   INTO 'meta/datanerds/token_count/n_tok_users' ;
@@ -38,7 +38,7 @@ NTokUsers       = LOAD 'meta/datanerds/token_count/n_tok_users' AS (n_tok_users)
 
 
 TokTokens_1          = FOREACH TwTokenUsers GENERATE token   ;
-TokTokens_2          = DISTINCT TokTokens_1 PARALLEL 10 ; 
+TokTokens_2          = DISTINCT TokTokens_1 PARALLEL 10 ;
 TokTokens_3          = GROUP TokTokens_2 ALL ;
 NTokTokens           = FOREACH TokTokens_3 GENERATE COUNT(TokTokens_2.token) ;
 STORE NTokTokens       INTO 'meta/datanerds/token_count/n_tok_tokens' ;
@@ -46,7 +46,7 @@ NTokTokens           = LOAD 'meta/datanerds/token_count/n_tok_tokens' AS (n_tok_
 -- 61630
 
 -- ***************************************************************************
---   
+--
 -- Statistics for each user
 --
 
@@ -67,14 +67,14 @@ UserToksFlat   = FOREACH UserToksFlat_2 {
   	 usage_pct 	AS usage_pct,
   	 usage_pct_sq 	AS usage_pct_sq ;
 }
-	       
+
 STORE UserToksFlat INTO 'meta/datanerds/token_count/user_toks_flat' ;
 UserToksFlat     = LOAD 'meta/datanerds/token_count/user_toks_flat' AS
 	(user_id: int,token: chararray,usages: int,usage_pct: float, usage_pct_sq: float) ;
 
 
 -- ***************************************************************************
---   
+--
 -- Statistics for each token
 --
 -- Note that the line   tot_users = (int)COUNT(UserToksFlat) ;
@@ -83,21 +83,21 @@ UserToksFlat     = LOAD 'meta/datanerds/token_count/user_toks_flat' AS
 -- Range is how many people used the token
 --
 -- Dispersion is Julliand's D
--- 
+--
 --               V
 -- D = 1 - ---------------
 --           sqrt(n - 1)
--- 
+--
 -- V = s / x
---        
+--
 -- Where
--- 
+--
 -- * n is the number of users
 -- * s is the standard deviation of the subusagesuencies
 -- * x is the average of the subusagesuencies
 --
 --  /public/share/pig/contrib/piggybank/java/src/main/java/org/apache/pig/piggybank/evaluation/math/SQRT.java
--- 
+--
 
 TokenStats_1    = GROUP UserToksFlat BY token ;
 TokenStats      = FOREACH TokenStats_1 {
@@ -114,7 +114,7 @@ TokenStats      = FOREACH TokenStats_1 {
   dispersion    = 1 - ( ( stdev_uspct / avg_uspct ) / org.apache.pig.piggybank.evaluation.math.SQRT(436.0 - 1.0) );
   GENERATE group        AS token,
            range        AS range,
-	   pct_range 	AS pct_range, 
+	   pct_range 	AS pct_range,
            tot_usages   AS tot_usages,
            ppm_usages   AS ppm_usages,
            avg_uspct    AS avg_uspct,
@@ -126,7 +126,7 @@ TokenStats     = LOAD 'meta/datanerds/token_count/token_stats' AS
 	       	      (token: chararray,range: int, pct_range: double, tot_usages: int,
 			 ppm_usages: int,avg_uspct: double,stdev_uspct: double,dispersion: double) ;
 
-			 
+
 TokenCounts_1    = FOREACH TwTokens GENERATE user_id, token, usages, (1.0*usages*usages) AS usages_sq;
 TokenCounts_2    = GROUP   TokenCounts_1 BY token PARALLEL 100;
 TokenCounts_3    = FOREACH TokenCounts_2 {
@@ -141,11 +141,11 @@ TokenCounts_3    = FOREACH TokenCounts_2 {
            (float)usages_var             AS usages_var: float,
            (float)usages_avg             AS usages_avg: float;
   };
-  
-TokenCounts        = ORDER TokenCounts BY context ASC, usages DESC PARALLEL 100; 
+
+TokenCounts        = ORDER TokenCounts BY context ASC, usages DESC PARALLEL 100;
 STORE TokenCounts    INTO 'meta/token_count/token';
 TokenCounts        = LOAD 'meta/token_count/token' AS
-		   	
+
 -- TokenCounts_1: {
 --   group:  (context: chararray,token: chararray),
 --   Tokens: {rsrc:chararray,context: chararray,user_id: int,token: chararray,usages: int}}

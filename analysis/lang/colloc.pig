@@ -10,7 +10,7 @@ REGISTER /public/share/pig/contrib/piggybank/java/piggybank.jar ;
 -- dest=meta/lang/collocs ;
 -- hdp-rm -r $dest ;
 -- ./analysis/lang/entity_pairs.rb --go --mode=collocations fixd/flattened/tweet.tsv $dest
--- 
+--
 
 -- ===========================================================================
 --
@@ -18,8 +18,8 @@ REGISTER /public/share/pig/contrib/piggybank/java/piggybank.jar ;
 --
 
 EntityDist 	= LOAD 'meta/lang/entities_dist' AS (entity:  int, 		 freq: int) ;
-Collocs 	= LOAD 'meta/lang/collocs' 	 AS (entity1: int, entity2: int, freq: int) ; 
-UserEntities 	= LOAD 'meta/lang/user_entities' AS (user_id: int, entity:  int, freq: int) ;  
+Collocs 	= LOAD 'meta/lang/collocs' 	 AS (entity1: int, entity2: int, freq: int) ;
+UserEntities 	= LOAD 'meta/lang/user_entities' AS (user_id: int, entity:  int, freq: int) ;
 
 -- Map    input bytes    	 9,760,668,914	10   GB
 -- Map    output bytes   	78,959,783,259  79   GB
@@ -57,7 +57,7 @@ CollocsFreqDist 	= FOREACH CollocsFreqDist_2 GENERATE group AS entities_freq, CO
 STORE CollocsFreqDist    INTO 'meta/lang/collocs_freq_dist';
 CollocsFreqDist 	= LOAD 'meta/lang/collocs_freq_dist' AS (entities_freq: int,num: long);
 
--- 
+--
 -- pair 	num. w/		 num w/this	num w/this
 -- freq.	this freq   	  or fewer	 or more
 --     1	3,913,779	 3,913,779	12,178,583
@@ -87,7 +87,7 @@ CollocsFreqDist 	= LOAD 'meta/lang/collocs_freq_dist' AS (entities_freq: int,num
 CollocsDump_1 		= FILTER Collocs BY freq >= 22 ;
 CollocsDump 		= ORDER  CollocsDump_1 BY freq DESC ;
 STORE CollocsDump         INTO 'meta/lang/collocs_22up';
-CollocsDump     	= LOAD 'meta/lang/collocs_22up' AS  (entity1: int, entity2: int, freq: int) ; 
+CollocsDump     	= LOAD 'meta/lang/collocs_22up' AS  (entity1: int, entity2: int, freq: int) ;
 
 
 -- ===========================================================================
@@ -97,8 +97,8 @@ CollocsDump     	= LOAD 'meta/lang/collocs_22up' AS  (entity1: int, entity2: int
 -- We're interested in links among nodes, so let's find
 --   (edge freq)
 --   (edge freq) * (total occurrences of node)
--- and 
--- 
+-- and
+--
 
 CollocsDeg_1 		= FILTER Collocs BY freq >= 2000 ;
 CollocsRev 		= FOREACH CollocsDeg_1 GENERATE entity2 AS entity1, entity1 AS entity2, freq ;
@@ -132,7 +132,7 @@ STORE EntityTZs   INTO 'meta/lang/entity_tzs' ;
 Entity_TZs      = LOAD 'meta/lang/entity_tzs' AS (entity: int,utc_offset: int,count: long);
 
 -- ============================================================================
--- 
+--
 -- Pair users with entities
 --
 -- OBSOLETE

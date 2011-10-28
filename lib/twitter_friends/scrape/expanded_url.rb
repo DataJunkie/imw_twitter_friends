@@ -2,8 +2,8 @@ require 'net/http'
 
 #
 #
-# SELECT 'expanded_url', short_url, IFNULL(dest_url,""), IFNULL(scraped_at,"") 
-#   FROM expanded_urls 
+# SELECT 'expanded_url', short_url, IFNULL(dest_url,""), IFNULL(scraped_at,"")
+#   FROM expanded_urls
 #   INTO OUTFILE '~/ics/pool/social/network/twitter_friends/fixd/dump/expanded_urls-20090113.tsv'  ;
 #
 #
@@ -36,9 +36,9 @@ module TwitterFriends
 
       #
       # These are all the characters that belong in a URL
-      # 
-      RE_URL_SANE_CHARS = 
-        Addressable::URI::CharacterClasses::UNRESERVED + 
+      #
+      RE_URL_SANE_CHARS =
+        Addressable::URI::CharacterClasses::UNRESERVED +
         Addressable::URI::CharacterClasses::RESERVED   + '%'
       #
       # These are illegal but *are* found in URLs. We're going to let them through.
@@ -117,13 +117,13 @@ module TwitterFriends
 	| moourl.com			#    2280
 	| rurl.org			#    2271
 	| url.ie			#    2156
-        )/([\w\-]+)}ix      
+        )/([\w\-]+)}ix
       def self.match_tinyurlish url
         m = TINY_URLISHES_RE.match(url) or return
         host, path = m.captures
         "http://#{host.downcase}/#{path}"
       end
-      
+
       #
       # If the base part looks like a tinyurlish, return an instantiated object
       # Otherwise, return nil
@@ -136,7 +136,7 @@ module TwitterFriends
         src_url = match_tinyurlish(url) or return
         new(src_url, nil, nil)
       end
-      
+
     end
   end
 end
@@ -184,7 +184,7 @@ end
 #    8438 tgr.me
 #    8418 adjix.com
 #    5061 www.url.inc
-#         pastoid.com         
+#         pastoid.com
 #
 #  339312 twitpic.com
 #   28282 rsstotwitter.com
@@ -281,8 +281,8 @@ end
 #    2197 www.vimeo.com
 #    2184 entertonement.com
 #    2157 c2.koukokukaigisitsu.com
-# 
-      
+#
+
       # def spread_key() self.src_url[-3..-1] end
       # def output_form spread=false
       #   spread ? ("%s-%s\t%s"%[resource_name, spread_key, to_tsv]) : super()

@@ -1376,21 +1376,21 @@
 2043	0000000002	&#2043;	&#2043;	߻	Uncoded character &#2043;					1984..2047	N'Ko	Nkoo	N'Ko (Mandenkan)
 2044	0000000001	&#2044;	&#2044;	߼	Uncoded character &#2044;					1984..2047	N'Ko	Nkoo	N'Ko (Mandenkan)
 2047	0000000001	&#2047;	&#2047;	߿	Uncoded character &#2047;					1984..2047	N'Ko	Nkoo	N'Ko (Mandenkan)
-2052	0000000001	&#2052;	&#2052;	ࠄ	Uncoded character &#2052;							
-2054	0000000001	&#2054;	&#2054;	ࠆ	Uncoded character &#2054;							
-2061	0000000001	&#2061;	&#2061;	ࠍ	Uncoded character &#2061;							
-2067	0000000001	&#2067;	&#2067;	ࠓ	Uncoded character &#2067;							
-2074	0000000001	&#2074;	&#2074;	ࠚ	Uncoded character &#2074;							
-2082	0000000001	&#2082;	&#2082;	ࠢ	Uncoded character &#2082;							
-2091	0000000001	&#2091;	&#2091;	ࠫ	Uncoded character &#2091;							
-2107	0000000001	&#2107;	&#2107;	࠻	Uncoded character &#2107;							
-2122	0000000001	&#2122;	&#2122;	ࡊ	Uncoded character &#2122;							
-2135	0000000001	&#2135;	&#2135;	ࡗ	Uncoded character &#2135;							
-2142	0000000001	&#2142;	&#2142;	࡞	Uncoded character &#2142;							
-2144	0000000001	&#2144;	&#2144;	ࡠ	Uncoded character &#2144;							
-2149	0000000001	&#2149;	&#2149;	ࡥ	Uncoded character &#2149;							
-2232	0000000001	&#2232;	&#2232;	ࢸ	Uncoded character &#2232;							
-2284	0000000002	&#2284;	&#2284;	࣬	Uncoded character &#2284;							
+2052	0000000001	&#2052;	&#2052;	ࠄ	Uncoded character &#2052;
+2054	0000000001	&#2054;	&#2054;	ࠆ	Uncoded character &#2054;
+2061	0000000001	&#2061;	&#2061;	ࠍ	Uncoded character &#2061;
+2067	0000000001	&#2067;	&#2067;	ࠓ	Uncoded character &#2067;
+2074	0000000001	&#2074;	&#2074;	ࠚ	Uncoded character &#2074;
+2082	0000000001	&#2082;	&#2082;	ࠢ	Uncoded character &#2082;
+2091	0000000001	&#2091;	&#2091;	ࠫ	Uncoded character &#2091;
+2107	0000000001	&#2107;	&#2107;	࠻	Uncoded character &#2107;
+2122	0000000001	&#2122;	&#2122;	ࡊ	Uncoded character &#2122;
+2135	0000000001	&#2135;	&#2135;	ࡗ	Uncoded character &#2135;
+2142	0000000001	&#2142;	&#2142;	࡞	Uncoded character &#2142;
+2144	0000000001	&#2144;	&#2144;	ࡠ	Uncoded character &#2144;
+2149	0000000001	&#2149;	&#2149;	ࡥ	Uncoded character &#2149;
+2232	0000000001	&#2232;	&#2232;	ࢸ	Uncoded character &#2232;
+2284	0000000002	&#2284;	&#2284;	࣬	Uncoded character &#2284;
 2304	0000000001	&#2304;	&#2304;	ऀ	Uncoded character &#2304;					2304..2431	Devanagari	Deva	Devanagari
 2305	0000000354	&#2305;	&#2305;	ँ	Devanagari Sign Candrabindu	2305..2306	Devanagari	Mn	  [2]	DEVANAGARI SIGN CANDRABINDU..DEVANAGARI SIGN ANUSVARA	2304..2431	Devanagari	Deva	Devanagari
 2306	0000005802	&#2306;	&#2306;	ं	Devanagari Sign Anusvara	2305..2306	Devanagari	Mn	  [2]	DEVANAGARI SIGN CANDRABINDU..DEVANAGARI SIGN ANUSVARA	2304..2431	Devanagari	Deva	Devanagari
@@ -2687,12 +2687,12 @@
 6121	0000000021	&#6121;	&#6121;	៩	Khmer Digit Nine	6112..6121	Khmer	Nd	 [10]	KHMER DIGIT ZERO..KHMER DIGIT NINE	6016..6143	Khmer	Khmr	Khmer
 6143	0000000001	&#6143;	&#6143;	៿	Uncoded character &#6143;					6016..6143	Khmer	Khmr	Khmer
 6432	0000000001	&#6432;	&#6432;	ᤠ	Limbu Vowel Sign A	6432..6434	Limbu	Mn	  [3]	LIMBU VOWEL SIGN A..LIMBU VOWEL SIGN U	6400..6479	Limbu	Limb	Limbu
-6767	0000000001	&#6767;	&#6767;	ᩯ	Uncoded character &#6767;							
+6767	0000000001	&#6767;	&#6767;	ᩯ	Uncoded character &#6767;
 6970	0000000001	&#6970;	&#6970;	ᬺ	Balinese Vowel Sign Ra Repa	6966..6970	Balinese	Mn	  [5]	BALINESE VOWEL SIGN ULU..BALINESE VOWEL SIGN RA REPA	6912..7039	Balinese	Bali	Balinese
 7086	0000000001	&#7086;	&#7086;	ᮮ	Sundanese Letter Kha	7086..7087	Sundanese	Lo	  [2]	SUNDANESE LETTER KHA..SUNDANESE LETTER SYA	7040..7103	Sundanese	Sund	Sundanese
 7200	0000000001	&#7200;	&#7200;	ᰠ	Lepcha Letter Sa	7168..7203	Lepcha	Lo	 [36]	LEPCHA LETTER KA..LEPCHA LETTER A	7168..7247	Lepcha	Lepc	Lepcha (Rong)
-7305	0000000001	&#7305;	&#7305;	Ᲊ	Uncoded character &#7305;							
-7407	0000000001	&#7407;	&#7407;	ᳯ	Uncoded character &#7407;							
+7305	0000000001	&#7305;	&#7305;	Ᲊ	Uncoded character &#7305;
+7407	0000000001	&#7407;	&#7407;	ᳯ	Uncoded character &#7407;
 7424	0000000001	&#7424;	&#7424;	ᴀ	Latin Letter Small Capital A	7424..7461	Latin	L&	 [38]	LATIN LETTER SMALL CAPITAL A..LATIN LETTER AIN	7424..7551	(Phonetic)	_ipa	Phonetic Extensions
 7426	0000000001	&#7426;	&#7426;	ᴂ	Latin Small Letter Turned Ae	7424..7461	Latin	L&	 [38]	LATIN LETTER SMALL CAPITAL A..LATIN LETTER AIN	7424..7551	(Phonetic)	_ipa	Phonetic Extensions
 7429	0000000003	&#7429;	&#7429;	ᴅ	Latin Letter Small Capital D	7424..7461	Latin	L&	 [38]	LATIN LETTER SMALL CAPITAL A..LATIN LETTER AIN	7424..7551	(Phonetic)	_ipa	Phonetic Extensions
@@ -15297,11 +15297,11 @@
 42189	0000000001	&#42189;	&#42189;	꓍	Uncoded character &#42189;					42128..42191	Yi	Yiii	Yi Radicals
 42190	0000000001	&#42190;	&#42190;	꓎	Uncoded character &#42190;					42128..42191	Yi	Yiii	Yi Radicals
 42191	0000000002	&#42191;	&#42191;	꓏	Uncoded character &#42191;					42128..42191	Yi	Yiii	Yi Radicals
-42211	0000000023	&#42211;	&#42211;	ꓣ	Uncoded character &#42211;							
-42214	0000000001	&#42214;	&#42214;	ꓦ	Uncoded character &#42214;							
-42218	0000000001	&#42218;	&#42218;	ꓪ	Uncoded character &#42218;							
-42219	0000000002	&#42219;	&#42219;	ꓫ	Uncoded character &#42219;							
-42223	0000000002	&#42223;	&#42223;	ꓯ	Uncoded character &#42223;							
+42211	0000000023	&#42211;	&#42211;	ꓣ	Uncoded character &#42211;
+42214	0000000001	&#42214;	&#42214;	ꓦ	Uncoded character &#42214;
+42218	0000000001	&#42218;	&#42218;	ꓪ	Uncoded character &#42218;
+42219	0000000002	&#42219;	&#42219;	ꓫ	Uncoded character &#42219;
+42223	0000000002	&#42223;	&#42223;	ꓯ	Uncoded character &#42223;
 42290	0000000001	&#42290;	&#42290;	ꔲ	Vai Syllable Vi	42240..42507	Vai	Lo	[268]	VAI SYLLABLE EE..VAI SYLLABLE NG	42240..42559	Vai	Vaii	Vai
 42344	0000000001	&#42344;	&#42344;	ꕨ	Vai Syllable Nja	42240..42507	Vai	Lo	[268]	VAI SYLLABLE EE..VAI SYLLABLE NG	42240..42559	Vai	Vaii	Vai
 42376	0000000001	&#42376;	&#42376;	ꖈ	Vai Syllable Shoo	42240..42507	Vai	Lo	[268]	VAI SYLLABLE EE..VAI SYLLABLE NG	42240..42559	Vai	Vaii	Vai
@@ -15330,18 +15330,18 @@
 42579	0000000001	&#42579;	&#42579;	ꙓ	Cyrillic Small Letter Iotified Yat	42560..42591	Cyrillic	L&	 [32]	CYRILLIC CAPITAL LETTER ZEMLYA..CYRILLIC SMALL LETTER YN	42560..42655	Cyrillic	Cyrl	Cyrillic Extended-B
 42635	0000000001	&#42635;	&#42635;	ꚋ	Cyrillic Small Letter Te With Middle Hook	42624..42647	Cyrillic	L&	 [24]	CYRILLIC CAPITAL LETTER DWE..CYRILLIC SMALL LETTER SHWE	42560..42655	Cyrillic	Cyrl	Cyrillic Extended-B
 42651	0000000001	&#42651;	&#42651;	ꚛ	Uncoded character &#42651;					42560..42655	Cyrillic	Cyrl	Cyrillic Extended-B
-42666	0000000001	&#42666;	&#42666;	ꚪ	Uncoded character &#42666;							
-42674	0000000002	&#42674;	&#42674;	ꚲ	Uncoded character &#42674;							
-42675	0000000005	&#42675;	&#42675;	ꚳ	Uncoded character &#42675;							
-42693	0000000002	&#42693;	&#42693;	ꛅ	Uncoded character &#42693;							
-42723	0000000031	&#42723;	&#42723;	ꛣ	Uncoded character &#42723;							
-42724	0000000001	&#42724;	&#42724;	ꛤ	Uncoded character &#42724;							
-42725	0000000004	&#42725;	&#42725;	ꛥ	Uncoded character &#42725;							
-42726	0000000006	&#42726;	&#42726;	ꛦ	Uncoded character &#42726;							
-42728	0000000001	&#42728;	&#42728;	ꛨ	Uncoded character &#42728;							
-42729	0000000003	&#42729;	&#42729;	ꛩ	Uncoded character &#42729;							
-42730	0000000001	&#42730;	&#42730;	ꛪ	Uncoded character &#42730;							
-42735	0000000001	&#42735;	&#42735;	ꛯ	Uncoded character &#42735;							
+42666	0000000001	&#42666;	&#42666;	ꚪ	Uncoded character &#42666;
+42674	0000000002	&#42674;	&#42674;	ꚲ	Uncoded character &#42674;
+42675	0000000005	&#42675;	&#42675;	ꚳ	Uncoded character &#42675;
+42693	0000000002	&#42693;	&#42693;	ꛅ	Uncoded character &#42693;
+42723	0000000031	&#42723;	&#42723;	ꛣ	Uncoded character &#42723;
+42724	0000000001	&#42724;	&#42724;	ꛤ	Uncoded character &#42724;
+42725	0000000004	&#42725;	&#42725;	ꛥ	Uncoded character &#42725;
+42726	0000000006	&#42726;	&#42726;	ꛦ	Uncoded character &#42726;
+42728	0000000001	&#42728;	&#42728;	ꛨ	Uncoded character &#42728;
+42729	0000000003	&#42729;	&#42729;	ꛩ	Uncoded character &#42729;
+42730	0000000001	&#42730;	&#42730;	ꛪ	Uncoded character &#42730;
+42735	0000000001	&#42735;	&#42735;	ꛯ	Uncoded character &#42735;
 42785	0000000001	&#42785;	&#42785;	꜡	Modifier Letter Stress And Low Tone	42784..42785	Common	Sk	  [2]	MODIFIER LETTER STRESS AND HIGH TONE..MODIFIER LETTER STRESS AND LOW TONE	42784..43007	Latin	Latn	Latin Extended-D
 42831	0000000001	&#42831;	&#42831;	ꝏ	Latin Small Letter Oo	42786..42863	Latin	L&	 [78]	LATIN CAPITAL LETTER EGYPTOLOGICAL ALEF..LATIN SMALL LETTER CON	42784..43007	Latin	Latn	Latin Extended-D
 42881	0000000001	&#42881;	&#42881;	ꞁ	Latin Small Letter Turned L	42865..42887	Latin	L&	 [23]	LATIN SMALL LETTER DUM..LATIN SMALL LETTER INSULAR T	42784..43007	Latin	Latn	Latin Extended-D
@@ -15366,49 +15366,49 @@
 43181	0000000001	&#43181;	&#43181;	ꢭ	Saurashtra Letter La	43138..43187	Saurashtra	Lo	 [50]	SAURASHTRA LETTER A..SAURASHTRA LETTER LLA	43136..43231	Saurashtra	Saur	Saurashtra
 43185	0000000001	&#43185;	&#43185;	ꢱ	Saurashtra Letter Sa	43138..43187	Saurashtra	Lo	 [50]	SAURASHTRA LETTER A..SAURASHTRA LETTER LLA	43136..43231	Saurashtra	Saur	Saurashtra
 43196	0000000001	&#43196;	&#43196;	ꢼ	Saurashtra Vowel Sign Vocalic L	43188..43203	Saurashtra	Mc	 [16]	SAURASHTRA CONSONANT SIGN HAARU..SAURASHTRA VOWEL SIGN AU	43136..43231	Saurashtra	Saur	Saurashtra
-43235	0000000036	&#43235;	&#43235;	꣣	Uncoded character &#43235;							
-43237	0000000002	&#43237;	&#43237;	꣥	Uncoded character &#43237;							
-43238	0000000007	&#43238;	&#43238;	꣦	Uncoded character &#43238;							
-43239	0000000002	&#43239;	&#43239;	꣧	Uncoded character &#43239;							
-43240	0000000005	&#43240;	&#43240;	꣨	Uncoded character &#43240;							
-43241	0000000002	&#43241;	&#43241;	꣩	Uncoded character &#43241;							
-43242	0000000001	&#43242;	&#43242;	꣪	Uncoded character &#43242;							
-43246	0000000002	&#43246;	&#43246;	꣮	Uncoded character &#43246;							
-43247	0000000001	&#43247;	&#43247;	꣯	Uncoded character &#43247;							
+43235	0000000036	&#43235;	&#43235;	꣣	Uncoded character &#43235;
+43237	0000000002	&#43237;	&#43237;	꣥	Uncoded character &#43237;
+43238	0000000007	&#43238;	&#43238;	꣦	Uncoded character &#43238;
+43239	0000000002	&#43239;	&#43239;	꣧	Uncoded character &#43239;
+43240	0000000005	&#43240;	&#43240;	꣨	Uncoded character &#43240;
+43241	0000000002	&#43241;	&#43241;	꣩	Uncoded character &#43241;
+43242	0000000001	&#43242;	&#43242;	꣪	Uncoded character &#43242;
+43246	0000000002	&#43246;	&#43246;	꣮	Uncoded character &#43246;
+43247	0000000001	&#43247;	&#43247;	꣯	Uncoded character &#43247;
 43298	0000000001	&#43298;	&#43298;	ꤢ	Kayah Li Letter A	43274..43301	Kayah_Li	Lo	 [28]	KAYAH LI LETTER KA..KAYAH LI LETTER OO	43264..43311	Kayah Li	Kali	Kayah Li
-43391	0000000001	&#43391;	&#43391;	꥿	Uncoded character &#43391;							
-43403	0000000001	&#43403;	&#43403;	ꦋ	Uncoded character &#43403;							
-43441	0000000002	&#43441;	&#43441;	ꦱ	Uncoded character &#43441;							
-43491	0000000018	&#43491;	&#43491;	ꧣ	Uncoded character &#43491;							
-43493	0000000001	&#43493;	&#43493;	ꧥ	Uncoded character &#43493;							
-43494	0000000002	&#43494;	&#43494;	ꧦ	Uncoded character &#43494;							
+43391	0000000001	&#43391;	&#43391;	꥿	Uncoded character &#43391;
+43403	0000000001	&#43403;	&#43403;	ꦋ	Uncoded character &#43403;
+43441	0000000002	&#43441;	&#43441;	ꦱ	Uncoded character &#43441;
+43491	0000000018	&#43491;	&#43491;	ꧣ	Uncoded character &#43491;
+43493	0000000001	&#43493;	&#43493;	ꧥ	Uncoded character &#43493;
+43494	0000000002	&#43494;	&#43494;	ꧦ	Uncoded character &#43494;
 43610	0000000001	&#43610;	&#43610;	꩚	Uncoded character &#43610;					43520..43615	Cham	Cham	Cham
-43639	0000000001	&#43639;	&#43639;	꩷	Uncoded character &#43639;							
-43672	0000000002	&#43672;	&#43672;	ꪘ	Uncoded character &#43672;							
-43693	0000000001	&#43693;	&#43693;	ꪭ	Uncoded character &#43693;							
-43696	0000000001	&#43696;	&#43696;	ꪰ	Uncoded character &#43696;							
-43747	0000000067	&#43747;	&#43747;	ꫣ	Uncoded character &#43747;							
-43748	0000000001	&#43748;	&#43748;	ꫤ	Uncoded character &#43748;							
-43749	0000000006	&#43749;	&#43749;	ꫥ	Uncoded character &#43749;							
-43750	0000000003	&#43750;	&#43750;	ꫦ	Uncoded character &#43750;							
-43753	0000000002	&#43753;	&#43753;	ꫩ	Uncoded character &#43753;							
-43759	0000000001	&#43759;	&#43759;	ꫯ	Uncoded character &#43759;							
-43785	0000000001	&#43785;	&#43785;	ꬉ	Uncoded character &#43785;							
-43825	0000000001	&#43825;	&#43825;	ꬱ	Uncoded character &#43825;							
-43867	0000000001	&#43867;	&#43867;	꭛	Uncoded character &#43867;							
-43881	0000000001	&#43881;	&#43881;	ꭩ	Uncoded character &#43881;							
-43916	0000000001	&#43916;	&#43916;	ꮌ	Uncoded character &#43916;							
-43939	0000000001	&#43939;	&#43939;	ꮣ	Uncoded character &#43939;							
-43941	0000000002	&#43941;	&#43941;	ꮥ	Uncoded character &#43941;							
-43945	0000000016	&#43945;	&#43945;	ꮩ	Uncoded character &#43945;							
-44003	0000000037	&#44003;	&#44003;	ꯣ	Uncoded character &#44003;							
-44004	0000000001	&#44004;	&#44004;	ꯤ	Uncoded character &#44004;							
-44005	0000000003	&#44005;	&#44005;	ꯥ	Uncoded character &#44005;							
-44006	0000000004	&#44006;	&#44006;	ꯦ	Uncoded character &#44006;							
-44007	0000000001	&#44007;	&#44007;	ꯧ	Uncoded character &#44007;							
-44008	0000000003	&#44008;	&#44008;	ꯨ	Uncoded character &#44008;							
-44009	0000000002	&#44009;	&#44009;	ꯩ	Uncoded character &#44009;							
-44015	0000000002	&#44015;	&#44015;	꯯	Uncoded character &#44015;							
+43639	0000000001	&#43639;	&#43639;	꩷	Uncoded character &#43639;
+43672	0000000002	&#43672;	&#43672;	ꪘ	Uncoded character &#43672;
+43693	0000000001	&#43693;	&#43693;	ꪭ	Uncoded character &#43693;
+43696	0000000001	&#43696;	&#43696;	ꪰ	Uncoded character &#43696;
+43747	0000000067	&#43747;	&#43747;	ꫣ	Uncoded character &#43747;
+43748	0000000001	&#43748;	&#43748;	ꫤ	Uncoded character &#43748;
+43749	0000000006	&#43749;	&#43749;	ꫥ	Uncoded character &#43749;
+43750	0000000003	&#43750;	&#43750;	ꫦ	Uncoded character &#43750;
+43753	0000000002	&#43753;	&#43753;	ꫩ	Uncoded character &#43753;
+43759	0000000001	&#43759;	&#43759;	ꫯ	Uncoded character &#43759;
+43785	0000000001	&#43785;	&#43785;	ꬉ	Uncoded character &#43785;
+43825	0000000001	&#43825;	&#43825;	ꬱ	Uncoded character &#43825;
+43867	0000000001	&#43867;	&#43867;	꭛	Uncoded character &#43867;
+43881	0000000001	&#43881;	&#43881;	ꭩ	Uncoded character &#43881;
+43916	0000000001	&#43916;	&#43916;	ꮌ	Uncoded character &#43916;
+43939	0000000001	&#43939;	&#43939;	ꮣ	Uncoded character &#43939;
+43941	0000000002	&#43941;	&#43941;	ꮥ	Uncoded character &#43941;
+43945	0000000016	&#43945;	&#43945;	ꮩ	Uncoded character &#43945;
+44003	0000000037	&#44003;	&#44003;	ꯣ	Uncoded character &#44003;
+44004	0000000001	&#44004;	&#44004;	ꯤ	Uncoded character &#44004;
+44005	0000000003	&#44005;	&#44005;	ꯥ	Uncoded character &#44005;
+44006	0000000004	&#44006;	&#44006;	ꯦ	Uncoded character &#44006;
+44007	0000000001	&#44007;	&#44007;	ꯧ	Uncoded character &#44007;
+44008	0000000003	&#44008;	&#44008;	ꯨ	Uncoded character &#44008;
+44009	0000000002	&#44009;	&#44009;	ꯩ	Uncoded character &#44009;
+44015	0000000002	&#44015;	&#44015;	꯯	Uncoded character &#44015;
 44032	0000002927	&#44032;	&#44032;	가	Hangul Syllable - &#44032;	44032..55203	Hangul	Lo	[11172]	HANGUL SYLLABLE GA..HANGUL SYLLABLE HIH	44032..55215	Korean	Kore	Hangul Syllables
 44033	0000000322	&#44033;	&#44033;	각	Hangul Syllable - &#44033;	44032..55203	Hangul	Lo	[11172]	HANGUL SYLLABLE GA..HANGUL SYLLABLE HIH	44032..55215	Korean	Kore	Hangul Syllables
 44036	0000000509	&#44036;	&#44036;	간	Hangul Syllable - &#44036;	44032..55203	Hangul	Lo	[11172]	HANGUL SYLLABLE GA..HANGUL SYLLABLE HIH	44032..55215	Korean	Kore	Hangul Syllables
@@ -17120,7 +17120,7 @@
 55184	0000000029	&#55184;	&#55184;	힐	Hangul Syllable - &#55184;	44032..55203	Hangul	Lo	[11172]	HANGUL SYLLABLE GA..HANGUL SYLLABLE HIH	44032..55215	Korean	Kore	Hangul Syllables
 55192	0000000097	&#55192;	&#55192;	힘	Hangul Syllable - &#55192;	44032..55203	Hangul	Lo	[11172]	HANGUL SYLLABLE GA..HANGUL SYLLABLE HIH	44032..55215	Korean	Kore	Hangul Syllables
 55203	0000000002	&#55203;	&#55203;	힣	Hangul Syllable - &#55203;	44032..55203	Hangul	Lo	[11172]	HANGUL SYLLABLE GA..HANGUL SYLLABLE HIH	44032..55215	Korean	Kore	Hangul Syllables
-55236	0000000004	&#55236;	&#55236;	ퟄ	Uncoded character &#55236;							
+55236	0000000004	&#55236;	&#55236;	ퟄ	Uncoded character &#55236;
 57345	0000000047	&#57345;	&#57345;		Private Use - &#57345;					57344..63743	(Private)	_prv	Private Use Area
 57346	0000000029	&#57346;	&#57346;		Private Use - &#57346;					57344..63743	(Private)	_prv	Private Use Area
 57347	0000000028	&#57347;	&#57347;		Private Use - &#57347;					57344..63743	(Private)	_prv	Private Use Area
@@ -18640,4 +18640,4 @@
 153219	0000000001	&#153219;	&#153219;	𥚃	CJK Ideograph Extension B - &#153219;	131072..173782	Han	Lo	[42711]	CJK UNIFIED IDEOGRAPH-20000..CJK UNIFIED IDEOGRAPH-2A6D6	131072..173791	CJK	_cjk	CJK Unified Ideographs Extension B
 161992	0000000001	&#161992;	&#161992;	𧣈	CJK Ideograph Extension B - &#161992;	131072..173782	Han	Lo	[42711]	CJK UNIFIED IDEOGRAPH-20000..CJK UNIFIED IDEOGRAPH-2A6D6	131072..173791	CJK	_cjk	CJK Unified Ideographs Extension B
 195060	0000000001	&#195060;	&#195060;	嶲	CJK Compatibility Ideograph-2f9f4	194560..195101	Han	Lo	[542]	CJK COMPATIBILITY IDEOGRAPH-2F800..CJK COMPATIBILITY IDEOGRAPH-2FA1D	194560..195103	CJK	_cjk	CJK Compatibility Ideographs Supplement
-661689	0000000003	&#661689;	&#661689;	򡢹	Uncoded character &#661689;							
+661689	0000000003	&#661689;	&#661689;	򡢹	Uncoded character &#661689;

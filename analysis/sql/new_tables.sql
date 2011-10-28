@@ -25,13 +25,13 @@ CREATE TABLE          `imw_twitter_graph`.`twitter_users` (
 ;
 
 --                     Max          50%ile,non-blank  99.9%ile incl.blk
---   screen_name        20 chars 		         15 	    
---   name               60           9.5                 24        
---   url               100          28   		 81                  	                  
---   location           80          11.5                 38      
+--   screen_name        20 chars 		         15
+--   name               60           9.5                 24
+--   url               100          28   		 81
+--   location           80          11.5                 38
 --   description       255          44                  212         -- can be 255*4 in principle (UTF-8) (??)
 --   time_zone 		28 	    -- 			 --
---   profile_image_url                                  167        
+--   profile_image_url                                  167
 
 DROP TABLE IF EXISTS  `imw_twitter_graph`.`twitter_user_partials`;
 CREATE TABLE          `imw_twitter_graph`.`twitter_user_partials` (
@@ -65,8 +65,8 @@ CREATE TABLE          `imw_twitter_graph`.`twitter_user_profiles` (
   `url`                                 VARCHAR(100) CHARACTER SET ASCII,
   `location`                            VARCHAR(240) CHARACTER SET ASCII,		# 80  but XML-encoded so needs extra space & may truncate
   `description`                         VARCHAR(511) CHARACTER SET ASCII,		# 255 but XML-encoded so needs extra space & may truncate
-  `time_zone`                           VARCHAR(30)  CHARACTER SET ASCII, 
-  `utc_offset`                          MEDIUMINT(7),                     
+  `time_zone`                           VARCHAR(30)  CHARACTER SET ASCII,
+  `utc_offset`                          MEDIUMINT(7),
   PRIMARY KEY  (`twitter_user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 ;
@@ -96,8 +96,8 @@ CREATE TABLE          `imw_twitter_graph`.`twitter_user_styles` (
 -- Derived user information
 -- -- also followers, friends, favorites, etc from
 --
--- make sure to record 
--- 
+-- make sure to record
+--
 DROP TABLE IF EXISTS  `imw_twitter_graph`.`twitter_user_metrics`;
 CREATE TABLE          `imw_twitter_graph`.`twitter_user_metrics` (
   `twitter_user_id`                  INT(10) UNSIGNED NOT NULL,
@@ -127,7 +127,7 @@ CREATE TABLE          `imw_twitter_graph`.`twitter_user_metrics` (
 -- Note spelling of favo**U**rite
 -- Enforcing that we never see a tweet w/o seeing the whole thing.
 --
--- 
+--
 -- note that twitter is 25% of the way to overflowing a 32bit key.
 --
 -- An xml-entity-encoded string will WAY overflow 140. In a sample of 40M tweets,
@@ -136,13 +136,13 @@ CREATE TABLE          `imw_twitter_graph`.`twitter_user_metrics` (
 --
 DROP TABLE IF EXISTS  `imw_twitter_graph`.`tweets`;
 CREATE TABLE          `imw_twitter_graph`.`tweets` (
-  `id`                                  INT(10) UNSIGNED                        NOT NULL,  
+  `id`                                  INT(10) UNSIGNED                        NOT NULL,
   `created_at`                          DATETIME                                NOT NULL,
   `twitter_user_id`                     INT(10) UNSIGNED                        NOT NULL,
   `favorited`                           TINYINT(4)   UNSIGNED                   NOT NULL,
   `truncated`                           TINYINT(4)   UNSIGNED                   NOT NULL,
   `in_reply_to_user_id`                 INT(10)      UNSIGNED                   NOT NULL,
-  `in_reply_to_status_id`               INT(10)      UNSIGNED                   NOT NULL,   
+  `in_reply_to_status_id`               INT(10)      UNSIGNED                   NOT NULL,
   `text`                                VARCHAR(768) CHARACTER SET ASCII	NOT NULL,  # 140 but XML-encoded so needs extra space & may truncate
   `source`                              VARCHAR(80)  CHARACTER SET ASCII        NOT NULL,
   PRIMARY KEY  (`id`),
@@ -155,7 +155,7 @@ CREATE TABLE          `imw_twitter_graph`.`tweets` (
 --
 -- Relationships
 --
--- 
+--
 --
 -- Tweets and derived entities are immutable, so we don't need the scraped_at
 --
@@ -205,7 +205,7 @@ CREATE TABLE          `imw_twitter_graph`.`a_replies_bs` (
 DROP TABLE IF EXISTS  `imw_twitter_graph`.`a_atsigns_bs`;
 CREATE TABLE          `imw_twitter_graph`.`a_atsigns_bs` (
   `user_a_id`                           INT(10)      UNSIGNED                   NOT NULL,
-  `user_b_name`                         VARCHAR(20)  CHARACTER SET ASCII        NOT NULL, 
+  `user_b_name`                         VARCHAR(20)  CHARACTER SET ASCII        NOT NULL,
   `status_id`                           INT(10)      UNSIGNED                   NOT NULL,
   PRIMARY KEY   (`user_a_id`, `user_b_name`(20), `status_id`),
   INDEX         (`user_b_name`)
@@ -216,7 +216,7 @@ CREATE TABLE          `imw_twitter_graph`.`a_atsigns_bs` (
 DROP TABLE IF EXISTS  `imw_twitter_graph`.`a_retweets_bs`;
 CREATE TABLE          `imw_twitter_graph`.`a_retweets_bs` (
   `user_a_id`                           INT(10)      UNSIGNED                   NOT NULL,
-  `user_b_name`                         VARCHAR(20)  CHARACTER SET ASCII        NOT NULL, 
+  `user_b_name`                         VARCHAR(20)  CHARACTER SET ASCII        NOT NULL,
   `status_id`                           INT(10)      UNSIGNED                   NOT NULL,
   PRIMARY KEY   (`user_a_id`, `status_id`),
   INDEX         (`user_a_id`, `user_b_name`)
@@ -292,7 +292,7 @@ CREATE TABLE          `imw_twitter_graph`.`tweet_urls` (
 -- Scrape Requests
 --
 -- This kind of URL has 74 chars ; let's call it 96
--- 
+--
 -- http://twitter.com/statuses/followers/twentycharacter_name.json?page=54321
 -- 0----.----1----.----2----.----3----.----4----.----5----.----6----.----7---
 --
@@ -313,9 +313,9 @@ CREATE TABLE          `imw_twitter_graph`.`tweet_urls` (
 -- ;
 -- --  `uri`                                 VARCHAR(96)                             NOT NULL,
 -- --  `requested_at`                        DATETIME,
--- 
--- 
--- 
+--
+--
+--
 -- DROP TABLE IF EXISTS  `imw_twitter_graph`.`scrape_request_pages`;
 -- CREATE TABLE          `imw_twitter_graph`.`scrape_request_pages` (
 --   `twitter_user_id`                     INT(10)         UNSIGNED                NOT NULL,
@@ -324,8 +324,8 @@ CREATE TABLE          `imw_twitter_graph`.`tweet_urls` (
 --   PRIMARY KEY   (`twitter_user_id`, `context`, `page`)
 -- ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 -- ;
--- 
--- 
+--
+--
 -- --
 -- -- Scraped files
 -- --
@@ -346,7 +346,7 @@ CREATE TABLE          `imw_twitter_graph`.`tweet_urls` (
 --   `page`                                SMALLINT(10)    UNSIGNED                NOT NULL,
 --   `size`                                INTEGER,
 --   `scraped_at`                          DATETIME                                DEFAULT NULL,
---   `scrape_session`                      DATE,  
+--   `scrape_session`                      DATE,
 --   PRIMARY KEY   (`screen_name`,     `context`, `page`, `scrape_session`),
 --   INDEX         (`twitter_user_id`, `context`, `page`),
 --   INDEX         (`context`)
@@ -358,12 +358,12 @@ CREATE TABLE          `imw_twitter_graph`.`tweet_urls` (
 -- ALTER TABLE `scraped_file_index` ADD `twitter_user_id` INT UNSIGNED NULL FIRST ;
 -- ALTER TABLE `scraped_file_index` ADD INDEX ( `twitter_user_id` ) ;
 
--- 
+--
 -- The wacky-assed denormalized boolean columns let you make a weighted graph by
 -- combining the sum of each column times that column's weight.
 --
 -- Also note you can  find symmetric relationships without a JOIN : use a UNION and GROUP BY
-  
+
 --
 -- afollowsb     time  1 0 0 0 0        user_a_id       user_b_id
 -- afavoredb     time  0 1 0 0 0        user_a_id       user_b_id

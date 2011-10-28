@@ -1,530 +1,530 @@
-ace	Achinese	Latin	Latn				
-abq	Abaza	Cyrillic	Cyrl				
-ab	Abkhazian	Cyrillic	Cyrl				
+ace	Achinese	Latin	Latn
+abq	Abaza	Cyrillic	Cyrl
+ab	Abkhazian	Cyrillic	Cyrl
 ach	Acoli	Unknown or Invalid Script	Zzzz		?		?
 ada	Adangme	Unknown or Invalid Script	Zzzz		?		?
-ady	Adyghe	Cyrillic	Cyrl				
-aa	Afar	Latin	Latn				
-af	Afrikaans	Latin	Latn				
-ain	Ainu	Latin	Latn			*	
-ain	Ainu	Katakana	Kana		N	*	
-ak	Akan	Latin	Latn				
+ady	Adyghe	Cyrillic	Cyrl
+aa	Afar	Latin	Latn
+af	Afrikaans	Latin	Latn
+ain	Ainu	Latin	Latn			*
+ain	Ainu	Katakana	Kana		N	*
+ak	Akan	Latin	Latn
 akk	Akkadian	Sumero-Akkadian Cuneiform	Xsux	O	N		N
-sq	Albanian	Latin	Latn				
+sq	Albanian	Latin	Latn
 ale	Aleut	Unknown or Invalid Script	Zzzz		?		?
-tut	Altaic Language	Cyrillic	Cyrl		N		
-am	Amharic	Ethiopic	Ethi				
-amo	Amo	Latin	Latn				
-grc	Ancient Greek	Greek	Grek	O	N	*	
-grc	Ancient Greek	Linear B	Linb			*	
+tut	Altaic Language	Cyrillic	Cyrl		N
+am	Amharic	Ethiopic	Ethi
+amo	Amo	Latin	Latn
+grc	Ancient Greek	Greek	Grek	O	N	*
+grc	Ancient Greek	Linear B	Linb			*
 grc	Ancient Greek	Cypriot	Cprt			*	N
 anp	Angika	Unknown or Invalid Script	Zzzz		?		?
-ar	Arabic	Arabic	Arab				
+ar	Arabic	Arabic	Arab
 an	Aragonese	Unknown or Invalid Script	Zzzz		?		?
 arp	Arapaho	Unknown or Invalid Script	Zzzz		?		?
 arn	Araucanian	Unknown or Invalid Script	Zzzz		?		?
 arw	Arawak	Unknown or Invalid Script	Zzzz		?		?
-hy	Armenian	Armenian	Armn				
+hy	Armenian	Armenian	Armn
 rup	Aromanian	Unknown or Invalid Script	Zzzz		?		?
-as	Assamese	Bengali	Beng				
-aii	Assyrian Neo-Aramaic	Cyrillic	Cyrl			*	
+as	Assamese	Bengali	Beng
+aii	Assyrian Neo-Aramaic	Cyrillic	Cyrl			*
 aii	Assyrian Neo-Aramaic	Syriac	Syrc		N	*	N
-ast	Asturian	Latin	Latn				
-cch	Atsam	Latin	Latn				
-av	Avaric	Cyrillic	Cyrl				
-awa	Awadhi	Devanagari	Deva				
-ay	Aymara	Latin	Latn				
-az	Azerbaijani	Latin	Latn			*	
-az	Azerbaijani	Arabic	Arab			*	
-az	Azerbaijani	Cyrillic	Cyrl			*	
-bfq	Badaga	Tamil	Taml				
-bfy	Bagheli	Devanagari	Deva				
-ban	Balinese	Latin	Latn			*	
-ban	Balinese	Balinese	Bali		N	*	
-bft	Balti	Devanagari	Deva				
-bal	Baluchi	Latin	Latn			*	
-bal	Baluchi	Arabic	Arab			*	
-bm	Bambara	Latin	Latn				
+ast	Asturian	Latin	Latn
+cch	Atsam	Latin	Latn
+av	Avaric	Cyrillic	Cyrl
+awa	Awadhi	Devanagari	Deva
+ay	Aymara	Latin	Latn
+az	Azerbaijani	Latin	Latn			*
+az	Azerbaijani	Arabic	Arab			*
+az	Azerbaijani	Cyrillic	Cyrl			*
+bfq	Badaga	Tamil	Taml
+bfy	Bagheli	Devanagari	Deva
+ban	Balinese	Latin	Latn			*
+ban	Balinese	Balinese	Bali		N	*
+bft	Balti	Devanagari	Deva
+bal	Baluchi	Latin	Latn			*
+bal	Baluchi	Arabic	Arab			*
+bm	Bambara	Latin	Latn
 bas	Basa	Unknown or Invalid Script	Zzzz		?		?
-ba	Bashkir	Cyrillic	Cyrl				
-eu	Basque	Latin	Latn				
-bya	Batak	Latin	Latn			*	
+ba	Bashkir	Cyrillic	Cyrl
+eu	Basque	Latin	Latn
+bya	Batak	Latin	Latn			*
 bya	Batak	Batak	Batk		N	*	N
-bbc	Batak Toba	Latin	Latn			*	
+bbc	Batak Toba	Latin	Latn			*
 bbc	Batak Toba	Batak	Batk		N	*	N
-btv	Bateri	Devanagari	Deva				
+btv	Bateri	Devanagari	Deva
 bej	Beja	Unknown or Invalid Script	Zzzz		?		?
-be	Belarusian	Cyrillic	Cyrl				
-bem	Bemba	Latin	Latn				
-bn	Bengali	Bengali	Beng				
-bhb	Bhili	Devanagari	Deva				
-bho	Bhojpuri	Devanagari	Deva				
-bh	Bihari	Devanagari	Deva		N		
+be	Belarusian	Cyrillic	Cyrl
+bem	Bemba	Latin	Latn
+bn	Bengali	Bengali	Beng
+bhb	Bhili	Devanagari	Deva
+bho	Bhojpuri	Devanagari	Deva
+bh	Bihari	Devanagari	Deva		N
 bik	Bikol	Unknown or Invalid Script	Zzzz		?		?
-bin	Bini	Latin	Latn				
-bi	Bislama	Latin	Latn				
-byn	Blin	Ethiopic	Ethi				
+bin	Bini	Latin	Latn
+bi	Bislama	Latin	Latn
+byn	Blin	Ethiopic	Ethi
 zbl	Blissymbols	Blissymbols	Blis	O			N
-bs	Bosnian	Latin	Latn				
-bra	Braj	Devanagari	Deva				
-br	Breton	Latin	Latn				
-bug	Buginese	Latin	Latn			*	
+bs	Bosnian	Latin	Latn
+bra	Braj	Devanagari	Deva
+br	Breton	Latin	Latn
+bug	Buginese	Latin	Latn			*
 bug	Buginese	Buginese	Bugi		N	*	N
 bku	Buhid	Buhid	Buhd		N		N
-bg	Bulgarian	Cyrillic	Cyrl				
+bg	Bulgarian	Cyrillic	Cyrl
 bua	Buriat	Unknown or Invalid Script	Zzzz		?		?
-my	Burmese	Myanmar	Mymr				
-buc	Bushi	Latin	Latn				
+my	Burmese	Myanmar	Mymr
+buc	Bushi	Latin	Latn
 cad	Caddo	Unknown or Invalid Script	Zzzz		?		?
 car	Carib	Unknown or Invalid Script	Zzzz		?		?
-ca	Catalan	Latin	Latn				
-ceb	Cebuano	Latin	Latn				
-tzm	Central Atlas Tamazight	Latin	Latn			*	
-tzm	Central Atlas Tamazight	Tifinagh	Tfng			*	
-ccp	Chakma	Bengali	Beng				
-ch	Chamorro	Latin	Latn				
-ce	Chechen	Cyrillic	Cyrl				
-chr	Cherokee	Latin	Latn			*	
-chr	Cherokee	Cherokee	Cher			*	
+ca	Catalan	Latin	Latn
+ceb	Cebuano	Latin	Latn
+tzm	Central Atlas Tamazight	Latin	Latn			*
+tzm	Central Atlas Tamazight	Tifinagh	Tfng			*
+ccp	Chakma	Bengali	Beng
+ch	Chamorro	Latin	Latn
+ce	Chechen	Cyrillic	Cyrl
+chr	Cherokee	Latin	Latn			*
+chr	Cherokee	Cherokee	Cher			*
 chy	Cheyenne	Unknown or Invalid Script	Zzzz		?		?
-hne	Chhattisgarhi	Devanagari	Deva				
-zh	Chinese	Bopomofo	Bopo		N	*	
-zh	Chinese	Simplified Han	Hans			*	
-zh	Chinese	Traditional Han	Hant			*	
+hne	Chhattisgarhi	Devanagari	Deva
+zh	Chinese	Bopomofo	Bopo		N	*
+zh	Chinese	Simplified Han	Hans			*
+zh	Chinese	Traditional Han	Hant			*
 zh	Chinese	Phags-pa	Phag		N	*	N
-zh	Chinese	CJK	_cjk			!	
+zh	Chinese	CJK	_cjk			!
 chn	Chinook Jargon	Unknown or Invalid Script	Zzzz		?		?
 chp	Chipewyan	Unknown or Invalid Script	Zzzz		?		?
 cho	Choctaw	Unknown or Invalid Script	Zzzz		?		?
-ckt	Chukot	Cyrillic	Cyrl				
+ckt	Chukot	Cyrillic	Cyrl
 cu	Church Slavic	Glagolitic	Glag	O	N		N
-chk	Chuukese	Latin	Latn				
-cv	Chuvash	Cyrillic	Cyrl				
-swb	Comorian	Arabic	Arab				
-cop	Coptic	Arabic	Arab	O	N	*	
-cop	Coptic	Greek	Grek			*	
+chk	Chuukese	Latin	Latn
+cv	Chuvash	Cyrillic	Cyrl
+swb	Comorian	Arabic	Arab
+cop	Coptic	Arabic	Arab	O	N	*
+cop	Coptic	Greek	Grek			*
 cop	Coptic	Coptic	Copt			*	N
-kw	Cornish	Latin	Latn				
-co	Corsican	Latin	Latn				
-cr	Cree	Latin	Latn			*	
-cr	Cree	Unified Canadian Aboriginal Syllabics	Cans			*	
+kw	Cornish	Latin	Latn
+co	Corsican	Latin	Latn
+cr	Cree	Latin	Latn			*
+cr	Cree	Unified Canadian Aboriginal Syllabics	Cans			*
 mus	Creek	Unknown or Invalid Script	Zzzz		?		?
 crh	Crimean Turkish	Unknown or Invalid Script	Zzzz		?		?
-hr	Croatian	Latin	Latn				
-cs	Czech	Latin	Latn				
+hr	Croatian	Latin	Latn
+cs	Czech	Latin	Latn
 dak	Dakota	Unknown or Invalid Script	Zzzz		?		?
-da	Danish	Latin	Latn				
-dar	Dargwa	Cyrillic	Cyrl				
+da	Danish	Latin	Latn
+dar	Dargwa	Cyrillic	Cyrl
 del	Delaware	Unknown or Invalid Script	Zzzz		?		?
 din	Dinka	Unknown or Invalid Script	Zzzz		?		?
-dv	Divehi	Thaana	Thaa				
-doi	Dogri	Arabic	Arab				
-dgr	Dogrib	Latin	Latn				
+dv	Divehi	Thaana	Thaa
+doi	Dogri	Arabic	Arab
+dgr	Dogrib	Latin	Latn
 dua	Duala	Unknown or Invalid Script	Zzzz		?		?
-dng	Dungan	Cyrillic	Cyrl				
-nl	Dutch	Latin	Latn				
-dyu	Dyula	Latin	Latn				
-dz	Dzongkha	Tibetan	Tibt				
-cjm	Eastern Cham	Arabic	Arab			*	
-cjm	Eastern Cham	Cham	Cham		N	*	
-frs	Eastern Frisian	Latin	Latn				
-lwl	Eastern Lawa	Thai	Thai				
-emk	Eastern Maninkakan	N'Ko	Nkoo				
-efi	Efik	Latin	Latn				
+dng	Dungan	Cyrillic	Cyrl
+nl	Dutch	Latin	Latn
+dyu	Dyula	Latin	Latn
+dz	Dzongkha	Tibetan	Tibt
+cjm	Eastern Cham	Arabic	Arab			*
+cjm	Eastern Cham	Cham	Cham		N	*
+frs	Eastern Frisian	Latin	Latn
+lwl	Eastern Lawa	Thai	Thai
+emk	Eastern Maninkakan	N'Ko	Nkoo
+efi	Efik	Latin	Latn
 eka	Ekajuk	Unknown or Invalid Script	Zzzz		?		?
-en	English	Latin	Latn				
-cpe	English-based Creole or Pidgin	Latin	Latn				
-myv	Erzya	Cyrillic	Cyrl				
-eo	Esperanto	Latin	Latn	O			
-et	Estonian	Latin	Latn				
-ett	Etruscan	Latin	Latn	O	N	*	
+en	English	Latin	Latn
+cpe	English-based Creole or Pidgin	Latin	Latn
+myv	Erzya	Cyrillic	Cyrl
+eo	Esperanto	Latin	Latn	O
+et	Estonian	Latin	Latn
+ett	Etruscan	Latin	Latn	O	N	*
 ett	Etruscan	Old Italic	Ital			*	N
-evn	Evenki	Cyrillic	Cyrl				
-ee	Ewe	Latin	Latn				
+evn	Evenki	Cyrillic	Cyrl
+ee	Ewe	Latin	Latn
 ewo	Ewondo	Unknown or Invalid Script	Zzzz		?		?
-fan	Fang	Latin	Latn				
+fan	Fang	Latin	Latn
 fat	Fanti	Unknown or Invalid Script	Zzzz		?		?
-fo	Faroese	Latin	Latn				
-fj	Fijian	Latin	Latn				
-fil	Filipino	Latin	Latn				
-fi	Finnish	Latin	Latn				
-fiu	Finno-Ugrian Language	Latin	Latn		N		
-fon	Fon	Latin	Latn				
-fr	French	Latin	Latn				
-fur	Friulian	Latin	Latn				
+fo	Faroese	Latin	Latn
+fj	Fijian	Latin	Latn
+fil	Filipino	Latin	Latn
+fi	Finnish	Latin	Latn
+fiu	Finno-Ugrian Language	Latin	Latn		N
+fon	Fon	Latin	Latn
+fr	French	Latin	Latn
+fur	Friulian	Latin	Latn
 ff	Fulah	Unknown or Invalid Script	Zzzz		?		?
-gaa	Ga	Latin	Latn				
-gag	Gagauz	Latin	Latn			*	
-gag	Gagauz	Cyrillic	Cyrl		N	*	
-gl	Galician	Latin	Latn				
-lg	Ganda	Latin	Latn				
-gbm	Garhwali	Devanagari	Deva				
-grt	Garo	Bengali	Beng				
+gaa	Ga	Latin	Latn
+gag	Gagauz	Latin	Latn			*
+gag	Gagauz	Cyrillic	Cyrl		N	*
+gl	Galician	Latin	Latn
+lg	Ganda	Latin	Latn
+gbm	Garhwali	Devanagari	Deva
+grt	Garo	Bengali	Beng
 gay	Gayo	Unknown or Invalid Script	Zzzz		?		?
 gba	Gbaya	Unknown or Invalid Script	Zzzz		?		?
-gez	Geez	Ethiopic	Ethi	O	N		
-ka	Georgian	Georgian	Geor				
-de	German	Latin	Latn			*	
+gez	Geez	Ethiopic	Ethi	O	N
+ka	Georgian	Georgian	Geor
+de	German	Latin	Latn			*
 de	German	Runic	Runr		N	*	N
-gil	Gilbertese	Latin	Latn				
-gon	Gondi	Devanagari	Deva			*	
-gon	Gondi	Telugu	Telu			*	
-gor	Gorontalo	Latin	Latn				
+gil	Gilbertese	Latin	Latn
+gon	Gondi	Devanagari	Deva			*
+gon	Gondi	Telugu	Telu			*
+gor	Gorontalo	Latin	Latn
 got	Gothic	Gothic	Goth	O	N		N
 grb	Grebo	Unknown or Invalid Script	Zzzz		?		?
-el	Greek	Greek	Grek				
-gn	Guarani	Latin	Latn				
-gcr	Guianese Creole French	Latin	Latn				
-gu	Gujarati	Gujarati	Gujr				
-gwi	Gwich'in	Latin	Latn				
-hoj	Hadothi	Devanagari	Deva				
-hai	Haida	Latin	Latn				
-ht	Haitian	Latin	Latn				
-hnn	Hanunoo	Latin	Latn			*	
+el	Greek	Greek	Grek
+gn	Guarani	Latin	Latn
+gcr	Guianese Creole French	Latin	Latn
+gu	Gujarati	Gujarati	Gujr
+gwi	Gwich'in	Latin	Latn
+hoj	Hadothi	Devanagari	Deva
+hai	Haida	Latin	Latn
+ht	Haitian	Latin	Latn
+hnn	Hanunoo	Latin	Latn			*
 hnn	Hanunoo	Hanunoo	Hano		N	*	N
-ha	Hausa	Latin	Latn			*	
-ha	Hausa	Arabic	Arab			*	
-haw	Hawaiian	Latin	Latn				
-he	Hebrew	Hebrew	Hebr				
+ha	Hausa	Latin	Latn			*
+ha	Hausa	Arabic	Arab			*
+haw	Hawaiian	Latin	Latn
+he	Hebrew	Hebrew	Hebr
 hz	Herero	Unknown or Invalid Script	Zzzz		?		?
-hil	Hiligaynon	Latin	Latn				
-hi	Hindi	Devanagari	Deva				
-ho	Hiri Motu	Latin	Latn				
-hmn	Hmong	Latin	Latn				
+hil	Hiligaynon	Latin	Latn
+hi	Hindi	Devanagari	Deva
+ho	Hiri Motu	Latin	Latn
+hmn	Hmong	Latin	Latn
 hmn	Hmong	Pahawh Hmong	Hmng		N		N
-hoc	Ho	Devanagari	Deva				
-hop	Hopi	Latin	Latn				
-hu	Hungarian	Latin	Latn				
+hoc	Ho	Devanagari	Deva
+hop	Hopi	Latin	Latn
+hu	Hungarian	Latin	Latn
 hup	Hupa	Unknown or Invalid Script	Zzzz		?		?
 iba	Iban	Unknown or Invalid Script	Zzzz		?		?
-ibb	Ibibio	Latin	Latn				
-is	Icelandic	Latin	Latn				
-ig	Igbo	Latin	Latn				
-ilo	Iloko	Latin	Latn				
-smn	Inari Sami	Latin	Latn				
-id	Indonesian	Latin	Latn			*	
-id	Indonesian	Arabic	Arab		N	*	
-inh	Ingush	Latin	Latn		N	*	
-inh	Ingush	Arabic	Arab		N	*	
-inh	Ingush	Cyrillic	Cyrl			*	
-ia	Interlingua	Latin	Latn	O	N		
-iu	Inuktitut	Latin	Latn			*	
-iu	Inuktitut	Cyrillic	Cyrl		N	*	
-iu	Inuktitut	Unified Canadian Aboriginal Syllabics	Cans			*	
-ik	Inupiaq	Latin	Latn				
-ga	Irish	Latin	Latn				
-it	Italian	Latin	Latn				
-ja	Japanese	Japanese	Jpan			*	
-ja	Japanese	Hiragana	_hir			!	
-ja	Japanese	Katakana	Kana			!	
-ja	Japanese	CJK	_cjk			!	
-ja	Japanese	Kanbun	_kbn			!	
-jv	Javanese	Latin	Latn			*	
+ibb	Ibibio	Latin	Latn
+is	Icelandic	Latin	Latn
+ig	Igbo	Latin	Latn
+ilo	Iloko	Latin	Latn
+smn	Inari Sami	Latin	Latn
+id	Indonesian	Latin	Latn			*
+id	Indonesian	Arabic	Arab		N	*
+inh	Ingush	Latin	Latn		N	*
+inh	Ingush	Arabic	Arab		N	*
+inh	Ingush	Cyrillic	Cyrl			*
+ia	Interlingua	Latin	Latn	O	N
+iu	Inuktitut	Latin	Latn			*
+iu	Inuktitut	Cyrillic	Cyrl		N	*
+iu	Inuktitut	Unified Canadian Aboriginal Syllabics	Cans			*
+ik	Inupiaq	Latin	Latn
+ga	Irish	Latin	Latn
+it	Italian	Latin	Latn
+ja	Japanese	Japanese	Jpan			*
+ja	Japanese	Hiragana	_hir			!
+ja	Japanese	Katakana	Kana			!
+ja	Japanese	CJK	_cjk			!
+ja	Japanese	Kanbun	_kbn			!
+jv	Javanese	Latin	Latn			*
 jv	Javanese	Javanese	Java		N	*	N
-kaj	Jju	Latin	Latn				
+kaj	Jju	Latin	Latn
 jrb	Judeo-Arabic	Unknown or Invalid Script	Zzzz		?		?
 jpr	Judeo-Persian	Unknown or Invalid Script	Zzzz		?		?
-kbd	Kabardian	Cyrillic	Cyrl				
-kab	Kabyle	Latin	Latn				
-kfr	Kachchi	Devanagari	Deva				
+kbd	Kabardian	Cyrillic	Cyrl
+kab	Kabyle	Latin	Latn
+kfr	Kachchi	Devanagari	Deva
 kac	Kachin	Unknown or Invalid Script	Zzzz		?		?
-kl	Kalaallisut	Latin	Latn				
-xal	Kalmyk	Cyrillic	Cyrl				
-kam	Kamba	Latin	Latn				
-bjj	Kanauji	Devanagari	Deva				
-kn	Kannada	Kannada	Knda				
-kr	Kanuri	Latin	Latn				
-kaa	Kara-Kalpak	Cyrillic	Cyrl				
-krc	Karachay-Balkar	Cyrillic	Cyrl				
-krl	Karelian	Latin	Latn			*	
-krl	Karelian	Cyrillic	Cyrl			*	
-ks	Kashmiri	Arabic	Arab			*	
-ks	Kashmiri	Devanagari	Deva			*	
+kl	Kalaallisut	Latin	Latn
+xal	Kalmyk	Cyrillic	Cyrl
+kam	Kamba	Latin	Latn
+bjj	Kanauji	Devanagari	Deva
+kn	Kannada	Kannada	Knda
+kr	Kanuri	Latin	Latn
+kaa	Kara-Kalpak	Cyrillic	Cyrl
+krc	Karachay-Balkar	Cyrillic	Cyrl
+krl	Karelian	Latin	Latn			*
+krl	Karelian	Cyrillic	Cyrl			*
+ks	Kashmiri	Arabic	Arab			*
+ks	Kashmiri	Devanagari	Deva			*
 csb	Kashubian	Unknown or Invalid Script	Zzzz		?		?
-kk	Kazakh	Cyrillic	Cyrl				
-kjh	Khakas	Cyrillic	Cyrl				
-kht	Khamti	Myanmar	Mymr				
-kca	Khanty	Cyrillic	Cyrl				
-kha	Khasi	Latin	Latn			*	
-kha	Khasi	Bengali	Beng		N	*	
-km	Khmer	Khmer	Khmr				
-ki	Kikuyu	Latin	Latn				
-kmb	Kimbundu	Latin	Latn				
-rw	Kinyarwanda	Latin	Latn				
-ky	Kirghiz	Latin	Latn		N	*	
-ky	Kirghiz	Arabic	Arab			*	
-ky	Kirghiz	Cyrillic	Cyrl			*	
+kk	Kazakh	Cyrillic	Cyrl
+kjh	Khakas	Cyrillic	Cyrl
+kht	Khamti	Myanmar	Mymr
+kca	Khanty	Cyrillic	Cyrl
+kha	Khasi	Latin	Latn			*
+kha	Khasi	Bengali	Beng		N	*
+km	Khmer	Khmer	Khmr
+ki	Kikuyu	Latin	Latn
+kmb	Kimbundu	Latin	Latn
+rw	Kinyarwanda	Latin	Latn
+ky	Kirghiz	Latin	Latn		N	*
+ky	Kirghiz	Arabic	Arab			*
+ky	Kirghiz	Cyrillic	Cyrl			*
 kv	Komi	Latin	Latn			*
 kv	Komi	Cyrillic	Cyrl			*
-koi	Komi-Permyak	Cyrillic	Cyrl			
-kpv	Komi-Zyrian	Cyrillic	Cyrl			
-kg	Kongo	Latin	Latn			
-kok	Konkani	Devanagari	Deva			
-ko	Korean	Korean	Kore			
+koi	Komi-Permyak	Cyrillic	Cyrl
+kpv	Komi-Zyrian	Cyrillic	Cyrl
+kg	Kongo	Latin	Latn
+kok	Konkani	Devanagari	Deva
+ko	Korean	Korean	Kore
 ko	Korean	CJK	_cjk			!
-kfo	Koro	Latin	Latn			
-kpy	Koryak	Cyrillic	Cyrl			
-kos	Kosraean	Latin	Latn			
-kpe	Kpelle	Latin	Latn			
-kj	Kuanyama	Latin	Latn			
-kum	Kumyk	Cyrillic	Cyrl			
+kfo	Koro	Latin	Latn
+kpy	Koryak	Cyrillic	Cyrl
+kos	Kosraean	Latin	Latn
+kpe	Kpelle	Latin	Latn
+kj	Kuanyama	Latin	Latn
+kum	Kumyk	Cyrillic	Cyrl
 ku	Kurdish	Latin	Latn			*
 ku	Kurdish	Arabic	Arab			*
-ku	Kurdish	Cyrillic	Cyrl			*	
-kru	Kurukh	Devanagari	Deva				
+ku	Kurdish	Cyrillic	Cyrl			*
+kru	Kurukh	Devanagari	Deva
 kut	Kutenai	Unknown or Invalid Script	Zzzz		?		?
-kdt	Kuy	Thai	Thai				
-lad	Ladino	Hebrew	Hebr				
-lah	Lahnda	Arabic	Arab				
-lbe	Lak	Cyrillic	Cyrl				
+kdt	Kuy	Thai	Thai
+lad	Ladino	Hebrew	Hebr
+lah	Lahnda	Arabic	Arab
+lbe	Lak	Cyrillic	Cyrl
 lam	Lamba	Unknown or Invalid Script	Zzzz		?		?
-lmn	Lambadi	Telugu	Telu				
-lo	Lao	Lao	Laoo				
-la	Latin	Latin	Latn	O			
-lv	Latvian	Latin	Latn				
-lep	Lepcha	Lepcha	Lepc				
-lez	Lezghian	Cyrillic	Cyrl				
-lif	Limbu	Devanagari	Deva			*	
-lif	Limbu	Limbu	Limb			*	
-li	Limburgish	Latin	Latn				
-ln	Lingala	Latin	Latn				
-lis	Lisu	Latin	Latn				
-lt	Lithuanian	Latin	Latn				
-nds	Low German	Latin	Latn				
-dsb	Lower Sorbian	Latin	Latn				
+lmn	Lambadi	Telugu	Telu
+lo	Lao	Lao	Laoo
+la	Latin	Latin	Latn	O
+lv	Latvian	Latin	Latn
+lep	Lepcha	Lepcha	Lepc
+lez	Lezghian	Cyrillic	Cyrl
+lif	Limbu	Devanagari	Deva			*
+lif	Limbu	Limbu	Limb			*
+li	Limburgish	Latin	Latn
+ln	Lingala	Latin	Latn
+lis	Lisu	Latin	Latn
+lt	Lithuanian	Latin	Latn
+nds	Low German	Latin	Latn
+dsb	Lower Sorbian	Latin	Latn
 loz	Lozi	Unknown or Invalid Script	Zzzz		?		?
-khb	Lu	New Tai Lue	Talu				
-lu	Luba-Katanga	Latin	Latn				
-lua	Luba-Lulua	Latin	Latn				
+khb	Lu	New Tai Lue	Talu
+lu	Luba-Katanga	Latin	Latn
+lua	Luba-Lulua	Latin	Latn
 lui	Luiseno	Unknown or Invalid Script	Zzzz		?		?
-smj	Lule Sami	Latin	Latn				
+smj	Lule Sami	Latin	Latn
 lun	Lunda	Unknown or Invalid Script	Zzzz		?		?
-luo	Luo	Latin	Latn				
+luo	Luo	Latin	Latn
 lus	Lushai	Unknown or Invalid Script	Zzzz		?		?
-lut	Lushootseed	Latin	Latn				
-lb	Luxembourgish	Latin	Latn				
-mk	Macedonian	Cyrillic	Cyrl				
-mad	Madurese	Latin	Latn				
-mag	Magahi	Devanagari	Deva				
-mdh	Maguindanao	Latin	Latn				
-mai	Maithili	Devanagari	Deva				
-mak	Makasar	Latin	Latn				
-mg	Malagasy	Latin	Latn				
-ms	Malay	Latin	Latn			*	
-ms	Malay	Arabic	Arab		N	*	
-ml	Malayalam	Malayalam	Mlym				
-mt	Maltese	Latin	Latn				
-mnc	Manchu	Mongolian	Mong				
+lut	Lushootseed	Latin	Latn
+lb	Luxembourgish	Latin	Latn
+mk	Macedonian	Cyrillic	Cyrl
+mad	Madurese	Latin	Latn
+mag	Magahi	Devanagari	Deva
+mdh	Maguindanao	Latin	Latn
+mai	Maithili	Devanagari	Deva
+mak	Makasar	Latin	Latn
+mg	Malagasy	Latin	Latn
+ms	Malay	Latin	Latn			*
+ms	Malay	Arabic	Arab		N	*
+ml	Malayalam	Malayalam	Mlym
+mt	Maltese	Latin	Latn
+mnc	Manchu	Mongolian	Mong
 mdr	Mandar	Buginese	Bugi		N		N
 man	Mandingo	Unknown or Invalid Script	Zzzz		?		?
-mni	Manipuri	Bengali	Beng				
-mns	Mansi	Cyrillic	Cyrl				
-gv	Manx	Latin	Latn				
-mi	Maori	Latin	Latn				
-mr	Marathi	Devanagari	Deva				
-chm	Mari	Latin	Latn			*	
-chm	Mari	Cyrillic	Cyrl			*	
-mh	Marshallese	Latin	Latn				
-mwr	Marwari	Devanagari	Deva				
+mni	Manipuri	Bengali	Beng
+mns	Mansi	Cyrillic	Cyrl
+gv	Manx	Latin	Latn
+mi	Maori	Latin	Latn
+mr	Marathi	Devanagari	Deva
+chm	Mari	Latin	Latn			*
+chm	Mari	Cyrillic	Cyrl			*
+mh	Marshallese	Latin	Latn
+mwr	Marwari	Devanagari	Deva
 mas	Masai	Unknown or Invalid Script	Zzzz		?		?
-men	Mende	Latin	Latn				
+men	Mende	Latin	Latn
 mic	Micmac	Unknown or Invalid Script	Zzzz		?		?
-min	Minangkabau	Latin	Latn				
+min	Minangkabau	Latin	Latn
 mwl	Mirandese	Unknown or Invalid Script	Zzzz		?		?
 moh	Mohawk	Unknown or Invalid Script	Zzzz		?		?
-mdf	Moksha	Cyrillic	Cyrl				
-mo	Moldavian	Latin	Latn				
-mnw	Mon	Myanmar	Mymr				
-lol	Mongo	Latin	Latn				
-mn	Mongolian	Cyrillic	Cyrl			*	
-mn	Mongolian	Mongolian	Mong			*	
+mdf	Moksha	Cyrillic	Cyrl
+mo	Moldavian	Latin	Latn
+mnw	Mon	Myanmar	Mymr
+lol	Mongo	Latin	Latn
+mn	Mongolian	Cyrillic	Cyrl			*
+mn	Mongolian	Mongolian	Mong			*
 mn	Mongolian	Phags-pa	Phag		N	*	N
-mfe	Morisyen	Latin	Latn				
-mos	Mossi	Latin	Latn				
-ttt	Muslim Tat	Cyrillic	Cyrl				
-nqo	N'Ko	N'Ko	Nkoo				
-gld	Nanai	Cyrillic	Cyrl				
-na	Nauru	Latin	Latn				
-nv	Navajo	Latin	Latn				
-nbf	Naxi	Latin	Latn				
-ng	Ndonga	Latin	Latn				
-nap	Neapolitan	Latin	Latn				
-yrk	Nenets	Cyrillic	Cyrl				
-ne	Nepali	Devanagari	Deva				
-new	Newari	Devanagari	Deva				
+mfe	Morisyen	Latin	Latn
+mos	Mossi	Latin	Latn
+ttt	Muslim Tat	Cyrillic	Cyrl
+nqo	N'Ko	N'Ko	Nkoo
+gld	Nanai	Cyrillic	Cyrl
+na	Nauru	Latin	Latn
+nv	Navajo	Latin	Latn
+nbf	Naxi	Latin	Latn
+ng	Ndonga	Latin	Latn
+nap	Neapolitan	Latin	Latn
+yrk	Nenets	Cyrillic	Cyrl
+ne	Nepali	Devanagari	Deva
+new	Newari	Devanagari	Deva
 nia	Nias	Unknown or Invalid Script	Zzzz		?		?
-niu	Niuean	Latin	Latn				
-nog	Nogai	Cyrillic	Cyrl				
-nd	North Ndebele	Latin	Latn				
-tts	Northeastern Thai	Thai	Thai				
-frr	Northern Frisian	Latin	Latn				
-se	Northern Sami	Latin	Latn			*	
-se	Northern Sami	Cyrillic	Cyrl		N	*	
-nso	Northern Sotho	Latin	Latn				
-no	Norwegian	Latin	Latn				
-nb	Norwegian Bokmal	Latin	Latn				
-nn	Norwegian Nynorsk	Latin	Latn				
-nym	Nyamwezi	Latin	Latn				
-ny	Nyanja	Latin	Latn				
-nyn	Nyankole	Latin	Latn				
+niu	Niuean	Latin	Latn
+nog	Nogai	Cyrillic	Cyrl
+nd	North Ndebele	Latin	Latn
+tts	Northeastern Thai	Thai	Thai
+frr	Northern Frisian	Latin	Latn
+se	Northern Sami	Latin	Latn			*
+se	Northern Sami	Cyrillic	Cyrl		N	*
+nso	Northern Sotho	Latin	Latn
+no	Norwegian	Latin	Latn
+nb	Norwegian Bokmal	Latin	Latn
+nn	Norwegian Nynorsk	Latin	Latn
+nym	Nyamwezi	Latin	Latn
+ny	Nyanja	Latin	Latn
+nyn	Nyankole	Latin	Latn
 tog	Nyasa Tonga	Unknown or Invalid Script	Zzzz		?		?
 nyo	Nyoro	Unknown or Invalid Script	Zzzz		?		?
 nzi	Nzima	Unknown or Invalid Script	Zzzz		?		?
-oc	Occitan	Latin	Latn				
+oc	Occitan	Latin	Latn
 oj	Ojibwa	Unknown or Invalid Script	Zzzz		?		?
-sga	Old Irish	Latin	Latn	O	N	*	
+sga	Old Irish	Latin	Latn	O	N	*
 sga	Old Irish	Ogham	Ogam			*	N
 peo	Old Persian	Old Persian	Xpeo	O	N		N
-or	Oriya	Oriya	Orya				
-om	Oromo	Latin	Latn			*	
-om	Oromo	Ethiopic	Ethi		N	*	
+or	Oriya	Oriya	Orya
+om	Oromo	Latin	Latn			*
+om	Oromo	Ethiopic	Ethi		N	*
 osa	Osage	Unknown or Invalid Script	Zzzz		?		?
-osc	Oscan	Latin	Latn	O	N		
+osc	Oscan	Latin	Latn	O	N
 osc	Oscan	Old Italic	Ital			*	N
-os	Ossetic	Latin	Latn			*	
-os	Ossetic	Cyrillic	Cyrl			*	
-pau	Palauan	Latin	Latn				
-pi	Pali	Devanagari	Deva	O	N	*	
-pi	Pali	Sinhala	Sinh			*	
-pi	Pali	Thai	Thai			*	
-pam	Pampanga	Latin	Latn				
-pag	Pangasinan	Latin	Latn				
-pap	Papiamento	Latin	Latn				
-prd	Parsi-Dari	Arabic	Arab				
-ps	Pashto	Arabic	Arab				
-fa	Persian	Arabic	Arab				
+os	Ossetic	Latin	Latn			*
+os	Ossetic	Cyrillic	Cyrl			*
+pau	Palauan	Latin	Latn
+pi	Pali	Devanagari	Deva	O	N	*
+pi	Pali	Sinhala	Sinh			*
+pi	Pali	Thai	Thai			*
+pam	Pampanga	Latin	Latn
+pag	Pangasinan	Latin	Latn
+pap	Papiamento	Latin	Latn
+prd	Parsi-Dari	Arabic	Arab
+ps	Pashto	Arabic	Arab
+fa	Persian	Arabic	Arab
 phn	Phoenician	Phoenician	Phnx	O	N		N
-crk	Plains Cree	Unified Canadian Aboriginal Syllabics	Cans				
-pon	Pohnpeian	Latin	Latn				
-pl	Polish	Latin	Latn				
-pt	Portuguese	Latin	Latn				
+crk	Plains Cree	Unified Canadian Aboriginal Syllabics	Cans
+pon	Pohnpeian	Latin	Latn
+pl	Polish	Latin	Latn
+pt	Portuguese	Latin	Latn
 pra	Prakrit Language	Kharoshthi	Khar		N		N
-prg	Prussian	Latin	Latn	O	N		
-pa	Punjabi	Arabic	Arab		N	*	
-pa	Punjabi	Gurmukhi	Guru			*	
-qu	Quechua	Latin	Latn				
+prg	Prussian	Latin	Latn	O	N
+pa	Punjabi	Arabic	Arab		N	*
+pa	Punjabi	Gurmukhi	Guru			*
+qu	Quechua	Latin	Latn
 raj	Rajasthani	Unknown or Invalid Script	Zzzz		?		?
 rap	Rapanui	Unknown or Invalid Script	Zzzz		?		?
 rar	Rarotongan	Unknown or Invalid Script	Zzzz		?		?
-rcf	Reunion Creole French	Latin	Latn				
-rm	Rhaeto-Romance	Latin	Latn				
-ril	Riang (Myanmar)	Bengali	Beng				
-ro	Romanian	Latin	Latn			*	
-ro	Romanian	Cyrillic	Cyrl		N	*	
-rom	Romany	Latin	Latn			*	
-rom	Romany	Cyrillic	Cyrl			*	
-rn	Rundi	Latin	Latn				
-bxr	Russia Buriat	Cyrillic	Cyrl				
-ru	Russian	Cyrillic	Cyrl				
-sam	Samaritan Aramaic	Hebrew	Hebr	O	N		
-smi	Sami Language	Latin	Latn		N		
-sm	Samoan	Latin	Latn				
+rcf	Reunion Creole French	Latin	Latn
+rm	Rhaeto-Romance	Latin	Latn
+ril	Riang (Myanmar)	Bengali	Beng
+ro	Romanian	Latin	Latn			*
+ro	Romanian	Cyrillic	Cyrl		N	*
+rom	Romany	Latin	Latn			*
+rom	Romany	Cyrillic	Cyrl			*
+rn	Rundi	Latin	Latn
+bxr	Russia Buriat	Cyrillic	Cyrl
+ru	Russian	Cyrillic	Cyrl
+sam	Samaritan Aramaic	Hebrew	Hebr	O	N
+smi	Sami Language	Latin	Latn		N
+sm	Samoan	Latin	Latn
 sad	Sandawe	Unknown or Invalid Script	Zzzz		?		?
-sg	Sango	Latin	Latn				
-sa	Sanskrit	Devanagari	Deva	O	N	*	
-sa	Sanskrit	Sinhala	Sinh			*	
-sat	Santali	Devanagari	Deva			*	
-sat	Santali	Bengali	Beng		N	*	
-sat	Santali	Ol Chiki	Olck			*	
-sat	Santali	Oriya	Orya			*	
+sg	Sango	Latin	Latn
+sa	Sanskrit	Devanagari	Deva	O	N	*
+sa	Sanskrit	Sinhala	Sinh			*
+sat	Santali	Devanagari	Deva			*
+sat	Santali	Bengali	Beng		N	*
+sat	Santali	Ol Chiki	Olck			*
+sat	Santali	Oriya	Orya			*
 sc	Sardinian	Unknown or Invalid Script	Zzzz		?		?
-sas	Sasak	Latin	Latn				
-sco	Scots	Latin	Latn				
-gd	Scottish Gaelic	Latin	Latn				
-sel	Selkup	Cyrillic	Cyrl				
-sr	Serbian	Latin	Latn			*	
-sr	Serbian	Cyrillic	Cyrl			*	
-srr	Serer	Latin	Latn				
-shn	Shan	Myanmar	Mymr				
-xsr	Sherpa	Devanagari	Deva				
-sn	Shona	Latin	Latn				
-cjs	Shor	Cyrillic	Cyrl				
-ii	Sichuan Yi	Latin	Latn			*	
-ii	Sichuan Yi	Yi	Yiii			*	
-scn	Sicilian	Latin	Latn				
-sid	Sidamo	Latin	Latn				
+sas	Sasak	Latin	Latn
+sco	Scots	Latin	Latn
+gd	Scottish Gaelic	Latin	Latn
+sel	Selkup	Cyrillic	Cyrl
+sr	Serbian	Latin	Latn			*
+sr	Serbian	Cyrillic	Cyrl			*
+srr	Serer	Latin	Latn
+shn	Shan	Myanmar	Mymr
+xsr	Sherpa	Devanagari	Deva
+sn	Shona	Latin	Latn
+cjs	Shor	Cyrillic	Cyrl
+ii	Sichuan Yi	Latin	Latn			*
+ii	Sichuan Yi	Yi	Yiii			*
+scn	Sicilian	Latin	Latn
+sid	Sidamo	Latin	Latn
 bla	Siksika	Unknown or Invalid Script	Zzzz		?		?
-sd	Sindhi	Arabic	Arab			*	
-sd	Sindhi	Devanagari	Deva			*	
-si	Sinhala	Sinhala	Sinh				
-sms	Skolt Sami	Latin	Latn				
+sd	Sindhi	Arabic	Arab			*
+sd	Sindhi	Devanagari	Deva			*
+si	Sinhala	Sinhala	Sinh
+sms	Skolt Sami	Latin	Latn
 den	Slave	Unknown or Invalid Script	Zzzz		?		?
-sk	Slovak	Latin	Latn				
-sl	Slovenian	Latin	Latn				
-so	Somali	Latin	Latn			*	
+sk	Slovak	Latin	Latn
+sl	Slovenian	Latin	Latn
+so	Somali	Latin	Latn			*
 so	Somali	Osmanya	Osma		N	*	N
-son	Songhai	Latin	Latn				
-snk	Soninke	Latin	Latn				
-nr	South Ndebele	Latin	Latn				
+son	Songhai	Latin	Latn
+snk	Soninke	Latin	Latn
+nr	South Ndebele	Latin	Latn
 alt	Southern Altai	Unknown or Invalid Script	Zzzz		?		?
-sma	Southern Sami	Latin	Latn				
-st	Southern Sotho	Latin	Latn				
-es	Spanish	Latin	Latn				
-srn	Sranan Tongo	Latin	Latn				
-suk	Sukuma	Latin	Latn				
-su	Sundanese	Latin	Latn				
-sus	Susu	Latin	Latn			*	
-sus	Susu	Arabic	Arab		N	*	
-sw	Swahili	Latin	Latn				
-ss	Swati	Latin	Latn				
-sv	Swedish	Latin	Latn				
-gsw	Swiss German	Latin	Latn				
-syl	Sylheti	Bengali	Beng			*	
+sma	Southern Sami	Latin	Latn
+st	Southern Sotho	Latin	Latn
+es	Spanish	Latin	Latn
+srn	Sranan Tongo	Latin	Latn
+suk	Sukuma	Latin	Latn
+su	Sundanese	Latin	Latn
+sus	Susu	Latin	Latn			*
+sus	Susu	Arabic	Arab		N	*
+sw	Swahili	Latin	Latn
+ss	Swati	Latin	Latn
+sv	Swedish	Latin	Latn
+gsw	Swiss German	Latin	Latn
+syl	Sylheti	Bengali	Beng			*
 syl	Sylheti	Syloti Nagri	Sylo		N	*	N
 syr	Syriac	Syriac	Syrc		N		N
-tab	Tabassaran	Cyrillic	Cyrl				
-tl	Tagalog	Latin	Latn				
-tbw	Tagbanwa	Latin	Latn			*	
+tab	Tabassaran	Cyrillic	Cyrl
+tl	Tagalog	Latin	Latn
+tbw	Tagbanwa	Latin	Latn			*
 tbw	Tagbanwa	Tagbanwa	Tagb		N	*	N
-ty	Tahitian	Latin	Latn				
-tdd	Tai Nua	Tai Le	Tale				
-tg	Tajik	Latin	Latn			*	
-tg	Tajik	Arabic	Arab			*	
-tg	Tajik	Cyrillic	Cyrl			*	
-tmh	Tamashek	Latin	Latn				
-ta	Tamil	Tamil	Taml				
-tt	Tatar	Cyrillic	Cyrl				
-tsg	Tausug	Latin	Latn				
-te	Telugu	Telugu	Telu				
+ty	Tahitian	Latin	Latn
+tdd	Tai Nua	Tai Le	Tale
+tg	Tajik	Latin	Latn			*
+tg	Tajik	Arabic	Arab			*
+tg	Tajik	Cyrillic	Cyrl			*
+tmh	Tamashek	Latin	Latn
+ta	Tamil	Tamil	Taml
+tt	Tatar	Cyrillic	Cyrl
+tsg	Tausug	Latin	Latn
+te	Telugu	Telugu	Telu
 ter	Tereno	Unknown or Invalid Script	Zzzz		?		?
-tet	Tetum	Latin	Latn				
-th	Thai	Thai	Thai				
-bo	Tibetan	Tibetan	Tibt				
-tig	Tigre	Ethiopic	Ethi				
-ti	Tigrinya	Ethiopic	Ethi				
-tem	Timne	Latin	Latn				
-tiv	Tiv	Latin	Latn				
+tet	Tetum	Latin	Latn
+th	Thai	Thai	Thai
+bo	Tibetan	Tibetan	Tibt
+tig	Tigre	Ethiopic	Ethi
+ti	Tigrinya	Ethiopic	Ethi
+tem	Timne	Latin	Latn
+tiv	Tiv	Latin	Latn
 tli	Tlingit	Unknown or Invalid Script	Zzzz		?		?
-tpi	Tok Pisin	Latin	Latn				
-tkl	Tokelau	Latin	Latn				
-to	Tonga	Latin	Latn				
+tpi	Tok Pisin	Latin	Latn
+tkl	Tokelau	Latin	Latn
+to	Tonga	Latin	Latn
 tsi	Tsimshian	Unknown or Invalid Script	Zzzz		?		?
-ts	Tsonga	Latin	Latn				
-tn	Tswana	Latin	Latn				
-tcy	Tulu	Kannada	Knda				
-tum	Tumbuka	Latin	Latn				
-tr	Turkish	Latin	Latn				
-tk	Turkmen	Latin	Latn			*	
-tk	Turkmen	Arabic	Arab			*	
-tk	Turkmen	Cyrillic	Cyrl			*	
-tru	Turoyo	Latin	Latn			*	
+ts	Tsonga	Latin	Latn
+tn	Tswana	Latin	Latn
+tcy	Tulu	Kannada	Knda
+tum	Tumbuka	Latin	Latn
+tr	Turkish	Latin	Latn
+tk	Turkmen	Latin	Latn			*
+tk	Turkmen	Arabic	Arab			*
+tk	Turkmen	Cyrillic	Cyrl			*
+tru	Turoyo	Latin	Latn			*
 tru	Turoyo	Syriac	Syrc		N	*	N
-tvl	Tuvalu	Latin	Latn				
-tyv	Tuvinian	Cyrillic	Cyrl				
-tw	Twi	Latin	Latn				
-kcg	Tyap	Latin	Latn				
-ude	Udihe	Cyrillic	Cyrl				
-udm	Udmurt	Latin	Latn		N	*	
-udm	Udmurt	Cyrillic	Cyrl			*	
+tvl	Tuvalu	Latin	Latn
+tyv	Tuvinian	Cyrillic	Cyrl
+tw	Twi	Latin	Latn
+kcg	Tyap	Latin	Latn
+ude	Udihe	Cyrillic	Cyrl
+udm	Udmurt	Latin	Latn		N	*
+udm	Udmurt	Cyrillic	Cyrl			*
 uga	Ugaritic	Ugaritic	Ugar	O	N		N
-ug	Uighur	Latin	Latn			*	
-ug	Uighur	Arabic	Arab			*	
-ug	Uighur	Cyrillic	Cyrl		N	*	
-uk	Ukrainian	Cyrillic	Cyrl				
-uli	Ulithian	Latin	Latn				
-xum	Umbrian	Latin	Latn	O	N	*	
+ug	Uighur	Latin	Latn			*
+ug	Uighur	Arabic	Arab			*
+ug	Uighur	Cyrillic	Cyrl		N	*
+uk	Ukrainian	Cyrillic	Cyrl
+uli	Ulithian	Latin	Latn
+xum	Umbrian	Latin	Latn	O	N	*
 xum	Umbrian	Old Italic	Ital			*	N
-umb	Umbundu	Latin	Latn				
+umb	Umbundu	Latin	Latn
 und	Unknown or Invalid Language	Carian	Cari			*	N
 und	Unknown or Invalid Language	Deseret	Dsrt			*
 und	Unknown or Invalid Language	Hangul	Hang			*
@@ -536,38 +536,38 @@ und	Unknown or Invalid Language	Saurashtra	Saur			*
 und	Unknown or Invalid Language	Shavian	Shaw			*
 und	Unknown or Invalid Language	Sundanese	Sund			*
 und	Unknown or Invalid Language	Tagalog	Tglg			*
-und	Unknown or Invalid Language	Han	Hani	?	?	
-hsb	Upper Sorbian	Latin	Latn			
-ur	Urdu	Arabic	Arab			
+und	Unknown or Invalid Language	Han	Hani	?	?
+hsb	Upper Sorbian	Latin	Latn
+ur	Urdu	Arabic	Arab
 uz	Uzbek	Latin	Latn			*
-uz	Uzbek	Arabic	Arab			
+uz	Uzbek	Arabic	Arab
 uz	Uzbek	Cyrillic	Cyrl			*
-vai	Vai	Vai	Vaii		N		
-ve	Venda	Latin	Latn				
-vi	Vietnamese	Latin	Latn				
-vo	Volapuk	Latin	Latn	O	N		
+vai	Vai	Vai	Vaii		N
+ve	Venda	Latin	Latn
+vi	Vietnamese	Latin	Latn
+vo	Volapuk	Latin	Latn	O	N
 vot	Votic	Unknown or Invalid Script	Zzzz		?		?
-wal	Walamo	Ethiopic	Ethi				
-wa	Walloon	Latin	Latn				
-war	Waray	Latin	Latn				
+wal	Walamo	Ethiopic	Ethi
+wa	Walloon	Latin	Latn
+war	Waray	Latin	Latn
 was	Washo	Unknown or Invalid Script	Zzzz		?		?
-cy	Welsh	Latin	Latn				
-cja	Western Cham	Devanagari	Deva		N	*	
-cja	Western Cham	Cham	Cham			*	
-fy	Western Frisian	Latin	Latn				
-lcp	Western Lawa	Thai	Thai				
-wo	Wolof	Latin	Latn			*	
-wo	Wolof	Arabic	Arab		N	*	
-cwd	Woods Cree	Unified Canadian Aboriginal Syllabics	Cans				
-xh	Xhosa	Latin	Latn				
-sah	Yakut	Cyrillic	Cyrl				
-yao	Yao	Latin	Latn				
-yap	Yapese	Latin	Latn				
-yi	Yiddish	Hebrew	Hebr				
-yo	Yoruba	Latin	Latn				
+cy	Welsh	Latin	Latn
+cja	Western Cham	Devanagari	Deva		N	*
+cja	Western Cham	Cham	Cham			*
+fy	Western Frisian	Latin	Latn
+lcp	Western Lawa	Thai	Thai
+wo	Wolof	Latin	Latn			*
+wo	Wolof	Arabic	Arab		N	*
+cwd	Woods Cree	Unified Canadian Aboriginal Syllabics	Cans
+xh	Xhosa	Latin	Latn
+sah	Yakut	Cyrillic	Cyrl
+yao	Yao	Latin	Latn
+yap	Yapese	Latin	Latn
+yi	Yiddish	Hebrew	Hebr
+yo	Yoruba	Latin	Latn
 zap	Zapotec	Unknown or Invalid Script	Zzzz		?		?
 zza	Zaza	Unknown or Invalid Script	Zzzz		?		?
 zen	Zenaga	Unknown or Invalid Script	Zzzz		?		?
-za	Zhuang	Simplified Han	Hans				
-zu	Zulu	Latin	Latn				
+za	Zhuang	Simplified Han	Hans
+zu	Zulu	Latin	Latn
 zun	Zuni	Unknown or Invalid Script	Zzzz		?		?

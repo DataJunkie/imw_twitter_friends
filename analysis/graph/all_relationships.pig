@@ -3,7 +3,7 @@
 -- AAtsignsB_1     = JOIN AAtsignsB_N BY user_b_name, Users BY screen_name PARALLEL 100;
 -- AAtsignsB       = FOREACH AAtsignsB_1  GENERATE AAtsignsB_N::rsrc AS rsrc, user_a_id AS user_a_id, Users::user_id AS user_b_id, tw_id AS tw_id;
 -- STORE AAtsignsB INTO 'fixd/rels/a_atsigns_b_i.tsv' ;
--- 
+--
 -- ARetweetsB_1    = JOIN ARetweetsB_N BY user_b_name, Users BY screen_name PARALLEL 100;
 -- ARetweetsB      = FOREACH ARetweetsB_1 GENERATE ARetweetsB_N::rsrc AS rsrc, user_a_id AS user_a_id, Users::user_id AS user_b_id, tw_id AS tw_id, pls_flag AS pls_flag, text AS text ;
 -- STORE ARetweetsB INTO 'fixd/rels/a_retweets_b_i.tsv' ;

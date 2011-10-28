@@ -100,7 +100,7 @@ Nbhd2Out        = LOAD 'meta/datanerds/nbhd_2_out.tsv'          AS (user_a_id: i
 Nbhd2IDs        = LOAD 'meta/datanerds/nbhd_2_ids.tsv'          AS (user_id: int);
 Nbhd2Users      = LOAD 'meta/datanerds/nbhd_2_users.tsv'        AS (user_id: int, scraped_at: long, screen_name: chararray, protected: int, followers_count: int, friends_count: int, statuses_count: int, favorites_count: int, created_at: long);
 
-Nbhd2OutUsers_1 = JOIN Nbhd2Out BY user_b_id, Users BY user_id; 
+Nbhd2OutUsers_1 = JOIN Nbhd2Out BY user_b_id, Users BY user_id;
 Nbhd2OutUsers   = FOREACH Nbhd2OutUsers_1 GENERATE user_a_id AS user_a_id, user_b_id AS user_b_id, scraped_at AS scraped_at, Users::screen_name AS screen_name, protected AS protected, followers_count AS followers_count, friends_count AS friends_count, statuses_count AS statuses_count, favorites_count AS favorites_count, created_at AS created_at ;
 STORE Nbhd2OutUsers INTO 'meta/datanerds/nbhd_2_out_users.tsv' ;
 
@@ -108,7 +108,7 @@ STORE Nbhd2OutUsers INTO 'meta/datanerds/nbhd_2_out_users.tsv' ;
 
 -- ===========================================================================
 --
--- Get all the ancillary 
+-- Get all the ancillary
 --
 
 -- All tweets from people in the community

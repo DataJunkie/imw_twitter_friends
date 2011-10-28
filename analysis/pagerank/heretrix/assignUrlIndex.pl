@@ -6,7 +6,7 @@ while(<STDIN>) {
 	$line = $_;
 	chomp($line);
 	($from,$to) = split(/ /,$line);
-	
+
 	if($from ne $prev) {
 		++$index;
 	}

@@ -2,7 +2,7 @@
 -- load data
 AllFollowers 	= LOAD 'fixd/flattened/all/a_follows_b.tsv'  AS (rsrc: chararray, user_a_id: int,  user_b_id: int);
 Users        	= LOAD 'fixd/flattened/all/twitter_user.tsv' AS (rsrc: chararray, user_id: int, scraped_at: long, screen_name: chararray, protected: int, followers_count: int, friends_count: int, statuses_count: int, favorites_count: int, created_at: long);
-UserNames 	= FOREACH Users 	GENERATE id, screen_name ; 
+UserNames 	= FOREACH Users 	GENERATE id, screen_name ;
 -- Extract all users in the in or out 1-neighborhood
 LocalNbhd_1  	= FILTER AllFollowers 	BY ((user_a_id == 1554031) OR (user_b_id == 1554031)) AND (user_a_id != 15045643) AND (user_b_id != 15045643) ;
 LocalNbhdIds_1  = FOREACH LocalNbhd_1 	GENERATE user_a_id AS user_id;
@@ -22,9 +22,9 @@ Nhd2           = DISTINCT Nhd2_1;
 
 
 -- Attach screen names
-Nhd2N_1        = JOIN Nhd2          	BY user_a_id, UserNames by user_id ; 
+Nhd2N_1        = JOIN Nhd2          	BY user_a_id, UserNames by user_id ;
 Nhd2N_2        = FOREACH Nhd2N_1    	GENERATE AllFollowers::user_a_id AS user_a_id, AllFollowers::user_b_id AS user_b_id, UserNames::screen_name AS user_a_name ;
-Nhd2N_3        = JOIN    Nhd2N_2       	BY user_b_id, UserNames by user_id ; 
+Nhd2N_3        = JOIN    Nhd2N_2       	BY user_b_id, UserNames by user_id ;
 Nhd2N          = FOREACH Nhd2N_3    	GENERATE user_a_id AS user_a_id, user_b_id AS user_b_id, user_a_name AS user_a_name, UserNames::screen_name AS user_b_name ;
 STORE Nhd2N INTO 'tmp/nbhds/local_2_pairs' ;
 

@@ -1,585 +1,585 @@
 http://www.unicode.org/cldr/data/charts/supplemental/languages_and_scripts.html
 
-Language                        Code    ML      P               Script                                  Code    MS      Language                        
+Language                        Code    ML      P               Script                                  Code    MS      Language
 
-Achinese                        ace                             Latin                                   Latn            Achinese                        
-Afar                            aa                              Latin                                   Latn            Afar                            
-Afrikaans                       af                              Latin                                   Latn            Afrikaans                       
-Ainu                            ain                     *       Latin                                   Latn            Ainu                            
-Akan                            ak                              Latin                                   Latn            Akan                            
-Albanian                        sq                              Latin                                   Latn            Albanian                        
-Amo                             amo                             Latin                                   Latn            Amo                             
-Asturian                        ast                             Latin                                   Latn            Asturian                        
-Atsam                           cch                             Latin                                   Latn            Atsam                           
-Aymara                          ay                              Latin                                   Latn            Aymara                          
-Azerbaijani                     az                      *       Latin                                   Latn            Azerbaijani                     
-Balinese                        ban                     *       Latin                                   Latn            Balinese                        
-Baluchi                         bal                     *       Latin                                   Latn            Baluchi                         
-Bambara                         bm                              Latin                                   Latn            Bambara                         
-Basque                          eu                              Latin                                   Latn            Basque                          
-Batak                           bya                     *       Latin                                   Latn            Batak                           
-Batak Toba                      bbc                     *       Latin                                   Latn            Batak Toba                      
-Bemba                           bem                             Latin                                   Latn            Bemba                           
-Bini                            bin                             Latin                                   Latn            Bini                            
-Bislama                         bi                              Latin                                   Latn            Bislama                         
-Bosnian                         bs                              Latin                                   Latn            Bosnian                         
-Breton                          br                              Latin                                   Latn            Breton                          
-Buginese                        bug                     *       Latin                                   Latn            Buginese                        
-Bushi                           buc                             Latin                                   Latn            Bushi                           
-Catalan                         ca                              Latin                                   Latn            Catalan                         
-Cebuano                         ceb                             Latin                                   Latn            Cebuano                         
-Central Atlas Tamazight         tzm                     *       Latin                                   Latn            Central Atlas Tamazight         
-Chamorro                        ch                              Latin                                   Latn            Chamorro                        
-Cherokee                        chr                     *       Latin                                   Latn            Cherokee                        
-Chuukese                        chk                             Latin                                   Latn            Chuukese                        
-Cornish                         kw                              Latin                                   Latn            Cornish                         
-Corsican                        co                              Latin                                   Latn            Corsican                        
-Cree                            cr                      *       Latin                                   Latn            Cree                            
-Croatian                        hr                              Latin                                   Latn            Croatian                        
-Czech                           cs                              Latin                                   Latn            Czech                           
-Danish                          da                              Latin                                   Latn            Danish                          
-Dogrib                          dgr                             Latin                                   Latn            Dogrib                          
-Dutch                           nl                              Latin                                   Latn            Dutch                           
-Dyula                           dyu                             Latin                                   Latn            Dyula                           
-Eastern Frisian                 frs                             Latin                                   Latn            Eastern Frisian                 
-Efik                            efi                             Latin                                   Latn            Efik                            
-English                         en                              Latin                                   Latn            English                         
-English-based Creole or Pidgin  cpe                             Latin                                   Latn            English-based Creole or Pidgin  
-Esperanto                       eo      O                       Latin                                   Latn            Esperanto                       
-Estonian                        et                              Latin                                   Latn            Estonian                        
-Etruscan                        ett     O       N       *       Latin                                   Latn            Etruscan                        
-Ewe                             ee                              Latin                                   Latn            Ewe                             
-Fang                            fan                             Latin                                   Latn            Fang                            
-Faroese                         fo                              Latin                                   Latn            Faroese                         
-Fijian                          fj                              Latin                                   Latn            Fijian                          
-Filipino                        fil                             Latin                                   Latn            Filipino                        
-Finnish                         fi                              Latin                                   Latn            Finnish                         
-Finno-Ugrian Language           fiu             N               Latin                                   Latn            Finno-Ugrian Language           
-Fon                             fon                             Latin                                   Latn            Fon                             
-French                          fr                              Latin                                   Latn            French                          
-Friulian                        fur                             Latin                                   Latn            Friulian                        
-Ga                              gaa                             Latin                                   Latn            Ga                              
-Gagauz                          gag                     *       Latin                                   Latn            Gagauz                          
-Galician                        gl                              Latin                                   Latn            Galician                        
-Ganda                           lg                              Latin                                   Latn            Ganda                           
-German                          de                      *       Latin                                   Latn            German                          
-Gilbertese                      gil                             Latin                                   Latn            Gilbertese                      
-Gorontalo                       gor                             Latin                                   Latn            Gorontalo                       
-Guarani                         gn                              Latin                                   Latn            Guarani                         
-Guianese Creole French          gcr                             Latin                                   Latn            Guianese Creole French          
-Gwich'in                        gwi                             Latin                                   Latn            Gwichʼin                        
-Haida                           hai                             Latin                                   Latn            Haida                           
-Haitian                         ht                              Latin                                   Latn            Haitian                         
-Hanunoo                         hnn                     *       Latin                                   Latn            Hanunoo                         
-Hausa                           ha                      *       Latin                                   Latn            Hausa                           
-Hawaiian                        haw                             Latin                                   Latn            Hawaiian                        
-Hiligaynon                      hil                             Latin                                   Latn            Hiligaynon                      
-Hiri Motu                       ho                              Latin                                   Latn            Hiri Motu                       
-Hmong                           hmn                             Latin                                   Latn            Hmong                           
-Hopi                            hop                             Latin                                   Latn            Hopi                            
-Hungarian                       hu                              Latin                                   Latn            Hungarian                       
-Ibibio                          ibb                             Latin                                   Latn            Ibibio                          
-Icelandic                       is                              Latin                                   Latn            Icelandic                       
-Igbo                            ig                              Latin                                   Latn            Igbo                            
-Iloko                           ilo                             Latin                                   Latn            Iloko                           
-Inari Sami                      smn                             Latin                                   Latn            Inari Sami                      
-Indonesian                      id                      *       Latin                                   Latn            Indonesian                      
-Ingush                          inh             N       *       Latin                                   Latn            Ingush                          
-Interlingua                     ia      O       N               Latin                                   Latn            Interlingua                     
-Inuktitut                       iu                      *       Latin                                   Latn            Inuktitut                       
-Inupiaq                         ik                              Latin                                   Latn            Inupiaq                         
-Irish                           ga                              Latin                                   Latn            Irish                           
-Italian                         it                              Latin                                   Latn            Italian                         
-Javanese                        jv                      *       Latin                                   Latn            Javanese                        
-Jju                             kaj                             Latin                                   Latn            Jju                             
-Kabyle                          kab                             Latin                                   Latn            Kabyle                          
-Kalaallisut                     kl                              Latin                                   Latn            Kalaallisut                     
-Kamba                           kam                             Latin                                   Latn            Kamba                           
-Kanuri                          kr                              Latin                                   Latn            Kanuri                          
-Karelian                        krl                     *       Latin                                   Latn            Karelian                        
-Khasi                           kha                     *       Latin                                   Latn            Khasi                           
-Kikuyu                          ki                              Latin                                   Latn            Kikuyu                          
-Kimbundu                        kmb                             Latin                                   Latn            Kimbundu                        
-Kinyarwanda                     rw                              Latin                                   Latn            Kinyarwanda                     
-Kirghiz                         ky              N       *       Latin                                   Latn            Kirghiz                         
-Komi                            kv                      *       Latin                                   Latn            Komi                            
-Kongo                           kg                              Latin                                   Latn            Kongo                           
-Koro                            kfo                             Latin                                   Latn            Koro                            
-Kosraean                        kos                             Latin                                   Latn            Kosraean                        
-Kpelle                          kpe                             Latin                                   Latn            Kpelle                          
-Kuanyama                        kj                              Latin                                   Latn            Kuanyama                        
-Kurdish                         ku                      *       Latin                                   Latn            Kurdish                         
-Latin                           la      O                       Latin                                   Latn            Latin                           
-Latvian                         lv                              Latin                                   Latn            Latvian                         
-Limburgish                      li                              Latin                                   Latn            Limburgish                      
-Lingala                         ln                              Latin                                   Latn            Lingala                         
-Lisu                            lis                             Latin                                   Latn            Lisu                            
-Lithuanian                      lt                              Latin                                   Latn            Lithuanian                      
-Low German                      nds                             Latin                                   Latn            Low German                      
-Lower Sorbian                   dsb                             Latin                                   Latn            Lower Sorbian                   
-Luba-Katanga                    lu                              Latin                                   Latn            Luba-Katanga                    
-Luba-Lulua                      lua                             Latin                                   Latn            Luba-Lulua                      
-Lule Sami                       smj                             Latin                                   Latn            Lule Sami                       
-Luo                             luo                             Latin                                   Latn            Luo                             
-Lushootseed                     lut                             Latin                                   Latn            Lushootseed                     
-Luxembourgish                   lb                              Latin                                   Latn            Luxembourgish                   
-Madurese                        mad                             Latin                                   Latn            Madurese                        
-Maguindanao                     mdh                             Latin                                   Latn            Maguindanao                     
-Makasar                         mak                             Latin                                   Latn            Makasar                         
-Malagasy                        mg                              Latin                                   Latn            Malagasy                        
-Malay                           ms                      *       Latin                                   Latn            Malay                           
-Maltese                         mt                              Latin                                   Latn            Maltese                         
-Manx                            gv                              Latin                                   Latn            Manx                            
-Maori                           mi                              Latin                                   Latn            Maori                           
-Mari                            chm                     *       Latin                                   Latn            Mari                            
-Marshallese                     mh                              Latin                                   Latn            Marshallese                     
-Mende                           men                             Latin                                   Latn            Mende                           
-Minangkabau                     min                             Latin                                   Latn            Minangkabau                     
-Moldavian                       mo                              Latin                                   Latn            Moldavian                       
-Mongo                           lol                             Latin                                   Latn            Mongo                           
-Morisyen                        mfe                             Latin                                   Latn            Morisyen                        
-Mossi                           mos                             Latin                                   Latn            Mossi                           
-Nauru                           na                              Latin                                   Latn            Nauru                           
-Navajo                          nv                              Latin                                   Latn            Navajo                          
-Naxi                            nbf                             Latin                                   Latn            Naxi                            
-Ndonga                          ng                              Latin                                   Latn            Ndonga                          
-Neapolitan                      nap                             Latin                                   Latn            Neapolitan                      
-Niuean                          niu                             Latin                                   Latn            Niuean                          
-North Ndebele                   nd                              Latin                                   Latn            North Ndebele                   
-Northern Frisian                frr                             Latin                                   Latn            Northern Frisian                
-Northern Sami                   se                      *       Latin                                   Latn            Northern Sami                   
-Northern Sotho                  nso                             Latin                                   Latn            Northern Sotho                  
-Norwegian                       no                              Latin                                   Latn            Norwegian                       
-Norwegian Bokmal                nb                              Latin                                   Latn            Norwegian Bokmål                
-Norwegian Nynorsk               nn                              Latin                                   Latn            Norwegian Nynorsk               
-Nyamwezi                        nym                             Latin                                   Latn            Nyamwezi                        
-Nyanja                          ny                              Latin                                   Latn            Nyanja                          
-Nyankole                        nyn                             Latin                                   Latn            Nyankole                        
-Occitan                         oc                              Latin                                   Latn            Occitan                         
-Old Irish                       sga     O       N       *       Latin                                   Latn            Old Irish                       
-Oromo                           om                      *       Latin                                   Latn            Oromo                           
-Oscan                           osc     O       N               Latin                                   Latn            Oscan                           
-Ossetic                         os                      *       Latin                                   Latn            Ossetic                         
-Palauan                         pau                             Latin                                   Latn            Palauan                         
-Pampanga                        pam                             Latin                                   Latn            Pampanga                        
-Pangasinan                      pag                             Latin                                   Latn            Pangasinan                      
-Papiamento                      pap                             Latin                                   Latn            Papiamento                      
-Pohnpeian                       pon                             Latin                                   Latn            Pohnpeian                       
-Polish                          pl                              Latin                                   Latn            Polish                          
-Portuguese                      pt                              Latin                                   Latn            Portuguese                      
-Prussian                        prg     O       N               Latin                                   Latn            Prussian                        
-Quechua                         qu                              Latin                                   Latn            Quechua                         
-Reunion Creole French           rcf                             Latin                                   Latn            Réunion Creole French           
-Rhaeto-Romance                  rm                              Latin                                   Latn            Rhaeto-Romance                  
-Romanian                        ro                      *       Latin                                   Latn            Romanian                        
-Romany                          rom                     *       Latin                                   Latn            Romany                          
-Rundi                           rn                              Latin                                   Latn            Rundi                           
-Sami Language                   smi             N               Latin                                   Latn            Sami Language                   
-Samoan                          sm                              Latin                                   Latn            Samoan                          
-Sango                           sg                              Latin                                   Latn            Sango                           
-Sasak                           sas                             Latin                                   Latn            Sasak                           
-Scots                           sco                             Latin                                   Latn            Scots                           
-Scottish Gaelic                 gd                              Latin                                   Latn            Scottish Gaelic                 
-Serbian                         sr                      *       Latin                                   Latn            Serbian                         
-Serer                           srr                             Latin                                   Latn            Serer                           
-Shona                           sn                              Latin                                   Latn            Shona                           
-Sichuan Yi                      ii                      *       Latin                                   Latn            Sichuan Yi                      
-Sicilian                        scn                             Latin                                   Latn            Sicilian                        
-Sidamo                          sid                             Latin                                   Latn            Sidamo                          
-Skolt Sami                      sms                             Latin                                   Latn            Skolt Sami                      
-Slovak                          sk                              Latin                                   Latn            Slovak                          
-Slovenian                       sl                              Latin                                   Latn            Slovenian                       
-Somali                          so                      *       Latin                                   Latn            Somali                          
-Songhai                         son                             Latin                                   Latn            Songhai                         
-Soninke                         snk                             Latin                                   Latn            Soninke                         
-South Ndebele                   nr                              Latin                                   Latn            South Ndebele                   
-Southern Sami                   sma                             Latin                                   Latn            Southern Sami                   
-Southern Sotho                  st                              Latin                                   Latn            Southern Sotho                  
-Spanish                         es                              Latin                                   Latn            Spanish                         
-Sranan Tongo                    srn                             Latin                                   Latn            Sranan Tongo                    
-Sukuma                          suk                             Latin                                   Latn            Sukuma                          
-Sundanese                       su                              Latin                                   Latn            Sundanese                       
-Susu                            sus                     *       Latin                                   Latn            Susu                            
-Swahili                         sw                              Latin                                   Latn            Swahili                         
-Swati                           ss                              Latin                                   Latn            Swati                           
-Swedish                         sv                              Latin                                   Latn            Swedish                         
-Swiss German                    gsw                             Latin                                   Latn            Swiss German                    
-Tagalog                         tl                              Latin                                   Latn            Tagalog                         
-Tagbanwa                        tbw                     *       Latin                                   Latn            Tagbanwa                        
-Tahitian                        ty                              Latin                                   Latn            Tahitian                        
-Tajik                           tg                      *       Latin                                   Latn            Tajik                           
-Tamashek                        tmh                             Latin                                   Latn            Tamashek                        
-Tausug                          tsg                             Latin                                   Latn            Tausug                          
-Tetum                           tet                             Latin                                   Latn            Tetum                           
-Timne                           tem                             Latin                                   Latn            Timne                           
-Tiv                             tiv                             Latin                                   Latn            Tiv                             
-Tok Pisin                       tpi                             Latin                                   Latn            Tok Pisin                       
-Tokelau                         tkl                             Latin                                   Latn            Tokelau                         
-Tonga                           to                              Latin                                   Latn            Tonga                           
-Tsonga                          ts                              Latin                                   Latn            Tsonga                          
-Tswana                          tn                              Latin                                   Latn            Tswana                          
-Tumbuka                         tum                             Latin                                   Latn            Tumbuka                         
-Turkish                         tr                              Latin                                   Latn            Turkish                         
-Turkmen                         tk                      *       Latin                                   Latn            Turkmen                         
-Turoyo                          tru                     *       Latin                                   Latn            Turoyo                          
-Tuvalu                          tvl                             Latin                                   Latn            Tuvalu                          
-Twi                             tw                              Latin                                   Latn            Twi                             
-Tyap                            kcg                             Latin                                   Latn            Tyap                            
-Udmurt                          udm             N       *       Latin                                   Latn            Udmurt                          
-Uighur                          ug                      *       Latin                                   Latn            Uighur                          
-Ulithian                        uli                             Latin                                   Latn            Ulithian                        
-Umbrian                         xum     O       N       *       Latin                                   Latn            Umbrian                         
-Umbundu                         umb                             Latin                                   Latn            Umbundu                         
-Upper Sorbian                   hsb                             Latin                                   Latn            Upper Sorbian                   
-Uzbek                           uz                      *       Latin                                   Latn            Uzbek                           
-Venda                           ve                              Latin                                   Latn            Venda                           
-Vietnamese                      vi                              Latin                                   Latn            Vietnamese                      
-Volapuk                         vo      O       N               Latin                                   Latn            Volapük                         
-Walloon                         wa                              Latin                                   Latn            Walloon                         
-Waray                           war                             Latin                                   Latn            Waray                           
-Welsh                           cy                              Latin                                   Latn            Welsh                           
-Western Frisian                 fy                              Latin                                   Latn            Western Frisian                 
-Wolof                           wo                      *       Latin                                   Latn            Wolof                           
-Xhosa                           xh                              Latin                                   Latn            Xhosa                           
-Yao                             yao                             Latin                                   Latn            Yao                             
-Yapese                          yap                             Latin                                   Latn            Yapese                          
-Yoruba                          yo                              Latin                                   Latn            Yoruba                          
-Zulu                            zu                              Latin                                   Latn            Zulu                            
+Achinese                        ace                             Latin                                   Latn            Achinese
+Afar                            aa                              Latin                                   Latn            Afar
+Afrikaans                       af                              Latin                                   Latn            Afrikaans
+Ainu                            ain                     *       Latin                                   Latn            Ainu
+Akan                            ak                              Latin                                   Latn            Akan
+Albanian                        sq                              Latin                                   Latn            Albanian
+Amo                             amo                             Latin                                   Latn            Amo
+Asturian                        ast                             Latin                                   Latn            Asturian
+Atsam                           cch                             Latin                                   Latn            Atsam
+Aymara                          ay                              Latin                                   Latn            Aymara
+Azerbaijani                     az                      *       Latin                                   Latn            Azerbaijani
+Balinese                        ban                     *       Latin                                   Latn            Balinese
+Baluchi                         bal                     *       Latin                                   Latn            Baluchi
+Bambara                         bm                              Latin                                   Latn            Bambara
+Basque                          eu                              Latin                                   Latn            Basque
+Batak                           bya                     *       Latin                                   Latn            Batak
+Batak Toba                      bbc                     *       Latin                                   Latn            Batak Toba
+Bemba                           bem                             Latin                                   Latn            Bemba
+Bini                            bin                             Latin                                   Latn            Bini
+Bislama                         bi                              Latin                                   Latn            Bislama
+Bosnian                         bs                              Latin                                   Latn            Bosnian
+Breton                          br                              Latin                                   Latn            Breton
+Buginese                        bug                     *       Latin                                   Latn            Buginese
+Bushi                           buc                             Latin                                   Latn            Bushi
+Catalan                         ca                              Latin                                   Latn            Catalan
+Cebuano                         ceb                             Latin                                   Latn            Cebuano
+Central Atlas Tamazight         tzm                     *       Latin                                   Latn            Central Atlas Tamazight
+Chamorro                        ch                              Latin                                   Latn            Chamorro
+Cherokee                        chr                     *       Latin                                   Latn            Cherokee
+Chuukese                        chk                             Latin                                   Latn            Chuukese
+Cornish                         kw                              Latin                                   Latn            Cornish
+Corsican                        co                              Latin                                   Latn            Corsican
+Cree                            cr                      *       Latin                                   Latn            Cree
+Croatian                        hr                              Latin                                   Latn            Croatian
+Czech                           cs                              Latin                                   Latn            Czech
+Danish                          da                              Latin                                   Latn            Danish
+Dogrib                          dgr                             Latin                                   Latn            Dogrib
+Dutch                           nl                              Latin                                   Latn            Dutch
+Dyula                           dyu                             Latin                                   Latn            Dyula
+Eastern Frisian                 frs                             Latin                                   Latn            Eastern Frisian
+Efik                            efi                             Latin                                   Latn            Efik
+English                         en                              Latin                                   Latn            English
+English-based Creole or Pidgin  cpe                             Latin                                   Latn            English-based Creole or Pidgin
+Esperanto                       eo      O                       Latin                                   Latn            Esperanto
+Estonian                        et                              Latin                                   Latn            Estonian
+Etruscan                        ett     O       N       *       Latin                                   Latn            Etruscan
+Ewe                             ee                              Latin                                   Latn            Ewe
+Fang                            fan                             Latin                                   Latn            Fang
+Faroese                         fo                              Latin                                   Latn            Faroese
+Fijian                          fj                              Latin                                   Latn            Fijian
+Filipino                        fil                             Latin                                   Latn            Filipino
+Finnish                         fi                              Latin                                   Latn            Finnish
+Finno-Ugrian Language           fiu             N               Latin                                   Latn            Finno-Ugrian Language
+Fon                             fon                             Latin                                   Latn            Fon
+French                          fr                              Latin                                   Latn            French
+Friulian                        fur                             Latin                                   Latn            Friulian
+Ga                              gaa                             Latin                                   Latn            Ga
+Gagauz                          gag                     *       Latin                                   Latn            Gagauz
+Galician                        gl                              Latin                                   Latn            Galician
+Ganda                           lg                              Latin                                   Latn            Ganda
+German                          de                      *       Latin                                   Latn            German
+Gilbertese                      gil                             Latin                                   Latn            Gilbertese
+Gorontalo                       gor                             Latin                                   Latn            Gorontalo
+Guarani                         gn                              Latin                                   Latn            Guarani
+Guianese Creole French          gcr                             Latin                                   Latn            Guianese Creole French
+Gwich'in                        gwi                             Latin                                   Latn            Gwichʼin
+Haida                           hai                             Latin                                   Latn            Haida
+Haitian                         ht                              Latin                                   Latn            Haitian
+Hanunoo                         hnn                     *       Latin                                   Latn            Hanunoo
+Hausa                           ha                      *       Latin                                   Latn            Hausa
+Hawaiian                        haw                             Latin                                   Latn            Hawaiian
+Hiligaynon                      hil                             Latin                                   Latn            Hiligaynon
+Hiri Motu                       ho                              Latin                                   Latn            Hiri Motu
+Hmong                           hmn                             Latin                                   Latn            Hmong
+Hopi                            hop                             Latin                                   Latn            Hopi
+Hungarian                       hu                              Latin                                   Latn            Hungarian
+Ibibio                          ibb                             Latin                                   Latn            Ibibio
+Icelandic                       is                              Latin                                   Latn            Icelandic
+Igbo                            ig                              Latin                                   Latn            Igbo
+Iloko                           ilo                             Latin                                   Latn            Iloko
+Inari Sami                      smn                             Latin                                   Latn            Inari Sami
+Indonesian                      id                      *       Latin                                   Latn            Indonesian
+Ingush                          inh             N       *       Latin                                   Latn            Ingush
+Interlingua                     ia      O       N               Latin                                   Latn            Interlingua
+Inuktitut                       iu                      *       Latin                                   Latn            Inuktitut
+Inupiaq                         ik                              Latin                                   Latn            Inupiaq
+Irish                           ga                              Latin                                   Latn            Irish
+Italian                         it                              Latin                                   Latn            Italian
+Javanese                        jv                      *       Latin                                   Latn            Javanese
+Jju                             kaj                             Latin                                   Latn            Jju
+Kabyle                          kab                             Latin                                   Latn            Kabyle
+Kalaallisut                     kl                              Latin                                   Latn            Kalaallisut
+Kamba                           kam                             Latin                                   Latn            Kamba
+Kanuri                          kr                              Latin                                   Latn            Kanuri
+Karelian                        krl                     *       Latin                                   Latn            Karelian
+Khasi                           kha                     *       Latin                                   Latn            Khasi
+Kikuyu                          ki                              Latin                                   Latn            Kikuyu
+Kimbundu                        kmb                             Latin                                   Latn            Kimbundu
+Kinyarwanda                     rw                              Latin                                   Latn            Kinyarwanda
+Kirghiz                         ky              N       *       Latin                                   Latn            Kirghiz
+Komi                            kv                      *       Latin                                   Latn            Komi
+Kongo                           kg                              Latin                                   Latn            Kongo
+Koro                            kfo                             Latin                                   Latn            Koro
+Kosraean                        kos                             Latin                                   Latn            Kosraean
+Kpelle                          kpe                             Latin                                   Latn            Kpelle
+Kuanyama                        kj                              Latin                                   Latn            Kuanyama
+Kurdish                         ku                      *       Latin                                   Latn            Kurdish
+Latin                           la      O                       Latin                                   Latn            Latin
+Latvian                         lv                              Latin                                   Latn            Latvian
+Limburgish                      li                              Latin                                   Latn            Limburgish
+Lingala                         ln                              Latin                                   Latn            Lingala
+Lisu                            lis                             Latin                                   Latn            Lisu
+Lithuanian                      lt                              Latin                                   Latn            Lithuanian
+Low German                      nds                             Latin                                   Latn            Low German
+Lower Sorbian                   dsb                             Latin                                   Latn            Lower Sorbian
+Luba-Katanga                    lu                              Latin                                   Latn            Luba-Katanga
+Luba-Lulua                      lua                             Latin                                   Latn            Luba-Lulua
+Lule Sami                       smj                             Latin                                   Latn            Lule Sami
+Luo                             luo                             Latin                                   Latn            Luo
+Lushootseed                     lut                             Latin                                   Latn            Lushootseed
+Luxembourgish                   lb                              Latin                                   Latn            Luxembourgish
+Madurese                        mad                             Latin                                   Latn            Madurese
+Maguindanao                     mdh                             Latin                                   Latn            Maguindanao
+Makasar                         mak                             Latin                                   Latn            Makasar
+Malagasy                        mg                              Latin                                   Latn            Malagasy
+Malay                           ms                      *       Latin                                   Latn            Malay
+Maltese                         mt                              Latin                                   Latn            Maltese
+Manx                            gv                              Latin                                   Latn            Manx
+Maori                           mi                              Latin                                   Latn            Maori
+Mari                            chm                     *       Latin                                   Latn            Mari
+Marshallese                     mh                              Latin                                   Latn            Marshallese
+Mende                           men                             Latin                                   Latn            Mende
+Minangkabau                     min                             Latin                                   Latn            Minangkabau
+Moldavian                       mo                              Latin                                   Latn            Moldavian
+Mongo                           lol                             Latin                                   Latn            Mongo
+Morisyen                        mfe                             Latin                                   Latn            Morisyen
+Mossi                           mos                             Latin                                   Latn            Mossi
+Nauru                           na                              Latin                                   Latn            Nauru
+Navajo                          nv                              Latin                                   Latn            Navajo
+Naxi                            nbf                             Latin                                   Latn            Naxi
+Ndonga                          ng                              Latin                                   Latn            Ndonga
+Neapolitan                      nap                             Latin                                   Latn            Neapolitan
+Niuean                          niu                             Latin                                   Latn            Niuean
+North Ndebele                   nd                              Latin                                   Latn            North Ndebele
+Northern Frisian                frr                             Latin                                   Latn            Northern Frisian
+Northern Sami                   se                      *       Latin                                   Latn            Northern Sami
+Northern Sotho                  nso                             Latin                                   Latn            Northern Sotho
+Norwegian                       no                              Latin                                   Latn            Norwegian
+Norwegian Bokmal                nb                              Latin                                   Latn            Norwegian Bokmål
+Norwegian Nynorsk               nn                              Latin                                   Latn            Norwegian Nynorsk
+Nyamwezi                        nym                             Latin                                   Latn            Nyamwezi
+Nyanja                          ny                              Latin                                   Latn            Nyanja
+Nyankole                        nyn                             Latin                                   Latn            Nyankole
+Occitan                         oc                              Latin                                   Latn            Occitan
+Old Irish                       sga     O       N       *       Latin                                   Latn            Old Irish
+Oromo                           om                      *       Latin                                   Latn            Oromo
+Oscan                           osc     O       N               Latin                                   Latn            Oscan
+Ossetic                         os                      *       Latin                                   Latn            Ossetic
+Palauan                         pau                             Latin                                   Latn            Palauan
+Pampanga                        pam                             Latin                                   Latn            Pampanga
+Pangasinan                      pag                             Latin                                   Latn            Pangasinan
+Papiamento                      pap                             Latin                                   Latn            Papiamento
+Pohnpeian                       pon                             Latin                                   Latn            Pohnpeian
+Polish                          pl                              Latin                                   Latn            Polish
+Portuguese                      pt                              Latin                                   Latn            Portuguese
+Prussian                        prg     O       N               Latin                                   Latn            Prussian
+Quechua                         qu                              Latin                                   Latn            Quechua
+Reunion Creole French           rcf                             Latin                                   Latn            Réunion Creole French
+Rhaeto-Romance                  rm                              Latin                                   Latn            Rhaeto-Romance
+Romanian                        ro                      *       Latin                                   Latn            Romanian
+Romany                          rom                     *       Latin                                   Latn            Romany
+Rundi                           rn                              Latin                                   Latn            Rundi
+Sami Language                   smi             N               Latin                                   Latn            Sami Language
+Samoan                          sm                              Latin                                   Latn            Samoan
+Sango                           sg                              Latin                                   Latn            Sango
+Sasak                           sas                             Latin                                   Latn            Sasak
+Scots                           sco                             Latin                                   Latn            Scots
+Scottish Gaelic                 gd                              Latin                                   Latn            Scottish Gaelic
+Serbian                         sr                      *       Latin                                   Latn            Serbian
+Serer                           srr                             Latin                                   Latn            Serer
+Shona                           sn                              Latin                                   Latn            Shona
+Sichuan Yi                      ii                      *       Latin                                   Latn            Sichuan Yi
+Sicilian                        scn                             Latin                                   Latn            Sicilian
+Sidamo                          sid                             Latin                                   Latn            Sidamo
+Skolt Sami                      sms                             Latin                                   Latn            Skolt Sami
+Slovak                          sk                              Latin                                   Latn            Slovak
+Slovenian                       sl                              Latin                                   Latn            Slovenian
+Somali                          so                      *       Latin                                   Latn            Somali
+Songhai                         son                             Latin                                   Latn            Songhai
+Soninke                         snk                             Latin                                   Latn            Soninke
+South Ndebele                   nr                              Latin                                   Latn            South Ndebele
+Southern Sami                   sma                             Latin                                   Latn            Southern Sami
+Southern Sotho                  st                              Latin                                   Latn            Southern Sotho
+Spanish                         es                              Latin                                   Latn            Spanish
+Sranan Tongo                    srn                             Latin                                   Latn            Sranan Tongo
+Sukuma                          suk                             Latin                                   Latn            Sukuma
+Sundanese                       su                              Latin                                   Latn            Sundanese
+Susu                            sus                     *       Latin                                   Latn            Susu
+Swahili                         sw                              Latin                                   Latn            Swahili
+Swati                           ss                              Latin                                   Latn            Swati
+Swedish                         sv                              Latin                                   Latn            Swedish
+Swiss German                    gsw                             Latin                                   Latn            Swiss German
+Tagalog                         tl                              Latin                                   Latn            Tagalog
+Tagbanwa                        tbw                     *       Latin                                   Latn            Tagbanwa
+Tahitian                        ty                              Latin                                   Latn            Tahitian
+Tajik                           tg                      *       Latin                                   Latn            Tajik
+Tamashek                        tmh                             Latin                                   Latn            Tamashek
+Tausug                          tsg                             Latin                                   Latn            Tausug
+Tetum                           tet                             Latin                                   Latn            Tetum
+Timne                           tem                             Latin                                   Latn            Timne
+Tiv                             tiv                             Latin                                   Latn            Tiv
+Tok Pisin                       tpi                             Latin                                   Latn            Tok Pisin
+Tokelau                         tkl                             Latin                                   Latn            Tokelau
+Tonga                           to                              Latin                                   Latn            Tonga
+Tsonga                          ts                              Latin                                   Latn            Tsonga
+Tswana                          tn                              Latin                                   Latn            Tswana
+Tumbuka                         tum                             Latin                                   Latn            Tumbuka
+Turkish                         tr                              Latin                                   Latn            Turkish
+Turkmen                         tk                      *       Latin                                   Latn            Turkmen
+Turoyo                          tru                     *       Latin                                   Latn            Turoyo
+Tuvalu                          tvl                             Latin                                   Latn            Tuvalu
+Twi                             tw                              Latin                                   Latn            Twi
+Tyap                            kcg                             Latin                                   Latn            Tyap
+Udmurt                          udm             N       *       Latin                                   Latn            Udmurt
+Uighur                          ug                      *       Latin                                   Latn            Uighur
+Ulithian                        uli                             Latin                                   Latn            Ulithian
+Umbrian                         xum     O       N       *       Latin                                   Latn            Umbrian
+Umbundu                         umb                             Latin                                   Latn            Umbundu
+Upper Sorbian                   hsb                             Latin                                   Latn            Upper Sorbian
+Uzbek                           uz                      *       Latin                                   Latn            Uzbek
+Venda                           ve                              Latin                                   Latn            Venda
+Vietnamese                      vi                              Latin                                   Latn            Vietnamese
+Volapuk                         vo      O       N               Latin                                   Latn            Volapük
+Walloon                         wa                              Latin                                   Latn            Walloon
+Waray                           war                             Latin                                   Latn            Waray
+Welsh                           cy                              Latin                                   Latn            Welsh
+Western Frisian                 fy                              Latin                                   Latn            Western Frisian
+Wolof                           wo                      *       Latin                                   Latn            Wolof
+Xhosa                           xh                              Latin                                   Latn            Xhosa
+Yao                             yao                             Latin                                   Latn            Yao
+Yapese                          yap                             Latin                                   Latn            Yapese
+Yoruba                          yo                              Latin                                   Latn            Yoruba
+Zulu                            zu                              Latin                                   Latn            Zulu
 
-Arabic                          ar                              Arabic                                  Arab            Arabic                          
-Azerbaijani                     az                      *       Arabic                                  Arab            Azerbaijani                     
-Baluchi                         bal                     *       Arabic                                  Arab            Baluchi                         
-Comorian                        swb                             Arabic                                  Arab            Comorian                        
-Coptic                          cop     O       N       *       Arabic                                  Arab            Coptic                          
-Dogri                           doi                             Arabic                                  Arab            Dogri                           
-Eastern Cham                    cjm                     *       Arabic                                  Arab            Eastern Cham                    
-Hausa                           ha                      *       Arabic                                  Arab            Hausa                           
-Indonesian                      id              N       *       Arabic                                  Arab            Indonesian                      
-Ingush                          inh             N       *       Arabic                                  Arab            Ingush                          
-Kashmiri                        ks                      *       Arabic                                  Arab            Kashmiri                        
-Kirghiz                         ky                      *       Arabic                                  Arab            Kirghiz                         
-Kurdish                         ku                      *       Arabic                                  Arab            Kurdish                         
-Lahnda                          lah                             Arabic                                  Arab            Lahnda                          
-Malay                           ms              N       *       Arabic                                  Arab            Malay                           
-Parsi-Dari                      prd                             Arabic                                  Arab            Parsi-Dari                      
-Pashto                          ps                              Arabic                                  Arab            Pashto                          
-Persian                         fa                              Arabic                                  Arab            Persian                         
-Punjabi                         pa              N       *       Arabic                                  Arab            Punjabi                         
-Sindhi                          sd                      *       Arabic                                  Arab            Sindhi                          
-Susu                            sus             N       *       Arabic                                  Arab            Susu                            
-Tajik                           tg                      *       Arabic                                  Arab            Tajik                           
-Turkmen                         tk                      *       Arabic                                  Arab            Turkmen                         
-Uighur                          ug                      *       Arabic                                  Arab            Uighur                          
-Urdu                            ur                              Arabic                                  Arab            Urdu                            
-Uzbek                           uz                              Arabic                                  Arab            Uzbek                           
-Wolof                           wo              N       *       Arabic                                  Arab            Wolof                           
+Arabic                          ar                              Arabic                                  Arab            Arabic
+Azerbaijani                     az                      *       Arabic                                  Arab            Azerbaijani
+Baluchi                         bal                     *       Arabic                                  Arab            Baluchi
+Comorian                        swb                             Arabic                                  Arab            Comorian
+Coptic                          cop     O       N       *       Arabic                                  Arab            Coptic
+Dogri                           doi                             Arabic                                  Arab            Dogri
+Eastern Cham                    cjm                     *       Arabic                                  Arab            Eastern Cham
+Hausa                           ha                      *       Arabic                                  Arab            Hausa
+Indonesian                      id              N       *       Arabic                                  Arab            Indonesian
+Ingush                          inh             N       *       Arabic                                  Arab            Ingush
+Kashmiri                        ks                      *       Arabic                                  Arab            Kashmiri
+Kirghiz                         ky                      *       Arabic                                  Arab            Kirghiz
+Kurdish                         ku                      *       Arabic                                  Arab            Kurdish
+Lahnda                          lah                             Arabic                                  Arab            Lahnda
+Malay                           ms              N       *       Arabic                                  Arab            Malay
+Parsi-Dari                      prd                             Arabic                                  Arab            Parsi-Dari
+Pashto                          ps                              Arabic                                  Arab            Pashto
+Persian                         fa                              Arabic                                  Arab            Persian
+Punjabi                         pa              N       *       Arabic                                  Arab            Punjabi
+Sindhi                          sd                      *       Arabic                                  Arab            Sindhi
+Susu                            sus             N       *       Arabic                                  Arab            Susu
+Tajik                           tg                      *       Arabic                                  Arab            Tajik
+Turkmen                         tk                      *       Arabic                                  Arab            Turkmen
+Uighur                          ug                      *       Arabic                                  Arab            Uighur
+Urdu                            ur                              Arabic                                  Arab            Urdu
+Uzbek                           uz                              Arabic                                  Arab            Uzbek
+Wolof                           wo              N       *       Arabic                                  Arab            Wolof
 
-Abaza                           abq                             Cyrillic                                Cyrl            Abaza                           
-Abkhazian                       ab                              Cyrillic                                Cyrl            Abkhazian                       
-Adyghe                          ady                             Cyrillic                                Cyrl            Adyghe                          
-Altaic Language                 tut             N               Cyrillic                                Cyrl            Altaic Language                 
-Assyrian Neo-Aramaic            aii                     *       Cyrillic                                Cyrl            Assyrian Neo-Aramaic            
-Avaric                          av                              Cyrillic                                Cyrl            Avaric                          
-Azerbaijani                     az                      *       Cyrillic                                Cyrl            Azerbaijani                     
-Bashkir                         ba                              Cyrillic                                Cyrl            Bashkir                         
-Belarusian                      be                              Cyrillic                                Cyrl            Belarusian                      
-Bulgarian                       bg                              Cyrillic                                Cyrl            Bulgarian                       
-Chechen                         ce                              Cyrillic                                Cyrl            Chechen                         
-Chukot                          ckt                             Cyrillic                                Cyrl            Chukot                          
-Chuvash                         cv                              Cyrillic                                Cyrl            Chuvash                         
-Dargwa                          dar                             Cyrillic                                Cyrl            Dargwa                          
-Dungan                          dng                             Cyrillic                                Cyrl            Dungan                          
-Erzya                           myv                             Cyrillic                                Cyrl            Erzya                           
-Evenki                          evn                             Cyrillic                                Cyrl            Evenki                          
-Gagauz                          gag             N       *       Cyrillic                                Cyrl            Gagauz                          
-Ingush                          inh                     *       Cyrillic                                Cyrl            Ingush                          
-Inuktitut                       iu              N       *       Cyrillic                                Cyrl            Inuktitut                       
-Kabardian                       kbd                             Cyrillic                                Cyrl            Kabardian                       
-Kalmyk                          xal                             Cyrillic                                Cyrl            Kalmyk                          
-Kara-Kalpak                     kaa                             Cyrillic                                Cyrl            Kara-Kalpak                     
-Karachay-Balkar                 krc                             Cyrillic                                Cyrl            Karachay-Balkar                 
-Karelian                        krl                     *       Cyrillic                                Cyrl            Karelian                        
-Kazakh                          kk                              Cyrillic                                Cyrl            Kazakh                          
-Khakas                          kjh                             Cyrillic                                Cyrl            Khakas                          
-Khanty                          kca                             Cyrillic                                Cyrl            Khanty                          
-Kirghiz                         ky                      *       Cyrillic                                Cyrl            Kirghiz                         
-Komi                            kv                      *       Cyrillic                                Cyrl            Komi                            
-Komi-Permyak                    koi                             Cyrillic                                Cyrl            Komi-Permyak                    
-Komi-Zyrian                     kpv                             Cyrillic                                Cyrl            Komi-Zyrian                     
-Koryak                          kpy                             Cyrillic                                Cyrl            Koryak                          
-Kumyk                           kum                             Cyrillic                                Cyrl            Kumyk                           
-Kurdish                         ku                      *       Cyrillic                                Cyrl            Kurdish                         
-Lak                             lbe                             Cyrillic                                Cyrl            Lak                             
-Lezghian                        lez                             Cyrillic                                Cyrl            Lezghian                        
-Macedonian                      mk                              Cyrillic                                Cyrl            Macedonian                      
-Mansi                           mns                             Cyrillic                                Cyrl            Mansi                           
-Mari                            chm                     *       Cyrillic                                Cyrl            Mari                            
-Moksha                          mdf                             Cyrillic                                Cyrl            Moksha                          
-Mongolian                       mn                      *       Cyrillic                                Cyrl            Mongolian                       
-Muslim Tat                      ttt                             Cyrillic                                Cyrl            Muslim Tat                      
-Nanai                           gld                             Cyrillic                                Cyrl            Nanai                           
-Nenets                          yrk                             Cyrillic                                Cyrl            Nenets                          
-Nogai                           nog                             Cyrillic                                Cyrl            Nogai                           
-Northern Sami                   se              N       *       Cyrillic                                Cyrl            Northern Sami                   
-Ossetic                         os                      *       Cyrillic                                Cyrl            Ossetic                         
-Romanian                        ro              N       *       Cyrillic                                Cyrl            Romanian                        
-Romany                          rom                     *       Cyrillic                                Cyrl            Romany                          
-Russia Buriat                   bxr                             Cyrillic                                Cyrl            Russia Buriat                   
-Russian                         ru                              Cyrillic                                Cyrl            Russian                         
-Selkup                          sel                             Cyrillic                                Cyrl            Selkup                          
-Serbian                         sr                      *       Cyrillic                                Cyrl            Serbian                         
-Shor                            cjs                             Cyrillic                                Cyrl            Shor                            
-Tabassaran                      tab                             Cyrillic                                Cyrl            Tabassaran                      
-Tajik                           tg                      *       Cyrillic                                Cyrl            Tajik                           
-Tatar                           tt                              Cyrillic                                Cyrl            Tatar                           
-Turkmen                         tk                      *       Cyrillic                                Cyrl            Turkmen                         
-Tuvinian                        tyv                             Cyrillic                                Cyrl            Tuvinian                        
-Udihe                           ude                             Cyrillic                                Cyrl            Udihe                           
-Udmurt                          udm                     *       Cyrillic                                Cyrl            Udmurt                          
-Uighur                          ug              N       *       Cyrillic                                Cyrl            Uighur                          
-Ukrainian                       uk                              Cyrillic                                Cyrl            Ukrainian                       
-Uzbek                           uz                      *       Cyrillic                                Cyrl            Uzbek                           
-Yakut                           sah                             Cyrillic                                Cyrl            Yakut                           
+Abaza                           abq                             Cyrillic                                Cyrl            Abaza
+Abkhazian                       ab                              Cyrillic                                Cyrl            Abkhazian
+Adyghe                          ady                             Cyrillic                                Cyrl            Adyghe
+Altaic Language                 tut             N               Cyrillic                                Cyrl            Altaic Language
+Assyrian Neo-Aramaic            aii                     *       Cyrillic                                Cyrl            Assyrian Neo-Aramaic
+Avaric                          av                              Cyrillic                                Cyrl            Avaric
+Azerbaijani                     az                      *       Cyrillic                                Cyrl            Azerbaijani
+Bashkir                         ba                              Cyrillic                                Cyrl            Bashkir
+Belarusian                      be                              Cyrillic                                Cyrl            Belarusian
+Bulgarian                       bg                              Cyrillic                                Cyrl            Bulgarian
+Chechen                         ce                              Cyrillic                                Cyrl            Chechen
+Chukot                          ckt                             Cyrillic                                Cyrl            Chukot
+Chuvash                         cv                              Cyrillic                                Cyrl            Chuvash
+Dargwa                          dar                             Cyrillic                                Cyrl            Dargwa
+Dungan                          dng                             Cyrillic                                Cyrl            Dungan
+Erzya                           myv                             Cyrillic                                Cyrl            Erzya
+Evenki                          evn                             Cyrillic                                Cyrl            Evenki
+Gagauz                          gag             N       *       Cyrillic                                Cyrl            Gagauz
+Ingush                          inh                     *       Cyrillic                                Cyrl            Ingush
+Inuktitut                       iu              N       *       Cyrillic                                Cyrl            Inuktitut
+Kabardian                       kbd                             Cyrillic                                Cyrl            Kabardian
+Kalmyk                          xal                             Cyrillic                                Cyrl            Kalmyk
+Kara-Kalpak                     kaa                             Cyrillic                                Cyrl            Kara-Kalpak
+Karachay-Balkar                 krc                             Cyrillic                                Cyrl            Karachay-Balkar
+Karelian                        krl                     *       Cyrillic                                Cyrl            Karelian
+Kazakh                          kk                              Cyrillic                                Cyrl            Kazakh
+Khakas                          kjh                             Cyrillic                                Cyrl            Khakas
+Khanty                          kca                             Cyrillic                                Cyrl            Khanty
+Kirghiz                         ky                      *       Cyrillic                                Cyrl            Kirghiz
+Komi                            kv                      *       Cyrillic                                Cyrl            Komi
+Komi-Permyak                    koi                             Cyrillic                                Cyrl            Komi-Permyak
+Komi-Zyrian                     kpv                             Cyrillic                                Cyrl            Komi-Zyrian
+Koryak                          kpy                             Cyrillic                                Cyrl            Koryak
+Kumyk                           kum                             Cyrillic                                Cyrl            Kumyk
+Kurdish                         ku                      *       Cyrillic                                Cyrl            Kurdish
+Lak                             lbe                             Cyrillic                                Cyrl            Lak
+Lezghian                        lez                             Cyrillic                                Cyrl            Lezghian
+Macedonian                      mk                              Cyrillic                                Cyrl            Macedonian
+Mansi                           mns                             Cyrillic                                Cyrl            Mansi
+Mari                            chm                     *       Cyrillic                                Cyrl            Mari
+Moksha                          mdf                             Cyrillic                                Cyrl            Moksha
+Mongolian                       mn                      *       Cyrillic                                Cyrl            Mongolian
+Muslim Tat                      ttt                             Cyrillic                                Cyrl            Muslim Tat
+Nanai                           gld                             Cyrillic                                Cyrl            Nanai
+Nenets                          yrk                             Cyrillic                                Cyrl            Nenets
+Nogai                           nog                             Cyrillic                                Cyrl            Nogai
+Northern Sami                   se              N       *       Cyrillic                                Cyrl            Northern Sami
+Ossetic                         os                      *       Cyrillic                                Cyrl            Ossetic
+Romanian                        ro              N       *       Cyrillic                                Cyrl            Romanian
+Romany                          rom                     *       Cyrillic                                Cyrl            Romany
+Russia Buriat                   bxr                             Cyrillic                                Cyrl            Russia Buriat
+Russian                         ru                              Cyrillic                                Cyrl            Russian
+Selkup                          sel                             Cyrillic                                Cyrl            Selkup
+Serbian                         sr                      *       Cyrillic                                Cyrl            Serbian
+Shor                            cjs                             Cyrillic                                Cyrl            Shor
+Tabassaran                      tab                             Cyrillic                                Cyrl            Tabassaran
+Tajik                           tg                      *       Cyrillic                                Cyrl            Tajik
+Tatar                           tt                              Cyrillic                                Cyrl            Tatar
+Turkmen                         tk                      *       Cyrillic                                Cyrl            Turkmen
+Tuvinian                        tyv                             Cyrillic                                Cyrl            Tuvinian
+Udihe                           ude                             Cyrillic                                Cyrl            Udihe
+Udmurt                          udm                     *       Cyrillic                                Cyrl            Udmurt
+Uighur                          ug              N       *       Cyrillic                                Cyrl            Uighur
+Ukrainian                       uk                              Cyrillic                                Cyrl            Ukrainian
+Uzbek                           uz                      *       Cyrillic                                Cyrl            Uzbek
+Yakut                           sah                             Cyrillic                                Cyrl            Yakut
 
-Awadhi                          awa                             Devanagari                              Deva            Awadhi                          
-Bagheli                         bfy                             Devanagari                              Deva            Bagheli                         
-Balti                           bft                             Devanagari                              Deva            Balti                           
-Bateri                          btv                             Devanagari                              Deva            Bateri                          
-Bhili                           bhb                             Devanagari                              Deva            Bhili                           
-Bhojpuri                        bho                             Devanagari                              Deva            Bhojpuri                        
-Bihari                          bh              N               Devanagari                              Deva            Bihari                          
-Braj                            bra                             Devanagari                              Deva            Braj                            
-Chhattisgarhi                   hne                             Devanagari                              Deva            Chhattisgarhi                   
-Garhwali                        gbm                             Devanagari                              Deva            Garhwali                        
-Gondi                           gon                     *       Devanagari                              Deva            Gondi                           
-Hadothi                         hoj                             Devanagari                              Deva            Hadothi                         
-Hindi                           hi                              Devanagari                              Deva            Hindi                           
-Ho                              hoc                             Devanagari                              Deva            Ho                              
-Kachchi                         kfr                             Devanagari                              Deva            Kachchi                         
-Kanauji                         bjj                             Devanagari                              Deva            Kanauji                         
-Kashmiri                        ks                      *       Devanagari                              Deva            Kashmiri                        
-Konkani                         kok                             Devanagari                              Deva            Konkani                         
-Kurukh                          kru                             Devanagari                              Deva            Kurukh                          
-Limbu                           lif                     *       Devanagari                              Deva            Limbu                           
-Magahi                          mag                             Devanagari                              Deva            Magahi                          
-Maithili                        mai                             Devanagari                              Deva            Maithili                        
-Marathi                         mr                              Devanagari                              Deva            Marathi                         
-Marwari                         mwr                             Devanagari                              Deva            Marwari                         
-Nepali                          ne                              Devanagari                              Deva            Nepali                          
-Newari                          new                             Devanagari                              Deva            Newari                          
-Pali                            pi      O       N       *       Devanagari                              Deva            Pali                            
-Sanskrit                        sa      O       N       *       Devanagari                              Deva            Sanskrit                        
-Santali                         sat                     *       Devanagari                              Deva            Santali                         
-Sherpa                          xsr                             Devanagari                              Deva            Sherpa                          
-Sindhi                          sd                      *       Devanagari                              Deva            Sindhi                          
-Western Cham                    cja             N       *       Devanagari                              Deva            Western Cham                    
+Awadhi                          awa                             Devanagari                              Deva            Awadhi
+Bagheli                         bfy                             Devanagari                              Deva            Bagheli
+Balti                           bft                             Devanagari                              Deva            Balti
+Bateri                          btv                             Devanagari                              Deva            Bateri
+Bhili                           bhb                             Devanagari                              Deva            Bhili
+Bhojpuri                        bho                             Devanagari                              Deva            Bhojpuri
+Bihari                          bh              N               Devanagari                              Deva            Bihari
+Braj                            bra                             Devanagari                              Deva            Braj
+Chhattisgarhi                   hne                             Devanagari                              Deva            Chhattisgarhi
+Garhwali                        gbm                             Devanagari                              Deva            Garhwali
+Gondi                           gon                     *       Devanagari                              Deva            Gondi
+Hadothi                         hoj                             Devanagari                              Deva            Hadothi
+Hindi                           hi                              Devanagari                              Deva            Hindi
+Ho                              hoc                             Devanagari                              Deva            Ho
+Kachchi                         kfr                             Devanagari                              Deva            Kachchi
+Kanauji                         bjj                             Devanagari                              Deva            Kanauji
+Kashmiri                        ks                      *       Devanagari                              Deva            Kashmiri
+Konkani                         kok                             Devanagari                              Deva            Konkani
+Kurukh                          kru                             Devanagari                              Deva            Kurukh
+Limbu                           lif                     *       Devanagari                              Deva            Limbu
+Magahi                          mag                             Devanagari                              Deva            Magahi
+Maithili                        mai                             Devanagari                              Deva            Maithili
+Marathi                         mr                              Devanagari                              Deva            Marathi
+Marwari                         mwr                             Devanagari                              Deva            Marwari
+Nepali                          ne                              Devanagari                              Deva            Nepali
+Newari                          new                             Devanagari                              Deva            Newari
+Pali                            pi      O       N       *       Devanagari                              Deva            Pali
+Sanskrit                        sa      O       N       *       Devanagari                              Deva            Sanskrit
+Santali                         sat                     *       Devanagari                              Deva            Santali
+Sherpa                          xsr                             Devanagari                              Deva            Sherpa
+Sindhi                          sd                      *       Devanagari                              Deva            Sindhi
+Western Cham                    cja             N       *       Devanagari                              Deva            Western Cham
 
-Armenian                        hy                              Armenian                                Armn            Armenian                        
-Balinese                        ban             N       *       Balinese                                Bali            Balinese                        
-Assamese                        as                              Bengali                                 Beng            Assamese                        
-Bengali                         bn                              Bengali                                 Beng            Bengali                         
-Chakma                          ccp                             Bengali                                 Beng            Chakma                          
-Garo                            grt                             Bengali                                 Beng            Garo                            
-Khasi                           kha             N       *       Bengali                                 Beng            Khasi                           
-Manipuri                        mni                             Bengali                                 Beng            Manipuri                        
-Riang (Myanmar)                 ril                             Bengali                                 Beng            Riang (Myanmar)                 
-Santali                         sat             N       *       Bengali                                 Beng            Santali                         
-Sylheti                         syl                     *       Bengali                                 Beng            Sylheti                         
-Chinese                         zh              N       *       Bopomofo                                Bopo            Chinese                         
-Cree                            cr                      *       Unified Canadian Aboriginal Syllabics   Cans            Cree                            
-Inuktitut                       iu                      *       Unified Canadian Aboriginal Syllabics   Cans            Inuktitut                       
-Plains Cree                     crk                             Unified Canadian Aboriginal Syllabics   Cans            Plains Cree                     
-Woods Cree                      cwd                             Unified Canadian Aboriginal Syllabics   Cans            Woods Cree                      
-Eastern Cham                    cjm             N       *       Cham                                    Cham            Eastern Cham                    
-Western Cham                    cja                     *       Cham                                    Cham            Western Cham                    
-Cherokee                        chr                     *       Cherokee                                Cher            Cherokee                        
-Amharic                         am                              Ethiopic                                Ethi            Amharic                         
-Blin                            byn                             Ethiopic                                Ethi            Blin                            
-Geez                            gez     O       N               Ethiopic                                Ethi            Geez                            
-Oromo                           om              N       *       Ethiopic                                Ethi            Oromo                           
-Tigre                           tig                             Ethiopic                                Ethi            Tigre                           
-Tigrinya                        ti                              Ethiopic                                Ethi            Tigrinya                        
-Walamo                          wal                             Ethiopic                                Ethi            Walamo                          
-Georgian                        ka                              Georgian                                Geor            Georgian                        
-Ancient Greek                   grc     O       N       *       Greek                                   Grek            Ancient Greek                   
-Coptic                          cop                     *       Greek                                   Grek            Coptic                          
-Greek                           el                              Greek                                   Grek            Greek                           
-Gujarati                        gu                              Gujarati                                Gujr            Gujarati                        
-Punjabi                         pa                      *       Gurmukhi                                Guru            Punjabi                         
-Chinese                         zh                      *       Simplified Han                          Hans            Chinese                         
-Zhuang                          za                              Simplified Han                          Hans            Zhuang                          
-Chinese                         zh                      *       Traditional Han                         Hant            Chinese                         
-Hebrew                          he                              Hebrew                                  Hebr            Hebrew                          
-Ladino                          lad                             Hebrew                                  Hebr            Ladino                          
-Samaritan Aramaic               sam     O       N               Hebrew                                  Hebr            Samaritan Aramaic               
-Yiddish                         yi                              Hebrew                                  Hebr            Yiddish                         
-Japanese                        ja                              Japanese                                Jpan            Japanese                        
-Ainu                            ain             N       *       Katakana                                Kana            Ainu                            
-Khmer                           km                              Khmer                                   Khmr            Khmer                           
-Kannada                         kn                              Kannada                                 Knda            Kannada                         
-Tulu                            tcy                             Kannada                                 Knda            Tulu                            
-Korean                          ko                              Korean                                  Kore            Korean                          
-Lao                             lo                              Lao                                     Laoo            Lao                             
-Lepcha                          lep                             Lepcha                                  Lepc            Lepcha                          
-Limbu                           lif                     *       Limbu                                   Limb            Limbu                           
-Ancient Greek                   grc                     *       Linear B                                Linb            Ancient Greek                   
-Malayalam                       ml                              Malayalam                               Mlym            Malayalam                       
-Manchu                          mnc                             Mongolian                               Mong            Manchu                          
-Mongolian                       mn                      *       Mongolian                               Mong            Mongolian                       
-Burmese                         my                              Myanmar                                 Mymr            Burmese                         
-Khamti                          kht                             Myanmar                                 Mymr            Khamti                          
-Mon                             mnw                             Myanmar                                 Mymr            Mon                             
-Shan                            shn                             Myanmar                                 Mymr            Shan                            
-Eastern Maninkakan              emk                             N'Ko                                    Nkoo            Eastern Maninkakan              
-N'Ko                            nqo                             N'Ko                                    Nkoo            N’Ko                            
-Santali                         sat                     *       Ol Chiki                                Olck            Santali                         
-Oriya                           or                              Oriya                                   Orya            Oriya                           
-Santali                         sat                     *       Oriya                                   Orya            Santali                         
-Pali                            pi                      *       Sinhala                                 Sinh            Pali                            
-Sanskrit                        sa                      *       Sinhala                                 Sinh            Sanskrit                        
-Sinhala                         si                              Sinhala                                 Sinh            Sinhala                         
-Tai Nua                         tdd                             Tai Le                                  Tale            Tai Nüa                         
-Lu                              khb                             New Tai Lue                             Talu            Lü                              
-Badaga                          bfq                             Tamil                                   Taml            Badaga                          
-Tamil                           ta                              Tamil                                   Taml            Tamil                           
-Gondi                           gon                     *       Telugu                                  Telu            Gondi                           
-Lambadi                         lmn                             Telugu                                  Telu            Lambadi                         
-Telugu                          te                              Telugu                                  Telu            Telugu                          
-Central Atlas Tamazight         tzm                     *       Tifinagh                                Tfng            Central Atlas Tamazight         
-Divehi                          dv                              Thaana                                  Thaa            Divehi                          
-Eastern Lawa                    lwl                             Thai                                    Thai            Eastern Lawa                    
-Kuy                             kdt                             Thai                                    Thai            Kuy                             
-Northeastern Thai               tts                             Thai                                    Thai            Northeastern Thai               
-Pali                            pi                      *       Thai                                    Thai            Pali                            
-Thai                            th                              Thai                                    Thai            Thai                            
-Western Lawa                    lcp                             Thai                                    Thai            Western Lawa                    
-Dzongkha                        dz                              Tibetan                                 Tibt            Dzongkha                        
-Tibetan                         bo                              Tibetan                                 Tibt            Tibetan                         
-Sichuan Yi                      ii                      *       Yi                                      Yiii            Sichuan Yi                      
+Armenian                        hy                              Armenian                                Armn            Armenian
+Balinese                        ban             N       *       Balinese                                Bali            Balinese
+Assamese                        as                              Bengali                                 Beng            Assamese
+Bengali                         bn                              Bengali                                 Beng            Bengali
+Chakma                          ccp                             Bengali                                 Beng            Chakma
+Garo                            grt                             Bengali                                 Beng            Garo
+Khasi                           kha             N       *       Bengali                                 Beng            Khasi
+Manipuri                        mni                             Bengali                                 Beng            Manipuri
+Riang (Myanmar)                 ril                             Bengali                                 Beng            Riang (Myanmar)
+Santali                         sat             N       *       Bengali                                 Beng            Santali
+Sylheti                         syl                     *       Bengali                                 Beng            Sylheti
+Chinese                         zh              N       *       Bopomofo                                Bopo            Chinese
+Cree                            cr                      *       Unified Canadian Aboriginal Syllabics   Cans            Cree
+Inuktitut                       iu                      *       Unified Canadian Aboriginal Syllabics   Cans            Inuktitut
+Plains Cree                     crk                             Unified Canadian Aboriginal Syllabics   Cans            Plains Cree
+Woods Cree                      cwd                             Unified Canadian Aboriginal Syllabics   Cans            Woods Cree
+Eastern Cham                    cjm             N       *       Cham                                    Cham            Eastern Cham
+Western Cham                    cja                     *       Cham                                    Cham            Western Cham
+Cherokee                        chr                     *       Cherokee                                Cher            Cherokee
+Amharic                         am                              Ethiopic                                Ethi            Amharic
+Blin                            byn                             Ethiopic                                Ethi            Blin
+Geez                            gez     O       N               Ethiopic                                Ethi            Geez
+Oromo                           om              N       *       Ethiopic                                Ethi            Oromo
+Tigre                           tig                             Ethiopic                                Ethi            Tigre
+Tigrinya                        ti                              Ethiopic                                Ethi            Tigrinya
+Walamo                          wal                             Ethiopic                                Ethi            Walamo
+Georgian                        ka                              Georgian                                Geor            Georgian
+Ancient Greek                   grc     O       N       *       Greek                                   Grek            Ancient Greek
+Coptic                          cop                     *       Greek                                   Grek            Coptic
+Greek                           el                              Greek                                   Grek            Greek
+Gujarati                        gu                              Gujarati                                Gujr            Gujarati
+Punjabi                         pa                      *       Gurmukhi                                Guru            Punjabi
+Chinese                         zh                      *       Simplified Han                          Hans            Chinese
+Zhuang                          za                              Simplified Han                          Hans            Zhuang
+Chinese                         zh                      *       Traditional Han                         Hant            Chinese
+Hebrew                          he                              Hebrew                                  Hebr            Hebrew
+Ladino                          lad                             Hebrew                                  Hebr            Ladino
+Samaritan Aramaic               sam     O       N               Hebrew                                  Hebr            Samaritan Aramaic
+Yiddish                         yi                              Hebrew                                  Hebr            Yiddish
+Japanese                        ja                              Japanese                                Jpan            Japanese
+Ainu                            ain             N       *       Katakana                                Kana            Ainu
+Khmer                           km                              Khmer                                   Khmr            Khmer
+Kannada                         kn                              Kannada                                 Knda            Kannada
+Tulu                            tcy                             Kannada                                 Knda            Tulu
+Korean                          ko                              Korean                                  Kore            Korean
+Lao                             lo                              Lao                                     Laoo            Lao
+Lepcha                          lep                             Lepcha                                  Lepc            Lepcha
+Limbu                           lif                     *       Limbu                                   Limb            Limbu
+Ancient Greek                   grc                     *       Linear B                                Linb            Ancient Greek
+Malayalam                       ml                              Malayalam                               Mlym            Malayalam
+Manchu                          mnc                             Mongolian                               Mong            Manchu
+Mongolian                       mn                      *       Mongolian                               Mong            Mongolian
+Burmese                         my                              Myanmar                                 Mymr            Burmese
+Khamti                          kht                             Myanmar                                 Mymr            Khamti
+Mon                             mnw                             Myanmar                                 Mymr            Mon
+Shan                            shn                             Myanmar                                 Mymr            Shan
+Eastern Maninkakan              emk                             N'Ko                                    Nkoo            Eastern Maninkakan
+N'Ko                            nqo                             N'Ko                                    Nkoo            N’Ko
+Santali                         sat                     *       Ol Chiki                                Olck            Santali
+Oriya                           or                              Oriya                                   Orya            Oriya
+Santali                         sat                     *       Oriya                                   Orya            Santali
+Pali                            pi                      *       Sinhala                                 Sinh            Pali
+Sanskrit                        sa                      *       Sinhala                                 Sinh            Sanskrit
+Sinhala                         si                              Sinhala                                 Sinh            Sinhala
+Tai Nua                         tdd                             Tai Le                                  Tale            Tai Nüa
+Lu                              khb                             New Tai Lue                             Talu            Lü
+Badaga                          bfq                             Tamil                                   Taml            Badaga
+Tamil                           ta                              Tamil                                   Taml            Tamil
+Gondi                           gon                     *       Telugu                                  Telu            Gondi
+Lambadi                         lmn                             Telugu                                  Telu            Lambadi
+Telugu                          te                              Telugu                                  Telu            Telugu
+Central Atlas Tamazight         tzm                     *       Tifinagh                                Tfng            Central Atlas Tamazight
+Divehi                          dv                              Thaana                                  Thaa            Divehi
+Eastern Lawa                    lwl                             Thai                                    Thai            Eastern Lawa
+Kuy                             kdt                             Thai                                    Thai            Kuy
+Northeastern Thai               tts                             Thai                                    Thai            Northeastern Thai
+Pali                            pi                      *       Thai                                    Thai            Pali
+Thai                            th                              Thai                                    Thai            Thai
+Western Lawa                    lcp                             Thai                                    Thai            Western Lawa
+Dzongkha                        dz                              Tibetan                                 Tibt            Dzongkha
+Tibetan                         bo                              Tibetan                                 Tibt            Tibetan
+Sichuan Yi                      ii                      *       Yi                                      Yiii            Sichuan Yi
 
 #
 # Not in modern use                                                                                             N
 #
-Akkadian                        akk     O       N               Sumero-Akkadian Cuneiform               Xsux    N       Akkadian                        
-Ancient Greek                   grc                     *       Cypriot                                 Cprt    N       Ancient Greek                   
-Assyrian Neo-Aramaic            aii             N       *       Syriac                                  Syrc    N       Assyrian Neo-Aramaic            
-Batak                           bya             N       *       Batak                                   Batk    N       Batak                           
-Batak Toba                      bbc             N       *       Batak                                   Batk    N       Batak Toba                      
-Blissymbols                     zbl     O                       Blissymbols                             Blis    N       Blissymbols                     
-Buginese                        bug             N       *       Buginese                                Bugi    N       Buginese                        
-Buhid                           bku             N               Buhid                                   Buhd    N       Buhid                           
-Chinese                         zh              N       *       Phags-pa                                Phag    N       Chinese                         
-Church Slavic                   cu      O       N               Glagolitic                              Glag    N       Church Slavic                   
-Coptic                          cop                     *       Coptic                                  Copt    N       Coptic                          
-Etruscan                        ett                     *       Old Italic                              Ital    N       Etruscan                        
-German                          de              N       *       Runic                                   Runr    N       German                          
-Gothic                          got     O       N               Gothic                                  Goth    N       Gothic                          
-Hanunoo                         hnn             N       *       Hanunoo                                 Hano    N       Hanunoo                         
-Hmong                           hmn             N               Pahawh Hmong                            Hmng    N       Hmong                           
-Javanese                        jv              N       *       Javanese                                Java    N       Javanese                        
-Mandar                          mdr             N               Buginese                                Bugi    N       Mandar                          
-Mongolian                       mn              N       *       Phags-pa                                Phag    N       Mongolian                       
-Old Irish                       sga                     *       Ogham                                   Ogam    N       Old Irish                       
-Old Persian                     peo     O       N               Old Persian                             Xpeo    N       Old Persian                     
-Oscan                           osc                     *       Old Italic                              Ital    N       Oscan                           
-Phoenician                      phn     O       N               Phoenician                              Phnx    N       Phoenician                      
-Prakrit Language                pra             N               Kharoshthi                              Khar    N       Prakrit Language                
-Somali                          so              N       *       Osmanya                                 Osma    N       Somali                          
-Sylheti                         syl             N       *       Syloti Nagri                            Sylo    N       Sylheti                         
-Syriac                          syr             N               Syriac                                  Syrc    N       Syriac                          
-Tagbanwa                        tbw             N       *       Tagbanwa                                Tagb    N       Tagbanwa                        
-Turoyo                          tru             N       *       Syriac                                  Syrc    N       Turoyo                          
-Ugaritic                        uga     O       N               Ugaritic                                Ugar    N       Ugaritic                        
-Umbrian                         xum                     *       Old Italic                              Ital    N       Umbrian                         
+Akkadian                        akk     O       N               Sumero-Akkadian Cuneiform               Xsux    N       Akkadian
+Ancient Greek                   grc                     *       Cypriot                                 Cprt    N       Ancient Greek
+Assyrian Neo-Aramaic            aii             N       *       Syriac                                  Syrc    N       Assyrian Neo-Aramaic
+Batak                           bya             N       *       Batak                                   Batk    N       Batak
+Batak Toba                      bbc             N       *       Batak                                   Batk    N       Batak Toba
+Blissymbols                     zbl     O                       Blissymbols                             Blis    N       Blissymbols
+Buginese                        bug             N       *       Buginese                                Bugi    N       Buginese
+Buhid                           bku             N               Buhid                                   Buhd    N       Buhid
+Chinese                         zh              N       *       Phags-pa                                Phag    N       Chinese
+Church Slavic                   cu      O       N               Glagolitic                              Glag    N       Church Slavic
+Coptic                          cop                     *       Coptic                                  Copt    N       Coptic
+Etruscan                        ett                     *       Old Italic                              Ital    N       Etruscan
+German                          de              N       *       Runic                                   Runr    N       German
+Gothic                          got     O       N               Gothic                                  Goth    N       Gothic
+Hanunoo                         hnn             N       *       Hanunoo                                 Hano    N       Hanunoo
+Hmong                           hmn             N               Pahawh Hmong                            Hmng    N       Hmong
+Javanese                        jv              N       *       Javanese                                Java    N       Javanese
+Mandar                          mdr             N               Buginese                                Bugi    N       Mandar
+Mongolian                       mn              N       *       Phags-pa                                Phag    N       Mongolian
+Old Irish                       sga                     *       Ogham                                   Ogam    N       Old Irish
+Old Persian                     peo     O       N               Old Persian                             Xpeo    N       Old Persian
+Oscan                           osc                     *       Old Italic                              Ital    N       Oscan
+Phoenician                      phn     O       N               Phoenician                              Phnx    N       Phoenician
+Prakrit Language                pra             N               Kharoshthi                              Khar    N       Prakrit Language
+Somali                          so              N       *       Osmanya                                 Osma    N       Somali
+Sylheti                         syl             N       *       Syloti Nagri                            Sylo    N       Sylheti
+Syriac                          syr             N               Syriac                                  Syrc    N       Syriac
+Tagbanwa                        tbw             N       *       Tagbanwa                                Tagb    N       Tagbanwa
+Turoyo                          tru             N       *       Syriac                                  Syrc    N       Turoyo
+Ugaritic                        uga     O       N               Ugaritic                                Ugar    N       Ugaritic
+Umbrian                         xum                     *       Old Italic                              Ital    N       Umbrian
 
 #                                                               Unknown or Invalid Script
-Acoli                           ach             ?               Unknown or Invalid Script               Zzzz    ?       Acoli                           
-Adangme                         ada             ?               Unknown or Invalid Script               Zzzz    ?       Adangme                         
-Aleut                           ale             ?               Unknown or Invalid Script               Zzzz    ?       Aleut                           
-Angika                          anp             ?               Unknown or Invalid Script               Zzzz    ?       Angika                          
-Aragonese                       an              ?               Unknown or Invalid Script               Zzzz    ?       Aragonese                       
-Arapaho                         arp             ?               Unknown or Invalid Script               Zzzz    ?       Arapaho                         
-Araucanian                      arn             ?               Unknown or Invalid Script               Zzzz    ?       Araucanian                      
-Arawak                          arw             ?               Unknown or Invalid Script               Zzzz    ?       Arawak                          
-Aromanian                       rup             ?               Unknown or Invalid Script               Zzzz    ?       Aromanian                       
-Basa                            bas             ?               Unknown or Invalid Script               Zzzz    ?       Basa                            
-Beja                            bej             ?               Unknown or Invalid Script               Zzzz    ?       Beja                            
-Bikol                           bik             ?               Unknown or Invalid Script               Zzzz    ?       Bikol                           
-Buriat                          bua             ?               Unknown or Invalid Script               Zzzz    ?       Buriat                          
-Caddo                           cad             ?               Unknown or Invalid Script               Zzzz    ?       Caddo                           
-Carib                           car             ?               Unknown or Invalid Script               Zzzz    ?       Carib                           
-Cheyenne                        chy             ?               Unknown or Invalid Script               Zzzz    ?       Cheyenne                        
-Chinook Jargon                  chn             ?               Unknown or Invalid Script               Zzzz    ?       Chinook Jargon                  
-Chipewyan                       chp             ?               Unknown or Invalid Script               Zzzz    ?       Chipewyan                       
-Choctaw                         cho             ?               Unknown or Invalid Script               Zzzz    ?       Choctaw                         
-Creek                           mus             ?               Unknown or Invalid Script               Zzzz    ?       Creek                           
-Crimean Turkish                 crh             ?               Unknown or Invalid Script               Zzzz    ?       Crimean Turkish                 
-Dakota                          dak             ?               Unknown or Invalid Script               Zzzz    ?       Dakota                          
-Delaware                        del             ?               Unknown or Invalid Script               Zzzz    ?       Delaware                        
-Dinka                           din             ?               Unknown or Invalid Script               Zzzz    ?       Dinka                           
-Duala                           dua             ?               Unknown or Invalid Script               Zzzz    ?       Duala                           
-Ekajuk                          eka             ?               Unknown or Invalid Script               Zzzz    ?       Ekajuk                          
-Ewondo                          ewo             ?               Unknown or Invalid Script               Zzzz    ?       Ewondo                          
-Fanti                           fat             ?               Unknown or Invalid Script               Zzzz    ?       Fanti                           
-Fulah                           ff              ?               Unknown or Invalid Script               Zzzz    ?       Fulah                           
-Gayo                            gay             ?               Unknown or Invalid Script               Zzzz    ?       Gayo                            
-Gbaya                           gba             ?               Unknown or Invalid Script               Zzzz    ?       Gbaya                           
-Grebo                           grb             ?               Unknown or Invalid Script               Zzzz    ?       Grebo                           
-Herero                          hz              ?               Unknown or Invalid Script               Zzzz    ?       Herero                          
-Hupa                            hup             ?               Unknown or Invalid Script               Zzzz    ?       Hupa                            
-Iban                            iba             ?               Unknown or Invalid Script               Zzzz    ?       Iban                            
-Judeo-Arabic                    jrb             ?               Unknown or Invalid Script               Zzzz    ?       Judeo-Arabic                    
-Judeo-Persian                   jpr             ?               Unknown or Invalid Script               Zzzz    ?       Judeo-Persian                   
-Kachin                          kac             ?               Unknown or Invalid Script               Zzzz    ?       Kachin                          
-Kashubian                       csb             ?               Unknown or Invalid Script               Zzzz    ?       Kashubian                       
-Kutenai                         kut             ?               Unknown or Invalid Script               Zzzz    ?       Kutenai                         
-Lamba                           lam             ?               Unknown or Invalid Script               Zzzz    ?       Lamba                           
-Lozi                            loz             ?               Unknown or Invalid Script               Zzzz    ?       Lozi                            
-Luiseno                         lui             ?               Unknown or Invalid Script               Zzzz    ?       Luiseno                         
-Lunda                           lun             ?               Unknown or Invalid Script               Zzzz    ?       Lunda                           
-Lushai                          lus             ?               Unknown or Invalid Script               Zzzz    ?       Lushai                          
-Mandingo                        man             ?               Unknown or Invalid Script               Zzzz    ?       Mandingo                        
-Masai                           mas             ?               Unknown or Invalid Script               Zzzz    ?       Masai                           
-Micmac                          mic             ?               Unknown or Invalid Script               Zzzz    ?       Micmac                          
-Mirandese                       mwl             ?               Unknown or Invalid Script               Zzzz    ?       Mirandese                       
-Mohawk                          moh             ?               Unknown or Invalid Script               Zzzz    ?       Mohawk                          
-Nias                            nia             ?               Unknown or Invalid Script               Zzzz    ?       Nias                            
-Nyasa Tonga                     tog             ?               Unknown or Invalid Script               Zzzz    ?       Nyasa Tonga                     
-Nyoro                           nyo             ?               Unknown or Invalid Script               Zzzz    ?       Nyoro                           
-Nzima                           nzi             ?               Unknown or Invalid Script               Zzzz    ?       Nzima                           
-Ojibwa                          oj              ?               Unknown or Invalid Script               Zzzz    ?       Ojibwa                          
-Osage                           osa             ?               Unknown or Invalid Script               Zzzz    ?       Osage                           
-Rajasthani                      raj             ?               Unknown or Invalid Script               Zzzz    ?       Rajasthani                      
-Rapanui                         rap             ?               Unknown or Invalid Script               Zzzz    ?       Rapanui                         
-Rarotongan                      rar             ?               Unknown or Invalid Script               Zzzz    ?       Rarotongan                      
-Sandawe                         sad             ?               Unknown or Invalid Script               Zzzz    ?       Sandawe                         
-Sardinian                       sc              ?               Unknown or Invalid Script               Zzzz    ?       Sardinian                       
-Siksika                         bla             ?               Unknown or Invalid Script               Zzzz    ?       Siksika                         
-Slave                           den             ?               Unknown or Invalid Script               Zzzz    ?       Slave                           
-Southern Altai                  alt             ?               Unknown or Invalid Script               Zzzz    ?       Southern Altai                  
-Tereno                          ter             ?               Unknown or Invalid Script               Zzzz    ?       Tereno                          
-Tlingit                         tli             ?               Unknown or Invalid Script               Zzzz    ?       Tlingit                         
-Tsimshian                       tsi             ?               Unknown or Invalid Script               Zzzz    ?       Tsimshian                       
-Votic                           vot             ?               Unknown or Invalid Script               Zzzz    ?       Votic                           
-Washo                           was             ?               Unknown or Invalid Script               Zzzz    ?       Washo                           
-Zapotec                         zap             ?               Unknown or Invalid Script               Zzzz    ?       Zapotec                         
-Zaza                            zza             ?               Unknown or Invalid Script               Zzzz    ?       Zaza                            
-Zenaga                          zen             ?               Unknown or Invalid Script               Zzzz    ?       Zenaga                          
-Zuni                            zun             ?               Unknown or Invalid Script               Zzzz    ?       Zuni                            
-Vai                             vai             N               Vai                                     Vaii            Vai                             
+Acoli                           ach             ?               Unknown or Invalid Script               Zzzz    ?       Acoli
+Adangme                         ada             ?               Unknown or Invalid Script               Zzzz    ?       Adangme
+Aleut                           ale             ?               Unknown or Invalid Script               Zzzz    ?       Aleut
+Angika                          anp             ?               Unknown or Invalid Script               Zzzz    ?       Angika
+Aragonese                       an              ?               Unknown or Invalid Script               Zzzz    ?       Aragonese
+Arapaho                         arp             ?               Unknown or Invalid Script               Zzzz    ?       Arapaho
+Araucanian                      arn             ?               Unknown or Invalid Script               Zzzz    ?       Araucanian
+Arawak                          arw             ?               Unknown or Invalid Script               Zzzz    ?       Arawak
+Aromanian                       rup             ?               Unknown or Invalid Script               Zzzz    ?       Aromanian
+Basa                            bas             ?               Unknown or Invalid Script               Zzzz    ?       Basa
+Beja                            bej             ?               Unknown or Invalid Script               Zzzz    ?       Beja
+Bikol                           bik             ?               Unknown or Invalid Script               Zzzz    ?       Bikol
+Buriat                          bua             ?               Unknown or Invalid Script               Zzzz    ?       Buriat
+Caddo                           cad             ?               Unknown or Invalid Script               Zzzz    ?       Caddo
+Carib                           car             ?               Unknown or Invalid Script               Zzzz    ?       Carib
+Cheyenne                        chy             ?               Unknown or Invalid Script               Zzzz    ?       Cheyenne
+Chinook Jargon                  chn             ?               Unknown or Invalid Script               Zzzz    ?       Chinook Jargon
+Chipewyan                       chp             ?               Unknown or Invalid Script               Zzzz    ?       Chipewyan
+Choctaw                         cho             ?               Unknown or Invalid Script               Zzzz    ?       Choctaw
+Creek                           mus             ?               Unknown or Invalid Script               Zzzz    ?       Creek
+Crimean Turkish                 crh             ?               Unknown or Invalid Script               Zzzz    ?       Crimean Turkish
+Dakota                          dak             ?               Unknown or Invalid Script               Zzzz    ?       Dakota
+Delaware                        del             ?               Unknown or Invalid Script               Zzzz    ?       Delaware
+Dinka                           din             ?               Unknown or Invalid Script               Zzzz    ?       Dinka
+Duala                           dua             ?               Unknown or Invalid Script               Zzzz    ?       Duala
+Ekajuk                          eka             ?               Unknown or Invalid Script               Zzzz    ?       Ekajuk
+Ewondo                          ewo             ?               Unknown or Invalid Script               Zzzz    ?       Ewondo
+Fanti                           fat             ?               Unknown or Invalid Script               Zzzz    ?       Fanti
+Fulah                           ff              ?               Unknown or Invalid Script               Zzzz    ?       Fulah
+Gayo                            gay             ?               Unknown or Invalid Script               Zzzz    ?       Gayo
+Gbaya                           gba             ?               Unknown or Invalid Script               Zzzz    ?       Gbaya
+Grebo                           grb             ?               Unknown or Invalid Script               Zzzz    ?       Grebo
+Herero                          hz              ?               Unknown or Invalid Script               Zzzz    ?       Herero
+Hupa                            hup             ?               Unknown or Invalid Script               Zzzz    ?       Hupa
+Iban                            iba             ?               Unknown or Invalid Script               Zzzz    ?       Iban
+Judeo-Arabic                    jrb             ?               Unknown or Invalid Script               Zzzz    ?       Judeo-Arabic
+Judeo-Persian                   jpr             ?               Unknown or Invalid Script               Zzzz    ?       Judeo-Persian
+Kachin                          kac             ?               Unknown or Invalid Script               Zzzz    ?       Kachin
+Kashubian                       csb             ?               Unknown or Invalid Script               Zzzz    ?       Kashubian
+Kutenai                         kut             ?               Unknown or Invalid Script               Zzzz    ?       Kutenai
+Lamba                           lam             ?               Unknown or Invalid Script               Zzzz    ?       Lamba
+Lozi                            loz             ?               Unknown or Invalid Script               Zzzz    ?       Lozi
+Luiseno                         lui             ?               Unknown or Invalid Script               Zzzz    ?       Luiseno
+Lunda                           lun             ?               Unknown or Invalid Script               Zzzz    ?       Lunda
+Lushai                          lus             ?               Unknown or Invalid Script               Zzzz    ?       Lushai
+Mandingo                        man             ?               Unknown or Invalid Script               Zzzz    ?       Mandingo
+Masai                           mas             ?               Unknown or Invalid Script               Zzzz    ?       Masai
+Micmac                          mic             ?               Unknown or Invalid Script               Zzzz    ?       Micmac
+Mirandese                       mwl             ?               Unknown or Invalid Script               Zzzz    ?       Mirandese
+Mohawk                          moh             ?               Unknown or Invalid Script               Zzzz    ?       Mohawk
+Nias                            nia             ?               Unknown or Invalid Script               Zzzz    ?       Nias
+Nyasa Tonga                     tog             ?               Unknown or Invalid Script               Zzzz    ?       Nyasa Tonga
+Nyoro                           nyo             ?               Unknown or Invalid Script               Zzzz    ?       Nyoro
+Nzima                           nzi             ?               Unknown or Invalid Script               Zzzz    ?       Nzima
+Ojibwa                          oj              ?               Unknown or Invalid Script               Zzzz    ?       Ojibwa
+Osage                           osa             ?               Unknown or Invalid Script               Zzzz    ?       Osage
+Rajasthani                      raj             ?               Unknown or Invalid Script               Zzzz    ?       Rajasthani
+Rapanui                         rap             ?               Unknown or Invalid Script               Zzzz    ?       Rapanui
+Rarotongan                      rar             ?               Unknown or Invalid Script               Zzzz    ?       Rarotongan
+Sandawe                         sad             ?               Unknown or Invalid Script               Zzzz    ?       Sandawe
+Sardinian                       sc              ?               Unknown or Invalid Script               Zzzz    ?       Sardinian
+Siksika                         bla             ?               Unknown or Invalid Script               Zzzz    ?       Siksika
+Slave                           den             ?               Unknown or Invalid Script               Zzzz    ?       Slave
+Southern Altai                  alt             ?               Unknown or Invalid Script               Zzzz    ?       Southern Altai
+Tereno                          ter             ?               Unknown or Invalid Script               Zzzz    ?       Tereno
+Tlingit                         tli             ?               Unknown or Invalid Script               Zzzz    ?       Tlingit
+Tsimshian                       tsi             ?               Unknown or Invalid Script               Zzzz    ?       Tsimshian
+Votic                           vot             ?               Unknown or Invalid Script               Zzzz    ?       Votic
+Washo                           was             ?               Unknown or Invalid Script               Zzzz    ?       Washo
+Zapotec                         zap             ?               Unknown or Invalid Script               Zzzz    ?       Zapotec
+Zaza                            zza             ?               Unknown or Invalid Script               Zzzz    ?       Zaza
+Zenaga                          zen             ?               Unknown or Invalid Script               Zzzz    ?       Zenaga
+Zuni                            zun             ?               Unknown or Invalid Script               Zzzz    ?       Zuni
+Vai                             vai             N               Vai                                     Vaii            Vai
 # Unknown or Invalid Language
-Unknown or Invalid Language     und                     *       Carian                                  Cari    N       Unknown or Invalid Language     
-Unknown or Invalid Language     und                     *       Deseret                                 Dsrt            Unknown or Invalid Language     
-Unknown or Invalid Language     und                     *       Hangul                                  Hang            Unknown or Invalid Language     
-Unknown or Invalid Language     und                     *       Kayah Li                                Kali            Unknown or Invalid Language     
-Unknown or Invalid Language     und                     *       Lycian                                  Lyci            Unknown or Invalid Language     
-Unknown or Invalid Language     und                     *       Lydian                                  Lydi            Unknown or Invalid Language     
-Unknown or Invalid Language     und                     *       Rejang                                  Rjng            Unknown or Invalid Language     
-Unknown or Invalid Language     und                     *       Saurashtra                              Saur            Unknown or Invalid Language     
-Unknown or Invalid Language     und                     *       Shavian                                 Shaw            Unknown or Invalid Language     
-Unknown or Invalid Language     und                     *       Sundanese                               Sund            Unknown or Invalid Language     
-Unknown or Invalid Language     und                     *       Tagalog                                 Tglg            Unknown or Invalid Language     
-Unknown or Invalid Language     und     ?       ?               Han                                     Hani            Unknown or Invalid Language     
+Unknown or Invalid Language     und                     *       Carian                                  Cari    N       Unknown or Invalid Language
+Unknown or Invalid Language     und                     *       Deseret                                 Dsrt            Unknown or Invalid Language
+Unknown or Invalid Language     und                     *       Hangul                                  Hang            Unknown or Invalid Language
+Unknown or Invalid Language     und                     *       Kayah Li                                Kali            Unknown or Invalid Language
+Unknown or Invalid Language     und                     *       Lycian                                  Lyci            Unknown or Invalid Language
+Unknown or Invalid Language     und                     *       Lydian                                  Lydi            Unknown or Invalid Language
+Unknown or Invalid Language     und                     *       Rejang                                  Rjng            Unknown or Invalid Language
+Unknown or Invalid Language     und                     *       Saurashtra                              Saur            Unknown or Invalid Language
+Unknown or Invalid Language     und                     *       Shavian                                 Shaw            Unknown or Invalid Language
+Unknown or Invalid Language     und                     *       Sundanese                               Sund            Unknown or Invalid Language
+Unknown or Invalid Language     und                     *       Tagalog                                 Tglg            Unknown or Invalid Language
+Unknown or Invalid Language     und     ?       ?               Han                                     Hani            Unknown or Invalid Language
 
 
 
@@ -597,7 +597,7 @@ Unknown or Invalid Language     und     ?       ?               Han             
 
 #
 "Hangul",                                  "Hang",
-"Katakana",                                "Kana",       
+"Katakana",                                "Kana",
 "Han",                                     "Hani",
 "Simplified Han",                          "Hans",
 "Traditional Han",                         "Hant",
@@ -609,86 +609,86 @@ Unknown or Invalid Language     und     ?       ?               Han             
 ==
 ===========================================================================
 
-"Arabic",                                  "Arab",	
-"Armenian",                                "Armn",	
-"Balinese",                                "Bali",	
-"Batak",                                   "Batk",	
-"Bengali",                                 "Beng",	
-"Blissymbols",                             "Blis",	
-"Bopomofo",                                "Bopo",	
-"Buginese",                                "Bugi",	
-"Buhid",                                   "Buhd",	
-"Carian",                                  "Cari",	
-"Cham",                                    "Cham",	
-"Cherokee",                                "Cher",	
-"Coptic",                                  "Copt",	
-"Cypriot",                                 "Cprt",	
-"Cyrillic",                                "Cyrl",	
-"Deseret",                                 "Dsrt",	
-"Devanagari",                              "Deva",	
-"Ethiopic",                                "Ethi",	
-"Georgian",                                "Geor",	
-"Glagolitic",                              "Glag",	
-"Gothic",                                  "Goth",	
-"Greek",                                   "Grek",	
-"Gujarati",                                "Gujr",	
-"Gurmukhi",                                "Guru",	
-"Hangul",                                  "Hang",	
-"Han",                                     "Hani",	
-"Hanunoo",                                 "Hano",	
-"Hebrew",                                  "Hebr",	
-"Japanese",                                "Jpan",	
-"Javanese",                                "Java",	
-"Kannada",                                 "Knda",	
-"Katakana",                                "Kana",	
-"Kayah Li",                                "Kali",	
-"Kharoshthi",                              "Khar",	
-"Khmer",                                   "Khmr",	
-"Korean",                                  "Kore",	
-"Lao",                                     "Laoo",	
-"Latin",                                   "Latn",	
-"Lepcha",                                  "Lepc",	
-"Limbu",                                   "Limb",	
-"Linear B",                                "Linb",	
-"Lycian",                                  "Lyci",	
-"Lydian",                                  "Lydi",	
-"Malayalam",                               "Mlym",	
-"Mongolian",                               "Mong",	
-"Myanmar",                                 "Mymr",	
-"New Tai Lue",                             "Talu",	
-"N‚ÄôKo",                                  "Nkoo",	
-"Ogham",                                   "Ogam",	
-"Ol Chiki",                                "Olck",	
-"Old Italic",                              "Ital",	
-"Old Persian",                             "Xpeo",	
-"Oriya",                                   "Orya",	
-"Osmanya",                                 "Osma",	
-"Pahawh Hmong",                            "Hmng",	
-"Phags-pa",                                "Phag",	
-"Phoenician",                              "Phnx",	
-"Rejang",                                  "Rjng",	
-"Runic",                                   "Runr",	
-"Saurashtra",                              "Saur",	
-"Script",                                  "Code",	
-"Shavian",                                 "Shaw",	
-"Simplified Han",                          "Hans",	
-"Sinhala",                                 "Sinh",	
-"Sumero-Akkadian Cuneiform",               "Xsux",	
-"Sundanese",                               "Sund",	
-"Syloti Nagri",                            "Sylo",	
-"Syriac",                                  "Syrc",	
-"Tagalog",                                 "Tglg",	
-"Tagbanwa",                                "Tagb",	
-"Tai Le",                                  "Tale",	
-"Tamil",                                   "Taml",	
-"Telugu",                                  "Telu",	
-"Thaana",                                  "Thaa",	
-"Thai",                                    "Thai",	
-"Tibetan",                                 "Tibt",	
-"Tifinagh",                                "Tfng",	
-"Traditional Han",                         "Hant",	
-"Ugaritic",                                "Ugar",	
-"Unified Canadian Aboriginal Syllabics",   "Cans",	
-"Unknown or Invalid Script",               "Zzzz",	
-"Vai",                                     "Vaii",	
-"Yi",                                      "Yiii",	
+"Arabic",                                  "Arab",
+"Armenian",                                "Armn",
+"Balinese",                                "Bali",
+"Batak",                                   "Batk",
+"Bengali",                                 "Beng",
+"Blissymbols",                             "Blis",
+"Bopomofo",                                "Bopo",
+"Buginese",                                "Bugi",
+"Buhid",                                   "Buhd",
+"Carian",                                  "Cari",
+"Cham",                                    "Cham",
+"Cherokee",                                "Cher",
+"Coptic",                                  "Copt",
+"Cypriot",                                 "Cprt",
+"Cyrillic",                                "Cyrl",
+"Deseret",                                 "Dsrt",
+"Devanagari",                              "Deva",
+"Ethiopic",                                "Ethi",
+"Georgian",                                "Geor",
+"Glagolitic",                              "Glag",
+"Gothic",                                  "Goth",
+"Greek",                                   "Grek",
+"Gujarati",                                "Gujr",
+"Gurmukhi",                                "Guru",
+"Hangul",                                  "Hang",
+"Han",                                     "Hani",
+"Hanunoo",                                 "Hano",
+"Hebrew",                                  "Hebr",
+"Japanese",                                "Jpan",
+"Javanese",                                "Java",
+"Kannada",                                 "Knda",
+"Katakana",                                "Kana",
+"Kayah Li",                                "Kali",
+"Kharoshthi",                              "Khar",
+"Khmer",                                   "Khmr",
+"Korean",                                  "Kore",
+"Lao",                                     "Laoo",
+"Latin",                                   "Latn",
+"Lepcha",                                  "Lepc",
+"Limbu",                                   "Limb",
+"Linear B",                                "Linb",
+"Lycian",                                  "Lyci",
+"Lydian",                                  "Lydi",
+"Malayalam",                               "Mlym",
+"Mongolian",                               "Mong",
+"Myanmar",                                 "Mymr",
+"New Tai Lue",                             "Talu",
+"N‚ÄôKo",                                  "Nkoo",
+"Ogham",                                   "Ogam",
+"Ol Chiki",                                "Olck",
+"Old Italic",                              "Ital",
+"Old Persian",                             "Xpeo",
+"Oriya",                                   "Orya",
+"Osmanya",                                 "Osma",
+"Pahawh Hmong",                            "Hmng",
+"Phags-pa",                                "Phag",
+"Phoenician",                              "Phnx",
+"Rejang",                                  "Rjng",
+"Runic",                                   "Runr",
+"Saurashtra",                              "Saur",
+"Script",                                  "Code",
+"Shavian",                                 "Shaw",
+"Simplified Han",                          "Hans",
+"Sinhala",                                 "Sinh",
+"Sumero-Akkadian Cuneiform",               "Xsux",
+"Sundanese",                               "Sund",
+"Syloti Nagri",                            "Sylo",
+"Syriac",                                  "Syrc",
+"Tagalog",                                 "Tglg",
+"Tagbanwa",                                "Tagb",
+"Tai Le",                                  "Tale",
+"Tamil",                                   "Taml",
+"Telugu",                                  "Telu",
+"Thaana",                                  "Thaa",
+"Thai",                                    "Thai",
+"Tibetan",                                 "Tibt",
+"Tifinagh",                                "Tfng",
+"Traditional Han",                         "Hant",
+"Ugaritic",                                "Ugar",
+"Unified Canadian Aboriginal Syllabics",   "Cans",
+"Unknown or Invalid Script",               "Zzzz",
+"Vai",                                     "Vaii",
+"Yi",                                      "Yiii",

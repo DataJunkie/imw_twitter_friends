@@ -1,9 +1,9 @@
 
-SELECT screen_name, context, page, twitter_user_id, priority FROM scrape_requests s 
-WHERE scraped_at IS NOT NULL 
+SELECT screen_name, context, page, twitter_user_id, priority FROM scrape_requests s
+WHERE scraped_at IS NOT NULL
   AND result_code IS NULL
   AND priority <= -100
-ORDER BY priority ASC, page 
+ORDER BY priority ASC, page
 INTO OUTFILE '~/ics/pool/social/network/twitter_friends/fixd/dump/scrape_requests_retries_20081215.tsv'
 
 
@@ -12,7 +12,7 @@ SET req.scraped_at = sfi.scraped_at,  req.result_code = IF(sfi.size=0, NULL, 200
   WHERE	sfi.twitter_user_id = req.twitter_user_id
     AND 	sfi.context	 = req.context
     AND	sfi.page		= req.page
-;    
+;
 
 
 
@@ -25,7 +25,7 @@ LIMIT 10
 ;
 
 select u.id, u.screen_name, u.followers_count, u.protected, sr.* from
-twitter_users u, scrape_requests sr 
+twitter_users u, scrape_requests sr
 WHERE  u.id = sr.twitter_user_id
   AND sr.scraped_at IS NOT NULL
   AND sr.result_code IS NULL
@@ -33,7 +33,7 @@ ORDER BY priority ASC, context, page
 LIMIT 1000
 ;
 
-SELECT sr.*, sfi.*, u.* 
+SELECT sr.*, sfi.*, u.*
   FROM scrape_requests sr
   INNER JOIN	twitter_users u 		ON sr.twitter_user_id = u.id
   LEFT JOIN 	scraped_file_index sfi	ON sr.twitter_user_id = sfi.twitter_user_id AND sr.page = sfi.page AND sr.page = sfi.page
@@ -47,18 +47,18 @@ ORDER BY sr.twitter_user_id, sr.context, sr.page
 
 SELECT
   @total_count:=(SELECT count(*) FROM twitter_users),
-  statuses_count AS bin, 
-  count(*) / @total_count AS pct, 
+  statuses_count AS bin,
+  count(*) / @total_count AS pct,
   count(*)       AS num
-  FROM twitter_users u GROUP BY bin 
+  FROM twitter_users u GROUP BY bin
 
-SELECT screen_name, id, statuses_count, followers_count, 
+SELECT screen_name, id, statuses_count, followers_count,
     ROUND(                  statuses_count / DATEDIFF(NOW(), created_at), 0) AS tweet_rate,
     ROUND(followers_count * statuses_count / DATEDIFF(NOW(), created_at), 0) AS outflux,
     DATE(u.created_at) AS day,
     DATEDIFF(NOW(), created_at) AS age,
     statuses_count + ROUND( 5 * 365 * (statuses_count / DATEDIFF(NOW(), created_at)), 0) AS num_in_5_yrs
-  FROM     twitter_users u 
+  FROM     twitter_users u
   WHERE    statuses_count > 1e5
   ORDER BY tweet_rate DESC
 ;
@@ -82,7 +82,7 @@ SELECT screen_name, id, statuses_count, followers_count,
 -- | omankoxxx       | 10476452 |         230533 |               2 |        594 |    1188 | 2007-11-22 |  388 |      1314870 |
 --
 -- ....
--- 
+--
 -- +-----------------+----------+----------------+-----------------+------------+---------+------------+------+--------------+
 -- 63 rows in set (1.39 sec)
 
@@ -106,7 +106,7 @@ FROM    ( SELECT length(location) as bin, count(*) as num FROM twitter_user_prof
         ;
 
 
--- NONBLANK	
+-- NONBLANK
 
 SELECT count(*)  INTO @total_count                       FROM twitter_user_profiles tc ;
 SELECT count(*)  INTO @blank_count                       FROM twitter_user_profiles tc WHERE( length(location) = 0 ) ;
@@ -162,7 +162,7 @@ FROM    ( SELECT length(screen_name) as bin, count(*) as num FROM twitter_user_p
 
 -- ===========================================================================
 -- hashtag
--- 
+--
 --
 SELECT count(*)  INTO @total_count FROM hashtags tc ;
 SELECT  raw.bin,
@@ -355,7 +355,7 @@ FROM    ( SELECT length(hashtag) as bin, count(*) as num FROM hashtags t GROUP B
 -- +------+---------+---------+---------------+-------------+
 -- 112 rows in set, 36 warnings (6.42 sec)
 
-  
+
 -- ===========================================================================
 --
 -- Zipf Distributions
@@ -386,7 +386,7 @@ FROM    ( SELECT utc_offset as bin, count(*) as num FROM twitter_user_profiles t
   ORDER BY NUM DESC
 ;
 
-  
+
 -- ===========================================================================
 --
 -- IDS in collection
@@ -537,4 +537,4 @@ SELECT      MIN(created_at) 			 AS min_date,
 --  avg_age: 965.1568
 -- max_date: 2008-12-13 09:37:03
 --  max_age: 998
-  
+

@@ -30,31 +30,31 @@ public class PageRank {
       String prValString = splitString[1].trim();
       String toUrlListString = splitString[2].trim();
       toUrlList.set(toUrlListString);
-      String newToUrlListString = toUrlListString.substring(2); 
+      String newToUrlListString = toUrlListString.substring(2);
       if(!(newToUrlListString.equals(""))) {
         String[] toUrls = newToUrlListString.split(",");
-            
+
         double outdegree = toUrls.length;
-            
+
         Double prDoubleValue = new Double(prValString);
         if(outdegree > 0 ) {
           double val = prDoubleValue.doubleValue() / outdegree;
           String valString = Double.toString(val);
           prValue.set(valString);
-                    
+
           for(int i = 0; i < outdegree; i++) {
             toUrl.set(toUrls[i].trim());
-            output.collect(toUrl,prValue); 
-            // System.out.println("tourl - " + toUrls[i] + " - " + valString); 
+            output.collect(toUrl,prValue);
+            // System.out.println("tourl - " + toUrls[i] + " - " + valString);
           }
         }
       }
       output.collect(fromUrl, toUrlList);
-      //System.out.println("fromurl - " + splitString[0] + " - " + toUrlListString); 
+      //System.out.println("fromurl - " + splitString[0] + " - " + toUrlListString);
 
     }
   }
-  
+
   public static class Reduce extends MapReduceBase implements Reducer {
     public void reduce(WritableComparable key, Iterator values, OutputCollector output, Reporter
                        reporter) throws IOException {
