@@ -41,10 +41,10 @@ Parser
 
 
 - PARSE_JSON
-  twitter_user_partial:	user_id		scraped_at	screen_name	protected	followers_count	
+  twitter_user_partial:	user_id		scraped_at	screen_name	protected	followers_count
   		       	  		  		name		url		location	description
-	       	  					image_url 
-  twitter_user	      :	user_id		scraped_at	screen_name	protected	followers_count	friends_count	faves_count	statuses_count	created_at	
+	       	  					image_url
+  twitter_user	      :	user_id		scraped_at	screen_name	protected	followers_count	friends_count	faves_count	statuses_count	created_at
   twitter_user_profile:	user_id		scraped_at	name		url		location	description	time_zone	utc_offset
   twitter_user_style  :	user_id		scraped_at	bg_color	text_color	link_color	sb_border_color	sb_fill_color	bg_tile		bg_image_url	image_url
   a_follows_b	      :	a_id-b_id	scraped_at
@@ -55,7 +55,7 @@ Parser
   hashtag		user_id		hashtag		status_id
   tweet_url		user_id		url		status_id
 
-- USER_WORDS		
+- USER_WORDS
   user_tweet_word	user_id		word		count		freq_user	freq_corpus	bnc_head	bnc_written_freq
   tweet_word		word		count		freq_corpus
   bnc_headwords		word				freq_corpus	freq_written	freq_spoken	range		dispersion	pos_list
@@ -63,12 +63,12 @@ Parser
 
 - LIST_SCRAPED_FILES
   scraped_file		scraped_at	context 	user_id		page		screen_name	size		scrape_session
-  
-- PLAN_SCRAPE		< twitter_user_*, scraped_files 
+
+- PLAN_SCRAPE		< twitter_user_*, scraped_files
   scrape_status		user_id		screen_name	protected	followers_count	friends_count	created_at	u_scraped_at	tup_scraped_at	foll_scraped_at	fr_scraped_at
-  scrape_request	user_id		context		priority	page		screen_name	
+  scrape_request	user_id		context		priority	page		screen_name
 
 - EXPAND_URLS
   expanded_urls		short_url	dest_url
 
-- 
+-

@@ -10,7 +10,7 @@
 * Geolocate all users.  I've pulled off the low-hanging fruit: the top identifiable terms and the iPhone/etc. lat+lng coordinates.  You also have time zone.  Location can change over time
   - how, over a few samples, do you get the 'typical' location of a user? probably the mode (most-commonly-occurring).  Certainly the average doesn't make sense.
 
-* Isolate topic clusters by doing LSA on the twitter stream -- 
+* Isolate topic clusters by doing LSA on the twitter stream --
    around statistically improbable phrases in each user's tweetstream.  Users who discuss 'purl', 'pearl', 'perl' and 'burl' each have different hobbies.
 
 
@@ -36,13 +36,13 @@
 
 
 * Classifying users:
-  
+
 	1-i-hd	Symm	2-hood		@replies	topical diversity	link rate
 
   Gregarious Celebrity		Zefrank
 	Massive, Symmetric, 2-sparse, responsive, eclectic
   Elite Celebrity		Kottke
-	
+
   Elite  Celebrity Entity	Mars Phoenix
   Gregarious Celebrity Entity	BarackObama
  	Massive, Symmetric, 2-sparse, broadcasting, narrow, low std.dev of tweet rate
@@ -50,15 +50,15 @@
 	high tweet_url rate
 	followers lag friends -- that is, user B only follows X in response to X first following B.
 	narrow topic spectrum
-	(follow bot: 
-  Antenna Entity		KXAN news, 
+	(follow bot:
+  Antenna Entity		KXAN news,
  	like a spam bot but broad
 	either a narrow topic spectrum OR a narrow geographic spectrum of followers
   Announcer Entity		RUWTBot
 	Many followers, friends either none or symmetric. 2-sparse. high tweet_url rate. diverse prestige spectrum of followers.
 	... [prediction: announcers, whose purpose is to broadcast, don't follow back or do so reflexively.]
 
-  Regular Joe -- small group of friends, follows some celebrities/entities, 
+  Regular Joe -- small group of friends, follows some celebrities/entities,
 	moderate, symmetric, 2-dense, moderately responsive, eclectic, bursty
 	links at same prestige largely reciprocated.
 	links to higher prestige are not.
@@ -73,7 +73,7 @@
 
   Quipster --
 	low stdev of tweet rate (low burstiness)
- 	few @atsigns 
+ 	few @atsigns
   Actors' Circle		HanneloreEC
 
   TwitService			hashtags, kvetch

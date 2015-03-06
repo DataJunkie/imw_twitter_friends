@@ -1,6 +1,6 @@
 http://en.wikipedia.org/wiki/Mapping_of_Unicode_character_planes
 
-0000	007F	Basic Latin					
+0000	007F	Basic Latin
 0080	00FF	Latin-1 Supplement
 0100	017F	Latin Extended-A
 0180	024F	Latin Extended-B
@@ -139,4 +139,4 @@ FE50	FE6F	Small Form Variants
 FE70	FEFF	Arabic Presentation Forms-B
 FF00	FFEF	Halfwidth and Fullwidth Forms
 FFF0	FFFF	Specials
-    
+

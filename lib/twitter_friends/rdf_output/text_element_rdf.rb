@@ -1,13 +1,13 @@
 module TwitterFriends::StructModel
 
-  
+
   #
   # I don't know what graph arcs are interesting
   # for RDF we're dumping
   #  user_a ==tweeted_hashtag=> hashtag
   # and
   #  tweet  ==has_hashtag=> hashtag
-  #  
+  #
   Hashtag.class_eval do
     include TwitterFriends::TwitterRdf
     #
@@ -27,7 +27,7 @@ module TwitterFriends::StructModel
   #  user_a ==tweeted_tweet_url=> tweet_url
   # and
   #  tweet  ==has_tweet_url=> tweet_url
-  #  
+  #
   TweetUrl.class_eval do
     include TwitterFriends::TwitterRdf
     def to_rdf3_tuples
@@ -44,7 +44,7 @@ module TwitterFriends::StructModel
   #  user ==retweets=> user
   # and
   #  user ==rtwhored_in=> status
-  #  
+  #
   #
   ARetweetsB.class_eval do
     include TwitterFriends::TwitterRdf

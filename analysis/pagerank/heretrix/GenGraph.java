@@ -22,7 +22,7 @@ public static class MapClass extends MapReduceBase implements Mapper {
 	private Text index = new Text();
 	private Text toUrl = new Text();
 	private Text fromUrl = new Text();
-	
+
 
 	public void map(WritableComparable key, Writable value, OutputCollector output, Reporter reporter)
 
@@ -31,25 +31,25 @@ public static class MapClass extends MapReduceBase implements Mapper {
 			String indexedUrlToFrom = ((Text)value).toString();
 			String[] splitString = indexedUrlToFrom.split("\t");
 
-            
+
             index.set("-" + splitString[0]);
 
 			toUrl.set(splitString[1]);
 
 			output.collect(toUrl, index);
-			
+
 			//System.out.println("map output (tourl,index) = (" + toUrl + "," + index  + ")");
-			
-			
+
+
 			index.set(splitString[0]);
 
 			for(int i = 2; i < splitString.length; i++) {
 
                     String fromUrlString = splitString[i];
-                    
+
 			//to avoid self loops
                     if(!(fromUrlString.equals(splitString[1]))) {
-                        
+
                             fromUrl.set(fromUrlString);
 
                             output.collect(fromUrl, index);
@@ -81,7 +81,7 @@ public static class Reduce extends MapReduceBase implements Reducer {
 
 			if(currentPIN.charAt(0) == '-') {
 
-                    if(foundMarker == false) { 
+                    if(foundMarker == false) {
 	        			marker = new Text(currentPIN.substring(1));
 			        	foundMarker = true;
                     }
@@ -106,7 +106,7 @@ public static class Reduce extends MapReduceBase implements Reducer {
 				 finalOutput += iterator.next().toString();
 			}
 
-			
+
 			while(iterator.hasNext()) {
 
 				finalOutput += '\t' + iterator.next().toString();

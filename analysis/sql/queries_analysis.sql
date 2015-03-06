@@ -6,7 +6,7 @@ SELECT COUNT(*), 10000*CEILING(a.priority/10000) AS bin, COUNT(IF(followers_coun
   AND 		a.user_resource = 'parse' AND a.scraped_time IS NULL
   GROUP BY bin
 
-  
+
 
 LOAD DATA INFILE "~/ics/pool/social/network/twitter_friends/fixd/dump/imw_twitter_friends-friendships-20081116-dump-ranks.tsv"
       REPLACE INTO TABLE twitter_page_ranks
@@ -27,8 +27,8 @@ SELECT COUNT(*),
        COUNT(last_scraped_date), COUNT(last_scraped_date)/COUNT(*),
        COUNT(native_id), 	 COUNT(native_id)/COUNT(*),
        COUNT(following_count),	 COUNT(following_count)/COUNT(*),
-       COUNT(followers_count), 	 COUNT(followers_count)/COUNT(*) 
-FROM twitter_users 
+       COUNT(followers_count), 	 COUNT(followers_count)/COUNT(*)
+FROM twitter_users
 
 --
 -- Look at lengths
@@ -47,7 +47,7 @@ SELECT COUNT(*), ll.l_bio AS len
   GROUP BY len
   ORDER BY len DESC
 
--- 
+--
 -- Fiddle with stuff
 --
 SELECT LENGTH(`twitter_name`) 	AS l_twitter_name,
@@ -60,16 +60,16 @@ SELECT LENGTH(`twitter_name`) 	AS l_twitter_name,
       LENGTH(`style_bg_img_url`) 	AS l_bg_url, U.*
     FROM `users` U
     WHERE twitter_id IS NOT NULL AND style_mini_img_url IS NOT NULL
-    ORDER BY twitter_id  
+    ORDER BY twitter_id
 
 
 
-SELECT u.* 
-  FROM users u  
+SELECT u.*
+  FROM users u
   WHERE    	(0 OR u.parsed IS NOT NULL)
-  AND      	(1 OR u.id MOD 1000 = 0) 
+  AND      	(1 OR u.id MOD 1000 = 0)
   AND 		(u.twitter_name NOT LIKE "\_%")
-  ORDER BY 	u.twitter_name 	DESC, 
-			IFNULL(u.twitter_ID, 1000000) ASC, 
+  ORDER BY 	u.twitter_name 	DESC,
+			IFNULL(u.twitter_ID, 1000000) ASC,
 			u.followers_count DESC
-  LIMIT 1000  
+  LIMIT 1000

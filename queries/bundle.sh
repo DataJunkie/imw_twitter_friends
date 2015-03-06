@@ -17,17 +17,17 @@ scrape_store_listing_dir=tmp/scrape_store_listings
 for resource in $resources ; do
     listing=${scrape_store_listing_dir}/scrape_store_listings-$resource.tsv
     hdp-rm $listing
-    # | grep -v 'supergroup  [ 1-9][0-9]' 
-    hdp-ls "arch/ripd/*/*${resource}*" | hdp-put - $listing 
+    # | grep -v 'supergroup  [ 1-9][0-9]'
+    hdp-ls "arch/ripd/*/*${resource}*" | hdp-put - $listing
 done
 resource=public_timeline
 listing=${scrape_store_listing_dir}/scrape_store_listings-$resource.tsv
 hdp-rm $listing
-hdp-ls "arch/public_timeline/*${resource}*" | hdp-put - $listing 
+hdp-ls "arch/public_timeline/*${resource}*" | hdp-put - $listing
 
 for resource in $noid_resources ; do
     echo "Bundling $resource"
-    listing=${scrape_store_listing_dir}/scrape_store_listings-$resource.tsv 
+    listing=${scrape_store_listing_dir}/scrape_store_listings-$resource.tsv
     bundled=tmp/bundled_noid/${resource}
     hdp-rm -r $bundled
     $script_dir/bundle.rb --go --nopartition --sort_keys=2 ${listing} ${bundled}
@@ -40,7 +40,7 @@ for resource in $noid_resources ; do
 done
 for resource in $id_resources public_timeline ; do
     echo "Bundling $resource"
-    listing=${scrape_store_listing_dir}/scrape_store_listings-$resource.tsv 
+    listing=${scrape_store_listing_dir}/scrape_store_listings-$resource.tsv
     bundled=rawd/bundled/${resource}
     hdp-rm -r $bundled
     $script_dir/bundle.rb --go --nopartition --sort_keys=2 ${listing} ${bundled}

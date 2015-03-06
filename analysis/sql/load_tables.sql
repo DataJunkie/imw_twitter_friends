@@ -140,4 +140,4 @@ LOAD DATA INFILE '~/ics/pool/social/network/twitter_friends/pkgd/shorty/a_follow
   (@dummy, buser_a_id,user_b_id)
   ;
 SELECT 'a_follows_b', NOW(), COUNT(*) FROM `a_follows_bs`;
-  
+

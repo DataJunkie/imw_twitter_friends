@@ -100,10 +100,10 @@ FROM    ( SELECT length(fromsource_url) as bin, count(*) as num FROM tweets t GR
 
 --
 -- Most popular sources
--- 
-SELECT fromsource as bin, fromsource_url, count(*) as num 
-FROM tweets t 
-GROUP BY bin 
+--
+SELECT fromsource as bin, fromsource_url, count(*) as num
+FROM tweets t
+GROUP BY bin
 ORDER BY num DESC
 LIMIT 50
 

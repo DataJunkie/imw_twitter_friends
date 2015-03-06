@@ -1,6 +1,6 @@
 
 
-<http://twitter.com/seinfeld>	
+<http://twitter.com/seinfeld>
 
 
 # User
@@ -12,13 +12,13 @@
     :friends_count
     :statuses_count
     :favourites_count
-    :created_at 
+    :created_at
     :name
     :url
     :location
     :description
     :time_zone
-    :utc_offset 
+    :utc_offset
     :profile_background_color
     :profile_text_color
     :profile_link_color
@@ -26,7 +26,7 @@
     :profile_sidebar_fill_color
     :profile_background_tile
     :profile_background_image_url
-    :profile_image_url 
+    :profile_image_url
 
 # Tweet
 
@@ -37,7 +37,7 @@
 
   a_follows_b
   a_replied_b
-  
 
-  
+
+
 # Semantics
